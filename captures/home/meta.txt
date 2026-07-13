@@ -1,16 +1,16 @@
-title: Robot Challenge Screen
-description: 
-canonical: 
-robots: 
-og:title: 
-og:description: 
-og:image: 
-og:url: 
-og:type: 
-og:site_name: 
-twitter:card: 
+title: Hanover Research | Make Decisions with Confidence, not Guesswork
+description: Hanover Research provides high-quality research & analytics delivered through a cost-effective subscription model.
+canonical: https://www.hanoverresearch.com/
+robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+og:title: Home
+og:description: Make Decisions with Confidence, not Guesswork Hanover Research provides high-quality research & analytics through a cost-effective subscription model
+og:image: https://www.hanoverresearch.com/wp-content/uploads/2020/09/home-corporate.jpg
+og:url: https://www.hanoverresearch.com/
+og:type: website
+og:site_name: Hanover Research
+twitter:card: summary_large_image
 twitter:title: 
 twitter:description: 
 twitter:image: 
-twitter:site: 
-analytics_ids: 
+twitter:site: @HanoverResearch
+analytics_ids: G-E09YTKFFM7, GTM-5BPF5XC, AW-846208398

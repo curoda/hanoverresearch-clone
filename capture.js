@@ -108,16 +108,17 @@ async function autoScroll(page) {
   await page.waitForTimeout(2000);
 }
 async function dismissBanners(page) {
-  // Remove the Termly cookie-consent banner so captures are consistent (a returning visitor
-  // does not see it). Applied identically to origin and clone captures.
+  // Remove the Termly cookie-consent banner AND any Elementor Pro popup (a scroll-triggered promo
+  // "Turn Cost Data Into Action" loaded via AJAX on the origin — it is NOT in the static clone's HTML,
+  // so removing it from origin captures keeps the comparison apples-to-apples). Applied to both sides.
   try {
     await page.evaluate(() => {
       document.querySelectorAll('[class*="termly-styles-"]').forEach(el => {
-        // remove the outermost fixed banner container
         let n = el; for (let i = 0; i < 6 && n.parentElement; i++) { if (getComputedStyle(n).position === 'fixed') break; n = n.parentElement; }
         (n || el).remove();
       });
       document.querySelectorAll('#termly-code-snippet-support, [id^="termly"]').forEach(e => e.remove());
+      document.querySelectorAll('.elementor-popup-modal, [id^="elementor-popup-modal"], .dialog-widget.elementor-popup-modal, [class*="elementor-location-popup"]').forEach(e => e.remove());
     });
   } catch (e) {}
   await page.waitForTimeout(300);
@@ -131,7 +132,8 @@ function downscaleAndReport(file) {
 async function segmentCapture(page, vp, outdir, tag) {
   await page.setViewportSize(vp);
   await page.waitForTimeout(500);
-  const total = await page.evaluate(() => Math.max(document.body ? document.body.scrollHeight : 0, document.documentElement.scrollHeight));
+  let total = 900;
+  try { total = await page.evaluate(() => { const de = document.documentElement; const b = document.body; return Math.max(b ? b.scrollHeight : 0, de ? de.scrollHeight : 0) || 900; }); } catch (e) { total = 900; }
   const step = vp.height; // step by HEIGHT (never width)
   let n = 0; const files = [];
   for (let y = 0; y < total; y += step) {
@@ -216,7 +218,7 @@ async function collectSpec(page, url, outdir, loadedAssets) {
     ['og:title', 'og:description', 'og:image', 'og:url', 'og:type', 'og:site_name'].forEach(p => lines.push(p + ': ' + g(`meta[property="${p}"]`)));
     ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:site'].forEach(p => lines.push(p + ': ' + g(`meta[name="${p}"]`)));
     // analytics/tag ids
-    const html = document.documentElement.innerHTML;
+    const html = document.documentElement ? document.documentElement.innerHTML : '';
     const ids = new Set();
     (html.match(/G-[A-Z0-9]{6,}/g) || []).forEach(x => ids.add(x));
     (html.match(/GTM-[A-Z0-9]{4,}/g) || []).forEach(x => ids.add(x));
@@ -290,7 +292,7 @@ async function captureOne(context, job, outbase, spec, screenshotsOnly) {
   for (const job of jobs) {
     try { await captureOne(context, job, o.outbase, o.spec, screenshotsOnly); ok++; }
     catch (e) { console.log(`  FAIL [${job.slug}]: ${e.message}`); fail++; }
-    if (!o.nowarm) await new Promise(r => setTimeout(r, 2500)); // inter-page backoff (origin rate-limit)
+    if (!o.nowarm) await new Promise(r => setTimeout(r, 6000)); // inter-page backoff (origin rate-limit)
   }
   console.log(`DONE. ok=${ok} fail=${fail}`);
   await browser.close();

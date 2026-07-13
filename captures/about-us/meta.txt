@@ -1,16 +1,16 @@
-title: Robot Challenge Screen
-description: 
-canonical: 
-robots: 
-og:title: 
-og:description: 
-og:image: 
-og:url: 
-og:type: 
-og:site_name: 
-twitter:card: 
+title: About Us | Hanover Research
+description: Hanover Research provides custom market research, analytics, and insights across methodologies and industries to support executive decision making.
+canonical: https://www.hanoverresearch.com/about-us/
+robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+og:title: About Us
+og:description: About Hanover Research Insights To Make Decisions With Confidence Hanover Research gives organizations a competitive advantage through custom market
+og:image: https://www.hanoverresearch.com/wp-content/uploads/2023/09/sauer-video-thumb.jpg
+og:url: https://www.hanoverresearch.com/about-us/
+og:type: article
+og:site_name: Hanover Research
+twitter:card: summary_large_image
 twitter:title: 
 twitter:description: 
 twitter:image: 
-twitter:site: 
-analytics_ids: 
+twitter:site: @HanoverResearch
+analytics_ids: G-E09YTKFFM7, GTM-5BPF5XC, AW-846208398

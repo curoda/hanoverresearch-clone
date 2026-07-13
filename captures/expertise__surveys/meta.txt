@@ -1,0 +1,16 @@
+title: Survey Management | Hanover Research
+description: Collect critical feedback from stakeholders with Hanover's best-in-class survey capabilities.
+canonical: https://www.hanoverresearch.com/expertise/surveys/
+robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+og:title: Surveys
+og:description: Measure Stakeholder Perceptions Critical feedback from stakeholders with best-in-class survey capabilities Surveys provide a critical barometer of
+og:image: https://www.hanoverresearch.com/wp-content/uploads/2020/09/Expertise_Surveys_800x500.jpg
+og:url: https://www.hanoverresearch.com/expertise/surveys/
+og:type: article
+og:site_name: Hanover Research
+twitter:card: summary_large_image
+twitter:title: 
+twitter:description: 
+twitter:image: 
+twitter:site: @HanoverResearch
+analytics_ids: G-E09YTKFFM7, GTM-5BPF5XC, AW-846208398

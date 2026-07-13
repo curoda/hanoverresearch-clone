@@ -1,0 +1,16 @@
+title: Corporate Solutions | Hanover Research
+description: Corporate solutions that provide comprehensive research to solve your most pressing and consistent business challenges.
+canonical: https://www.hanoverresearch.com/corporate/
+robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+og:title: Corporate Solutions
+og:description: Corporate Research and Analysis Solutions Research and Insights to Drive Growth Comprehensive research to solve your most pressing and consistent business
+og:image: https://www.hanoverresearch.com/wp-content/uploads/2020/09/Market_Analysis_Small_Photo.jpg
+og:url: https://www.hanoverresearch.com/corporate/
+og:type: article
+og:site_name: Hanover Research
+twitter:card: summary_large_image
+twitter:title: 
+twitter:description: 
+twitter:image: 
+twitter:site: @HanoverResearch
+analytics_ids: G-E09YTKFFM7, GTM-5BPF5XC, AW-846208398

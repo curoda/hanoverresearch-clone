@@ -1,394 +1,86 @@
 [
  {
-  "slug": "about-us",
-  "tag": "desktop",
-  "segs": 9,
-  "mean": 19.391,
-  "max": 72.405
- },
- {
-  "slug": "about-us",
-  "tag": "mobile",
-  "segs": 14,
-  "mean": 7.144,
-  "max": 20.123
- },
- {
-  "slug": "about-us__culture",
-  "tag": "desktop",
-  "segs": 5,
-  "mean": 0.903,
-  "max": 3.111
- },
- {
-  "slug": "about-us__culture",
-  "tag": "mobile",
-  "segs": 8,
-  "mean": 10.383,
-  "max": 19.812
- },
- {
-  "slug": "about-us__leadership",
-  "tag": "desktop",
-  "segs": 3,
-  "mean": 2.332,
-  "max": 6.753
- },
- {
-  "slug": "about-us__leadership",
-  "tag": "mobile",
-  "segs": 6,
-  "mean": 10.341,
-  "max": 20.116
- },
- {
-  "slug": "careers",
-  "tag": "desktop",
-  "segs": 9,
-  "mean": 21.372,
-  "max": 55.473
- },
- {
-  "slug": "careers",
-  "tag": "mobile",
-  "segs": 14,
-  "mean": 16.731,
-  "max": 65.145
- },
- {
-  "slug": "case-studies",
-  "tag": "desktop",
-  "segs": 5,
-  "mean": 1.874,
-  "max": 5.867
- },
- {
-  "slug": "case-studies",
-  "tag": "mobile",
-  "segs": 11,
-  "mean": 26.8,
-  "max": 86.521
- },
- {
-  "slug": "case-studies__corporate__baltimore-aircoil-company",
-  "tag": "desktop",
-  "segs": 8,
-  "mean": 9.681,
-  "max": 23.768
- },
- {
-  "slug": "case-studies__corporate__baltimore-aircoil-company",
-  "tag": "mobile",
-  "segs": 12,
-  "mean": 4.217,
-  "max": 8.433
- },
- {
-  "slug": "contact-us",
-  "tag": "desktop",
-  "segs": 3,
-  "mean": 1.392,
-  "max": 3.74
- },
- {
-  "slug": "contact-us",
-  "tag": "mobile",
-  "segs": 5,
-  "mean": 51.263,
-  "max": 86.837
- },
- {
-  "slug": "corporate",
-  "tag": "desktop",
-  "segs": 11,
-  "mean": 14.099,
-  "max": 23
- },
- {
-  "slug": "corporate",
-  "tag": "mobile",
-  "segs": 17,
-  "mean": 19.322,
-  "max": 30.694
- },
- {
-  "slug": "corporate__brand-strategy",
-  "tag": "desktop",
-  "segs": 7,
-  "mean": 10.592,
-  "max": 20.881
- },
- {
-  "slug": "corporate__brand-strategy",
-  "tag": "mobile",
-  "segs": 11,
-  "mean": 16.978,
-  "max": 33.713
- },
- {
-  "slug": "corporate__customer-experience__voice-of-the-customer",
-  "tag": "desktop",
-  "segs": 7,
-  "mean": 11.029,
-  "max": 18.16
- },
- {
-  "slug": "corporate__customer-experience__voice-of-the-customer",
-  "tag": "mobile",
-  "segs": 10,
-  "mean": 19.03,
-  "max": 34.788
- },
- {
-  "slug": "expertise",
-  "tag": "desktop",
-  "segs": 7,
-  "mean": 7.938,
-  "max": 16.423
- },
- {
-  "slug": "expertise",
-  "tag": "mobile",
-  "segs": 11,
-  "mean": 39.764,
-  "max": 87.067
- },
- {
-  "slug": "expertise__surveys",
-  "tag": "desktop",
-  "segs": 8,
-  "mean": 26.834,
-  "max": 61.186
- },
- {
-  "slug": "expertise__surveys",
-  "tag": "mobile",
-  "segs": 11,
-  "mean": 32.776,
-  "max": 86.497
- },
- {
-  "slug": "higher-education",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "higher-education",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "higher-education__enrollment-management",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "higher-education__enrollment-management",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
   "slug": "home",
   "tag": "desktop",
   "segs": 8,
-  "mean": 3.125,
-  "max": 10.688
+  "mean": 12.046,
+  "max": 65.369
  },
  {
   "slug": "home",
   "tag": "mobile",
   "segs": 13,
-  "mean": 4.723,
-  "max": 13.565
+  "mean": 4.277,
+  "max": 14.373
  },
  {
-  "slug": "industry__cpg",
+  "slug": "about-us",
   "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 9,
+  "mean": 11.021,
+  "max": 41.966
  },
  {
-  "slug": "industry__cpg",
+  "slug": "about-us",
   "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 14,
+  "mean": 11.193,
+  "max": 40.648
  },
  {
-  "slug": "insights-blog",
+  "slug": "higher-education",
   "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 13,
+  "mean": 4.866,
+  "max": 12.509
  },
  {
-  "slug": "insights-blog",
+  "slug": "higher-education",
   "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 20,
+  "mean": 25.653,
+  "max": 36.386
  },
  {
-  "slug": "insights-blog__corporate__3-tips-b2b-ecommerce-transition",
+  "slug": "corporate",
   "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 11,
+  "mean": 14.386,
+  "max": 56.592
  },
  {
-  "slug": "insights-blog__corporate__3-tips-b2b-ecommerce-transition",
+  "slug": "corporate",
   "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 17,
+  "mean": 9.487,
+  "max": 21.046
  },
  {
   "slug": "k-12-education",
   "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 15,
+  "mean": 13.777,
+  "max": 79.65
  },
  {
   "slug": "k-12-education",
   "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 24,
+  "mean": 26.255,
+  "max": 45.149
  },
  {
-  "slug": "k-12-education__grants",
+  "slug": "expertise__surveys",
   "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 8,
+  "mean": 1.563,
+  "max": 6.177
  },
  {
-  "slug": "k-12-education__grants",
+  "slug": "expertise__surveys",
   "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "podcasts",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "podcasts",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "press-releases",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "press-releases",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "reports-and-briefs",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "reports-and-briefs",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "reports-and-briefs__corporate__2019-bottled-water-market-report",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "reports-and-briefs__corporate__2019-bottled-water-market-report",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "resources",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "resources",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "solution__brandtracker",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "solution__brandtracker",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "testimonial",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "testimonial",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "webinars",
-  "tag": "desktop",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
- },
- {
-  "slug": "webinars",
-  "tag": "mobile",
-  "segs": 0,
-  "mean": -1,
-  "max": -1
+  "segs": 11,
+  "mean": 5.784,
+  "max": 25.124
  }
 ]

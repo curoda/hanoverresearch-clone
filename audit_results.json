@@ -1,0 +1,379 @@
+{
+ "pagesAudited": 251,
+ "cloneDefects": [
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/insights-blog/corporate/4-product-portfolio-optimization-tips-multi-product-lines/",
+   "url": "https://hanoverresearch-clone.vercel.app/wp-content/uploads/2017/12/How-to-Optimize-a-product-portfolio_ENT-Blog-post_v2-009.jpg",
+   "status": 403,
+   "kind": "CLONE"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/brandtracker/",
+   "url": "https://hanoverresearch-clone.vercel.app/wp-admin/admin-ajax.php?action=abstdata",
+   "status": 403,
+   "kind": "CLONE"
+  }
+ ],
+ "thirdParty": [
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/load-more.7c4417f8a727b79f546f.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/loop.1594a1df76e87a11eda2.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/nested-tabs.a2401356d329f179475e.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/search-form.9abeafeecde90cf7e0f4.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/loop-carousel.881847b13e8fe1f8bfc2.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/ajax-pagination.505018eb312c83998279.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/nav-menu.3afa8f5eb1fef7c22561.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/about-us/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/counter.12335f45aaa79d244f24.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/about-us/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/toggle.2a177a3ef4785d3dfbc5.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/about-us/leadership/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/become-a-corporate-client/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/media-carousel.87c2cf115553a2c4f709.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/careers/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/nested-carousel.659b0373371215e60dab.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/careers/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/gallery.cca2358f59857ce6f62f.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/careers/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/carousel.e2af910b095554625156.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/careers/",
+   "url": "https://epsilon.6sense.com/v3/company/details",
+   "status": 403,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/careers/",
+   "url": "https://app.qualified.com/w/1/JkmcYGLEZdzQCG5E/sentry/proxy",
+   "status": 403,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/case-studies/corporate/autocareassociation/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/share-buttons.b99b5ff11c944a3a8ea9.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/corp-covid-19-resource-center/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/86c7dbc8d8e46f0e7ee5.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/corp-covid-19-resource-center/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/table-of-contents.86ee3e0cc8c1fff9aab4.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/corporate/market-analysis-solutions/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/video.86d44e46e43d0807e708.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/higher-education/enrollment-management/",
+   "url": "https://player.vimeo.com/video/442440581?color=FC4C01&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0",
+   "status": 401,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/higher-education/enrollment-management/",
+   "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1aa5a529e99acb2/vlrlBfdfjbtMz5Jlg0lrhiG1Z31hmu91GeWpPGAjTNg-1783967362-1.2.1.1-wOMtFSCqQMrdB6FsRPScuNOsC23CfSObSiZDqz.sV0KmLqNRVRt6cvi332hke.Mn",
+   "status": "FAILED:net::ERR_NAME_NOT_RESOLVED",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/higher-education/enrollment-management/",
+   "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1aa5a529e99acb2/1783967363417/7c8910c430f57ea68b9fe0de1f7dfc025dcccf047e4059169d216f2c866613fe/SH7CYc3fNlFY2wc",
+   "status": 401,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/industry/b2b-manufacturing/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor/assets/js/nested-accordion.294d40984397351fd0f5.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/interactive-tools/corporate/research-revenue-calculator/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/form.cfd61a9174be80f835c6.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/interactive-tools/corporate/research-revenue-calculator/",
+   "url": "https://www.hanoverresearch.com/wp-content/plugins/elementor-pro/assets/js/popup.61d4fcab8891b2e07802.bundle.min.js",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.0.9",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/themes/atv-2022/style.css",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=3.1.2",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/uploads/elementor/css/post-160050.css?ver=1783911867",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.50.0",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=7.1.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/featherlight/featherlight.css?ver=7.0.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.0.9",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/wp-members/assets/css/forms/generic-no-float.min.css?ver=3.5.6",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/uploads/elementor/css/post-159975.css?ver=1783911866",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/simple-tags/assets/frontend/js/frontend.js?ver=3.50.0",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/css/mec-general-calendar.css?ver=7.0.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.16",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1743231850",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/js/frontend.js?ver=6.5.4",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-includes/css/dist/block-library/style.min.css?ver=7.0.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/js/events.js?ver=6.5.4",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/css/iconfonts.css?ver=7.0.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/css/frontend.min.css?ver=6.5.4",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/modern-events-calendar-lite/assets/js/mec-general-calendar.js?ver=6.5.4",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=7.4.0",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=7.4.0",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+   "url": "https://www.advanced-television.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+   "status": 503,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/brandtracker/",
+   "url": "https://player.vimeo.com/video/1061072715",
+   "status": 401,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/brandtracker/",
+   "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1aa6019de3cef30/hwMK5Pxqx0aiXeDMXXaEy2QJsOWY0WiXQThK8bgkpDc-1783967599-1.2.1.1-besUf3MaRbp7vZe5edRRnEb6HwD2K9wbOaUdkhVTzSNysLsl0ZFivzuek7NdJIDu",
+   "status": "FAILED:net::ERR_NAME_NOT_RESOLVED",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/brandtracker/",
+   "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1aa6019de3cef30/1783967600089/b34c880cc4b580b9770f246b6b4dc028a2c5568fcca1a0625afee51e9337531c/v3U-7SKBF7WmfKE",
+   "status": 401,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/hanover-brand-tracker-for-software-edtech/",
+   "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1aa60521c90ef30/zKq5v9shNyxuuWSEGj2IMrqsKVZFh1Sgm5mgciNGzdE-1783967608-1.2.1.1-0nIn5JdBZQXRzWuQWO2ZS3Yxc3twFE4G3L5sBg873hYK1Jar0zkZBtH7omd6yVTH",
+   "status": "FAILED:net::ERR_NAME_NOT_RESOLVED",
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/solution/hanover-brand-tracker-for-software-edtech/",
+   "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1aa60521c90ef30/1783967609016/0ec2c4aff29a266dd1ffd605492600379594de14da420c58ad549249d5c7b353/FN1kwAfHvRsfda_",
+   "status": 401,
+   "kind": "THIRD-PARTY"
+  },
+  {
+   "page": "https://hanoverresearch-clone.vercel.app/topic/product-lifecycle/",
+   "url": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d",
+   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
+   "kind": "THIRD-PARTY"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+title: Higher Education Solutions | Hanover Research
+description: Strengthen your academic portfolio, maximize enrollment and retention, manage costs, improve brand perception, and engage alumni.
+canonical: https://www.hanoverresearch.com/higher-education/
+robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+og:title: Higher Education
+og:description: Higher Education Research and Analysis Solutions Run a high-performing and adaptive institution Comprehensive solutions and strategic intelligence to
+og:image: https://www.hanoverresearch.com/wp-content/uploads/2025/09/2025-national-prospective-student-survey.jpg
+og:url: https://www.hanoverresearch.com/higher-education/
+og:type: article
+og:site_name: Hanover Research
+twitter:card: summary_large_image
+twitter:title: 
+twitter:description: 
+twitter:image: 
+twitter:site: @HanoverResearch
+analytics_ids: G-E09YTKFFM7, GTM-5BPF5XC, AW-846208398

@@ -16,6 +16,14 @@ ORIGIN_PATTERNS = [
     '//www.hanoverresearch.com',
     'https://hanoverresearch.com',
     'http://hanoverresearch.com',
+    # JSON-escaped variants (Elementor's inline elementorFrontendConfig uses escaped slashes for
+    # urls.assets — the base for dynamically-imported JS modules: carousels, counters, tabs, popups,
+    # forms, video. If left absolute they load from the sgcaptcha-blocked origin and never run.)
+    r'https:\/\/www.hanoverresearch.com',
+    r'http:\/\/www.hanoverresearch.com',
+    r'\/\/www.hanoverresearch.com',
+    r'https:\/\/hanoverresearch.com',
+    r'http:\/\/hanoverresearch.com',
 ]
 
 def protect(text):
