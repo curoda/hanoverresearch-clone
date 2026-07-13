@@ -2,15 +2,15 @@
  {
   "slug": "home",
   "desktop": {
-   "mean": 9.941,
-   "max": 78.078,
+   "mean": 13.475,
+   "max": 76.357,
    "bands": 24,
    "oH": 7200,
    "cH": 7200
   },
   "mobile": {
-   "mean": 2.849,
-   "max": 11.494,
+   "mean": 7.198,
+   "max": 30.251,
    "bands": 36,
    "oH": 10972,
    "cH": 10972
@@ -19,86 +19,35 @@
  {
   "slug": "about-us",
   "desktop": {
-   "mean": 5.928,
-   "max": 32.393,
+   "mean": 4.969,
+   "max": 44.845,
    "bands": 27,
    "oH": 8100,
    "cH": 8100
   },
   "mobile": {
-   "mean": 5.846,
-   "max": 20.62,
+   "mean": 21.316,
+   "max": 100,
    "bands": 39,
    "oH": 11816,
-   "cH": 11816
-  }
- },
- {
-  "slug": "higher-education",
-  "desktop": {
-   "mean": 2.974,
-   "max": 26.247,
-   "bands": 39,
-   "oH": 11700,
-   "cH": 11700
-  },
-  "mobile": {
-   "mean": 22.444,
-   "max": 67.397,
-   "bands": 56,
-   "oH": 16880,
-   "cH": 16880
-  }
- },
- {
-  "slug": "corporate",
-  "desktop": {
-   "mean": 11.007,
-   "max": 82.824,
-   "bands": 33,
-   "oH": 9900,
-   "cH": 9900
-  },
-  "mobile": {
-   "mean": 5.055,
-   "max": 34.726,
-   "bands": 47,
-   "oH": 14348,
-   "cH": 14348
-  }
- },
- {
-  "slug": "k-12-education",
-  "desktop": {
-   "mean": 10.456,
-   "max": 83.553,
-   "bands": 45,
-   "oH": 13500,
-   "cH": 13500
-  },
-  "mobile": {
-   "mean": 20.705,
-   "max": 65.83,
-   "bands": 67,
-   "oH": 20256,
-   "cH": 20256
+   "cH": 10972
   }
  },
  {
   "slug": "expertise__surveys",
   "desktop": {
-   "mean": 1.15,
-   "max": 4.759,
+   "mean": 92.566,
+   "max": 100,
    "bands": 24,
    "oH": 7200,
-   "cH": 7200
+   "cH": 900
   },
   "mobile": {
-   "mean": 2.836,
-   "max": 12.823,
+   "mean": 92.677,
+   "max": 100,
    "bands": 30,
    "oH": 9284,
-   "cH": 9284
+   "cH": 844
   }
  }
 ]

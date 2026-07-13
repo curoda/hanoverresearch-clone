@@ -1,4 +1,4 @@
 node_modules/
-raw/
 *.log
 .vercel/
+perseg_tmp.js

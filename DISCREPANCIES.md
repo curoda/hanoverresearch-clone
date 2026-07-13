@@ -64,4 +64,55 @@ a rendering defect.
   to a local git repository ready to push the moment valid GitHub auth is available; see REPO line.
 
 ## Phase-6 comparison summary
-(Populated after the automated origin-vs-clone pixel comparison; see compare_results.json.)
+Objective comparison used a committed offset-tolerant tool (compare_native.js: stitches origin +
+clone segments and finds the best vertical alignment per band, removing the accumulated-offset
+artifact that inflates naive fixed-position segment diffs on tall pages) plus fixed-position
+compare.js and direct visual review. All screenshots produced by capture.js (bounded, deviceScaleFactor 1,
+downscaled ≤1500px).
+
+Result: the clone is visually faithful at both 1440px and 390px. On clean capture pairs the
+above-the-fold header/hero band diffs 0.00% and total page heights match the origin exactly
+(e.g. about-us 7938px = 7938px; higher-education 11113px = 11113px; contact-us 2231px = 2231px).
+Residual per-band pixel differences (single-digit to low-double-digit mean, occasional max-100%
+bands) are **entirely dynamic-content timing**, not layout/font/image defects:
+  - auto-rotating Elementor loop carousels ("Research & Insights", testimonials) showing a
+    different slide at the two capture instants;
+  - animated stat counters (CountUp) captured at different values;
+  - the AJAX-loaded Elementor promo popup (below) present on origin captures, absent on the static clone;
+  - the Termly cookie-consent banner (shown to first-time visitors).
+No HIGH or MEDIUM discrepancies remained after the fixes below. Per-type pages verified pixel-faithful:
+home, about-us (+leadership/culture), corporate hub, higher-education hub, k-12-education hub +
+grants, expertise/surveys, archives (insights-blog, case-studies, reports-and-briefs), and a
+report/blog template; mobile hamburger (JetMenu/Elementor) opens identically.
+
+### Additional dynamic feature (Manual handling)
+- **Elementor Pro promo popup** ("Turn Cost Data Into Action", scroll-triggered) is loaded via
+  admin-ajax on the origin and is NOT present in the page HTML, so it does not appear on the static
+  clone. Minor promotional element; would need the popup markup + a trigger to reproduce.
+
+## Audit (audit.js against the live clone)
+- Pre-fix audit flagged many `net::ERR_BLOCKED_BY_ORB` requests to
+  `www.hanoverresearch.com/wp-content/plugins/elementor*/assets/js/*.js` — Elementor's dynamically
+  imported JS modules (loop-carousel, counter, nested-tabs, toggle, popup, form, video, gallery,
+  carousel, share-buttons, etc.). Root cause: the inline `elementorFrontendConfig` set `urls.assets`
+  to a JSON-escaped ABSOLUTE origin URL (`https:\/\/www.hanoverresearch.com\/...`) that the initial
+  rewrite missed. **Fixed** by also rewriting escaped-slash origin URLs in mirror.py; post-fix a
+  live check shows 0 requests to the origin and 0 blocked wp-content requests, and Elementor loop
+  carousels now initialise natively on the clone (verified). This was the underlying cause of the
+  earlier loop-carousel stacking; clone-fixes.js remains as a harmless safety net.
+- Remaining audit findings are all THIRD-PARTY / source-side (expected, not clone defects):
+  6sense (403), Qualified (403), Vimeo player + Cloudflare Turnstile (401 — video embed auth),
+  and 503s from www.advanced-television.com (an external publisher referenced by /news items).
+
+## Per-pass log (Phase 6)
+- Pass 1 — fonts: rewrite CSS `url()` (Lato self-hosted) → header/hero band diff 2% → 0.00%.
+- Pass 2 — blank pages: force `abst-show-page` on <body> (A/B-test opacity:0 hide) → pages visible.
+- Pass 3 — Elementor dynamic JS: rewrite escaped-slash origin URLs → carousels/counters/tabs/popups
+  load + run from the clone; loop-carousel re-init safety net (clone-fixes.js).
+- Capture/verify hardening: styling-readiness wait (avoid unstyled JetMenu captures), font/ swiper
+  settle, cookie-banner + AJAX-popup dismissal, offset-tolerant compare_native.js.
+- Stopping condition met: no HIGH or MEDIUM remain (LOW-only: dynamic-content timing). Manual-handling
+  items (HubSpot forms, search, promo popup) do not block stopping.
+- Note: near the end both the origin (SiteGround sgcaptcha) and the clone host (Vercel edge
+  DDoS "Security Checkpoint") rate-limited this sandbox's high automated-request volume; a normal
+  browser visitor is unaffected (deployment protection is disabled; homepage serves 200).

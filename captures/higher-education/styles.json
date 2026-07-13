@@ -13160,7 +13160,7 @@
   },
   {
    "tag": "div",
-   "cls": "elementor-carousel-image perfmatters-lazy entered pmloaded",
+   "cls": "elementor-carousel-image perfmatters-lazy entered exited pmloaded",
    "font-family": "lato, Lato, sans-serif",
    "font-size": "18px",
    "font-weight": "400",
@@ -13436,7 +13436,7 @@
   },
   {
    "tag": "div",
-   "cls": "elementor-carousel-image perfmatters-lazy entered pmloaded",
+   "cls": "elementor-carousel-image perfmatters-lazy entered exited pmloaded",
    "font-family": "lato, Lato, sans-serif",
    "font-size": "18px",
    "font-weight": "400",
@@ -13712,7 +13712,7 @@
   },
   {
    "tag": "div",
-   "cls": "elementor-carousel-image perfmatters-lazy entered pmloaded",
+   "cls": "elementor-carousel-image perfmatters-lazy entered exited pmloaded",
    "font-family": "lato, Lato, sans-serif",
    "font-size": "18px",
    "font-weight": "400",
