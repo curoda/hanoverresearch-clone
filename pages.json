@@ -1,0 +1,2050 @@
+[
+ {
+  "url": "https://www.hanoverresearch.com/",
+  "slug": "home",
+  "sitepath": "index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/about-us/",
+  "slug": "about-us",
+  "sitepath": "about-us/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 459706
+ },
+ {
+  "url": "https://www.hanoverresearch.com/about-us/culture/",
+  "slug": "about-us__culture",
+  "sitepath": "about-us/culture/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 398773
+ },
+ {
+  "url": "https://www.hanoverresearch.com/about-us/leadership/",
+  "slug": "about-us__leadership",
+  "sitepath": "about-us/leadership/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 439029
+ },
+ {
+  "url": "https://www.hanoverresearch.com/access-high-quality-data-with-hanover/",
+  "slug": "access-high-quality-data-with-hanover",
+  "sitepath": "access-high-quality-data-with-hanover/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 354063
+ },
+ {
+  "url": "https://www.hanoverresearch.com/advancement-analytics-advanced-donor-insights/",
+  "slug": "advancement-analytics-advanced-donor-insights",
+  "sitepath": "advancement-analytics-advanced-donor-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 184635
+ },
+ {
+  "url": "https://www.hanoverresearch.com/become-a-client/",
+  "slug": "become-a-client",
+  "sitepath": "become-a-client/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 321004
+ },
+ {
+  "url": "https://www.hanoverresearch.com/become-a-corporate-client/",
+  "slug": "become-a-corporate-client",
+  "sitepath": "become-a-corporate-client/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 334349
+ },
+ {
+  "url": "https://www.hanoverresearch.com/brand-tracking-101-toolkit/",
+  "slug": "brand-tracking-101-toolkit",
+  "sitepath": "brand-tracking-101-toolkit/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 317132
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/",
+  "slug": "careers",
+  "sitepath": "careers/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 522469
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/jobs/",
+  "slug": "careers__jobs",
+  "sitepath": "careers/jobs/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 7116
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/recruitment/",
+  "slug": "careers__recruitment",
+  "sitepath": "careers/recruitment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 317211
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/research/",
+  "slug": "careers__research",
+  "sitepath": "careers/research/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 364352
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/sales-account-management/",
+  "slug": "careers__sales-account-management",
+  "sitepath": "careers/sales-account-management/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360532
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/social-impact/",
+  "slug": "careers__social-impact",
+  "sitepath": "careers/social-impact/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 362963
+ },
+ {
+  "url": "https://www.hanoverresearch.com/careers/team/",
+  "slug": "careers__team",
+  "sitepath": "careers/team/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360873
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/",
+  "slug": "case-studies",
+  "sitepath": "case-studies/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 437595
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/autocareassociation/",
+  "slug": "case-studies__corporate__autocareassociation",
+  "sitepath": "case-studies/corporate/autocareassociation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 406650
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/baltimore-aircoil-company/",
+  "slug": "case-studies__corporate__baltimore-aircoil-company",
+  "sitepath": "case-studies/corporate/baltimore-aircoil-company/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 408103
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/bic-leverages-hanover-partnership-to-access-the-consumer-voice/",
+  "slug": "case-studies__corporate__bic-leverages-hanover-partnership-to-access-the-consumer-voice",
+  "sitepath": "case-studies/corporate/bic-leverages-hanover-partnership-to-access-the-consumer-voice/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 398565
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/blue-diamond-uses-hanover-strengthen-product-business-strategies/",
+  "slug": "case-studies__corporate__blue-diamond-uses-hanover-strengthen-product-business-strategies",
+  "sitepath": "case-studies/corporate/blue-diamond-uses-hanover-strengthen-product-business-strategies/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 401252
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/building-capacity-grantseeking-as-a-science/",
+  "slug": "case-studies__corporate__building-capacity-grantseeking-as-a-science",
+  "sitepath": "case-studies/corporate/building-capacity-grantseeking-as-a-science/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 339002
+ },
+ {
+  "url": "https://www.hanoverresearch.com/case-studies/corporate/case-study-validating-market-presence-through-customer-feedback-sylvan-learning/",
+  "slug": "case-studies__corporate__case-study-validating-market-presence-through-customer-feedback-sylvan-learning",
+  "sitepath": "case-studies/corporate/case-study-validating-market-presence-through-customer-feedback-sylvan-learning/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 407269
+ },
+ {
+  "url": "https://www.hanoverresearch.com/client-services-terms-conditions-advancementanalytics/",
+  "slug": "client-services-terms-conditions-advancementanalytics",
+  "sitepath": "client-services-terms-conditions-advancementanalytics/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 307949
+ },
+ {
+  "url": "https://www.hanoverresearch.com/contact-us/",
+  "slug": "contact-us",
+  "sitepath": "contact-us/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 299100
+ },
+ {
+  "url": "https://www.hanoverresearch.com/cookie-policy/",
+  "slug": "cookie-policy",
+  "sitepath": "cookie-policy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 287491
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corp-covid-19-resource-center/",
+  "slug": "corp-covid-19-resource-center",
+  "sitepath": "corp-covid-19-resource-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 414419
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corp-sauer-brands-video-bac/",
+  "slug": "corp-sauer-brands-video-bac",
+  "sitepath": "corp-sauer-brands-video-bac/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 285239
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/",
+  "slug": "corporate",
+  "sitepath": "corporate/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 630402
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/",
+  "slug": "corporate__brand-strategy",
+  "sitepath": "corporate/brand-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 437888
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/brand-awareness/",
+  "slug": "corporate__brand-strategy__brand-awareness",
+  "sitepath": "corporate/brand-strategy/brand-awareness/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 376364
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/brand-development/",
+  "slug": "corporate__brand-strategy__brand-development",
+  "sitepath": "corporate/brand-strategy/brand-development/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 369138
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/brand-equity/",
+  "slug": "corporate__brand-strategy__brand-equity",
+  "sitepath": "corporate/brand-strategy/brand-equity/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 378426
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/brand-perception/",
+  "slug": "corporate__brand-strategy__brand-perception",
+  "sitepath": "corporate/brand-strategy/brand-perception/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 377617
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/brand-tracking/",
+  "slug": "corporate__brand-strategy__brand-tracking",
+  "sitepath": "corporate/brand-strategy/brand-tracking/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 376217
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/brand-strategy/thought-leadership/",
+  "slug": "corporate__brand-strategy__thought-leadership",
+  "sitepath": "corporate/brand-strategy/thought-leadership/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 384266
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/",
+  "slug": "corporate__customer-experience",
+  "sitepath": "corporate/customer-experience/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 438513
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/buyer-persona/",
+  "slug": "corporate__customer-experience__buyer-persona",
+  "sitepath": "corporate/customer-experience/buyer-persona/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 363048
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/customer-journey/",
+  "slug": "corporate__customer-experience__customer-journey",
+  "sitepath": "corporate/customer-experience/customer-journey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 375695
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/customer-segmentation/",
+  "slug": "corporate__customer-experience__customer-segmentation",
+  "sitepath": "corporate/customer-experience/customer-segmentation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 375833
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/lead-scoring/",
+  "slug": "corporate__customer-experience__lead-scoring",
+  "sitepath": "corporate/customer-experience/lead-scoring/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360075
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/needs-assessment/",
+  "slug": "corporate__customer-experience__needs-assessment",
+  "sitepath": "corporate/customer-experience/needs-assessment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 372253
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/pathway-to-purchase/",
+  "slug": "corporate__customer-experience__pathway-to-purchase",
+  "sitepath": "corporate/customer-experience/pathway-to-purchase/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 372153
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/satisfaction/",
+  "slug": "corporate__customer-experience__satisfaction",
+  "sitepath": "corporate/customer-experience/satisfaction/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 373253
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/voice-of-the-customer/",
+  "slug": "corporate__customer-experience__voice-of-the-customer",
+  "sitepath": "corporate/customer-experience/voice-of-the-customer/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360820
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/customer-experience/win-loss-analysis/",
+  "slug": "corporate__customer-experience__win-loss-analysis",
+  "sitepath": "corporate/customer-experience/win-loss-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 383268
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/",
+  "slug": "corporate__market-analysis-solutions",
+  "sitepath": "corporate/market-analysis-solutions/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 431181
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/competitive-analysis/",
+  "slug": "corporate__market-analysis-solutions__competitive-analysis",
+  "sitepath": "corporate/market-analysis-solutions/competitive-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 359365
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/market-entry/",
+  "slug": "corporate__market-analysis-solutions__market-entry",
+  "sitepath": "corporate/market-analysis-solutions/market-entry/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 350304
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/market-penetration/",
+  "slug": "corporate__market-analysis-solutions__market-penetration",
+  "sitepath": "corporate/market-analysis-solutions/market-penetration/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 358460
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/market-segmentation/",
+  "slug": "corporate__market-analysis-solutions__market-segmentation",
+  "sitepath": "corporate/market-analysis-solutions/market-segmentation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 368546
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/market-share/",
+  "slug": "corporate__market-analysis-solutions__market-share",
+  "sitepath": "corporate/market-analysis-solutions/market-share/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 351446
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/mergers-acquisitions/",
+  "slug": "corporate__market-analysis-solutions__mergers-acquisitions",
+  "sitepath": "corporate/market-analysis-solutions/mergers-acquisitions/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 364545
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/market-analysis-solutions/trend-analysis/",
+  "slug": "corporate__market-analysis-solutions__trend-analysis",
+  "sitepath": "corporate/market-analysis-solutions/trend-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 354856
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/",
+  "slug": "corporate__product-lifecycle",
+  "sitepath": "corporate/product-lifecycle/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 446676
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/channel-strategy/",
+  "slug": "corporate__product-lifecycle__channel-strategy",
+  "sitepath": "corporate/product-lifecycle/channel-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 383624
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/package-design/",
+  "slug": "corporate__product-lifecycle__package-design",
+  "sitepath": "corporate/product-lifecycle/package-design/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 371864
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/pricing-strategy/",
+  "slug": "corporate__product-lifecycle__pricing-strategy",
+  "sitepath": "corporate/product-lifecycle/pricing-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 369564
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/product-development/",
+  "slug": "corporate__product-lifecycle__product-development",
+  "sitepath": "corporate/product-lifecycle/product-development/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 379552
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/product-message-testing/",
+  "slug": "corporate__product-lifecycle__product-message-testing",
+  "sitepath": "corporate/product-lifecycle/product-message-testing/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 391144
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/product-portfolio-review/",
+  "slug": "corporate__product-lifecycle__product-portfolio-review",
+  "sitepath": "corporate/product-lifecycle/product-portfolio-review/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 367947
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/product-lifecycle/sales-forecasting/",
+  "slug": "corporate__product-lifecycle__sales-forecasting",
+  "sitepath": "corporate/product-lifecycle/sales-forecasting/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360325
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/research-insights/",
+  "slug": "corporate__research-insights",
+  "sitepath": "corporate/research-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 443538
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/solution/",
+  "slug": "corporate__solution",
+  "sitepath": "corporate/solution/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 630402
+ },
+ {
+  "url": "https://www.hanoverresearch.com/corporate/solution/pricing-solutions/",
+  "slug": "corporate__solution__pricing-solutions",
+  "sitepath": "corporate/solution/pricing-solutions/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 206005
+ },
+ {
+  "url": "https://www.hanoverresearch.com/equal-employment/",
+  "slug": "equal-employment",
+  "sitepath": "equal-employment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 319659
+ },
+ {
+  "url": "https://www.hanoverresearch.com/esser-funds-resource-center/",
+  "slug": "esser-funds-resource-center",
+  "sitepath": "esser-funds-resource-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 428759
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/",
+  "slug": "expertise",
+  "sitepath": "expertise/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 487833
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/benchmarking/",
+  "slug": "expertise__benchmarking",
+  "sitepath": "expertise/benchmarking/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 360752
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/data-analysis/",
+  "slug": "expertise__data-analysis",
+  "sitepath": "expertise/data-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 380456
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/market-modeling/",
+  "slug": "expertise__market-modeling",
+  "sitepath": "expertise/market-modeling/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 355646
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/qualitative-research/",
+  "slug": "expertise__qualitative-research",
+  "sitepath": "expertise/qualitative-research/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 383595
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/strategic-advising/",
+  "slug": "expertise__strategic-advising",
+  "sitepath": "expertise/strategic-advising/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 337601
+ },
+ {
+  "url": "https://www.hanoverresearch.com/expertise/surveys/",
+  "slug": "expertise__surveys",
+  "sitepath": "expertise/surveys/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 439026
+ },
+ {
+  "url": "https://www.hanoverresearch.com/grants-learning-center/",
+  "slug": "grants-learning-center",
+  "sitepath": "grants-learning-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 177195
+ },
+ {
+  "url": "https://www.hanoverresearch.com/hanover-research-newsletter-sign-up/",
+  "slug": "hanover-research-newsletter-sign-up",
+  "sitepath": "hanover-research-newsletter-sign-up/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 296195
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-ed-covid-19-resource-center/",
+  "slug": "higher-ed-covid-19-resource-center",
+  "sitepath": "higher-ed-covid-19-resource-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 458768
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-ed-program-cost-tracker/",
+  "slug": "higher-ed-program-cost-tracker",
+  "sitepath": "higher-ed-program-cost-tracker/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 143919
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/",
+  "slug": "higher-education",
+  "sitepath": "higher-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 663007
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-assessment-suite/",
+  "slug": "higher-education__academic-assessment-suite",
+  "sitepath": "higher-education/academic-assessment-suite/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 170347
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-assessment/",
+  "slug": "higher-education__academic-program-assessment",
+  "sitepath": "higher-education/academic-program-assessment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 186049
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/",
+  "slug": "higher-education__academic-program-development",
+  "sitepath": "higher-education/academic-program-development/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 410075
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/academic-portfolio-optimization/",
+  "slug": "higher-education__academic-program-development__academic-portfolio-optimization",
+  "sitepath": "higher-education/academic-program-development/academic-portfolio-optimization/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 383123
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/academic-program-assessment/",
+  "slug": "higher-education__academic-program-development__academic-program-assessment",
+  "sitepath": "higher-education/academic-program-development/academic-program-assessment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 385505
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/employer-needs-assessment/",
+  "slug": "higher-education__academic-program-development__employer-needs-assessment",
+  "sitepath": "higher-education/academic-program-development/employer-needs-assessment/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 353437
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/program-cost-tracker/",
+  "slug": "higher-education__academic-program-development__program-cost-tracker",
+  "sitepath": "higher-education/academic-program-development/program-cost-tracker/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 362327
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/academic-program-development/prospective-student-survey/",
+  "slug": "higher-education__academic-program-development__prospective-student-survey",
+  "sitepath": "higher-education/academic-program-development/prospective-student-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 364752
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/advancement-funding/",
+  "slug": "higher-education__advancement-funding",
+  "sitepath": "higher-education/advancement-funding/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 393770
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/enrollment-management/",
+  "slug": "higher-education__enrollment-management",
+  "sitepath": "higher-education/enrollment-management/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 392617
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/enrollment-management/admitted-student-survey/",
+  "slug": "higher-education__enrollment-management__admitted-student-survey",
+  "sitepath": "higher-education/enrollment-management/admitted-student-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 383935
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/enrollment-management/enrollment-funnel-analysis/",
+  "slug": "higher-education__enrollment-management__enrollment-funnel-analysis",
+  "sitepath": "higher-education/enrollment-management/enrollment-funnel-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 358762
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/enrollment-management/institutional-preference-survey/",
+  "slug": "higher-education__enrollment-management__institutional-preference-survey",
+  "sitepath": "higher-education/enrollment-management/institutional-preference-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 362606
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/geomarket/",
+  "slug": "higher-education__geomarket",
+  "sitepath": "higher-education/geomarket/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 254645
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/grant-support/",
+  "slug": "higher-education__grant-support",
+  "sitepath": "higher-education/grant-support/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 404033
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/marketing-strategy/",
+  "slug": "higher-education__marketing-strategy",
+  "sitepath": "higher-education/marketing-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 408289
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/operations-finance/",
+  "slug": "higher-education__operations-finance",
+  "sitepath": "higher-education/operations-finance/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 408876
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/program-search-trends-dashboard/",
+  "slug": "higher-education__program-search-trends-dashboard",
+  "sitepath": "higher-education/program-search-trends-dashboard/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 277144
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/research-insights/",
+  "slug": "higher-education__research-insights",
+  "sitepath": "higher-education/research-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 512301
+ },
+ {
+  "url": "https://www.hanoverresearch.com/higher-education/student-success/",
+  "slug": "higher-education__student-success",
+  "sitepath": "higher-education/student-success/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 395580
+ },
+ {
+  "url": "https://www.hanoverresearch.com/hr-digital-access-request/",
+  "slug": "hr-digital-access-request",
+  "sitepath": "hr-digital-access-request/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 286443
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/",
+  "slug": "industry",
+  "sitepath": "industry/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/b2b-manufacturing/",
+  "slug": "industry__b2b-manufacturing",
+  "sitepath": "industry/b2b-manufacturing/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 437080
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/building-products/",
+  "slug": "industry__building-products",
+  "sitepath": "industry/building-products/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 413483
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/cpg/",
+  "slug": "industry__cpg",
+  "sitepath": "industry/cpg/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 479657
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/edtech/",
+  "slug": "industry__edtech",
+  "sitepath": "industry/edtech/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 428842
+ },
+ {
+  "url": "https://www.hanoverresearch.com/industry/software/",
+  "slug": "industry__software",
+  "sitepath": "industry/software/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 461480
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/",
+  "slug": "insights-blog",
+  "sitepath": "insights-blog/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 460243
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/10-insights-on-2014-manufacturing-trends/",
+  "slug": "insights-blog__corporate__10-insights-on-2014-manufacturing-trends",
+  "sitepath": "insights-blog/corporate/10-insights-on-2014-manufacturing-trends/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 405550
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/3-tips-b2b-ecommerce-transition/",
+  "slug": "insights-blog__corporate__3-tips-b2b-ecommerce-transition",
+  "sitepath": "insights-blog/corporate/3-tips-b2b-ecommerce-transition/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 412265
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/4-product-portfolio-optimization-tips-multi-product-lines/",
+  "slug": "insights-blog__corporate__4-product-portfolio-optimization-tips-multi-product-lines",
+  "sitepath": "insights-blog/corporate/4-product-portfolio-optimization-tips-multi-product-lines/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 435637
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/4-strategies-for-product-expansion/",
+  "slug": "insights-blog__corporate__4-strategies-for-product-expansion",
+  "sitepath": "insights-blog/corporate/4-strategies-for-product-expansion/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 441570
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/4-tests-measure-customer-journey-mapping/",
+  "slug": "insights-blog__corporate__4-tests-measure-customer-journey-mapping",
+  "sitepath": "insights-blog/corporate/4-tests-measure-customer-journey-mapping/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 420449
+ },
+ {
+  "url": "https://www.hanoverresearch.com/insights-blog/corporate/5-questions-all-business-should-ask-themselves-after-a-product-launch/",
+  "slug": "insights-blog__corporate__5-questions-all-business-should-ask-themselves-after-a-product-launch",
+  "sitepath": "insights-blog/corporate/5-questions-all-business-should-ask-themselves-after-a-product-launch/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 409687
+ },
+ {
+  "url": "https://www.hanoverresearch.com/interactive-tools/",
+  "slug": "interactive-tools",
+  "sitepath": "interactive-tools/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 348699
+ },
+ {
+  "url": "https://www.hanoverresearch.com/interactive-tools/corporate/research-revenue-calculator/",
+  "slug": "interactive-tools__corporate__research-revenue-calculator",
+  "sitepath": "interactive-tools/corporate/research-revenue-calculator/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 203307
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-ai-framework/",
+  "slug": "k-12-ai-framework",
+  "sitepath": "k-12-ai-framework/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 165960
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-ai-readiness-resource-center/",
+  "slug": "k-12-ai-readiness-resource-center",
+  "sitepath": "k-12-ai-readiness-resource-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 337892
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/",
+  "slug": "k-12-education",
+  "sitepath": "k-12-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 710416
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/culture-and-climate/",
+  "slug": "k-12-education__culture-and-climate",
+  "sitepath": "k-12-education/culture-and-climate/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 450868
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/curriculum-and-instruction/",
+  "slug": "k-12-education__curriculum-and-instruction",
+  "sitepath": "k-12-education/curriculum-and-instruction/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 457312
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/educator-learning-center/",
+  "slug": "k-12-education__educator-learning-center",
+  "sitepath": "k-12-education/educator-learning-center/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 166103
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/enrollment-community-engagement/",
+  "slug": "k-12-education__enrollment-community-engagement",
+  "sitepath": "k-12-education/enrollment-community-engagement/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 469310
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/grants/",
+  "slug": "k-12-education__grants",
+  "sitepath": "k-12-education/grants/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 374285
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/hanover-digital/",
+  "slug": "k-12-education__hanover-digital",
+  "sitepath": "k-12-education/hanover-digital/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 352627
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/k-12-advisory-services/",
+  "slug": "k-12-education__k-12-advisory-services",
+  "sitepath": "k-12-education/k-12-advisory-services/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 168835
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/k-12-updated-advisory-services/",
+  "slug": "k-12-education__k-12-updated-advisory-services",
+  "sitepath": "k-12-education/k-12-updated-advisory-services/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 381465
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/operational-planning/",
+  "slug": "k-12-education__operational-planning",
+  "sitepath": "k-12-education/operational-planning/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 435031
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/program-evaluation/",
+  "slug": "k-12-education__program-evaluation",
+  "sitepath": "k-12-education/program-evaluation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 464880
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/research-insights/",
+  "slug": "k-12-education__research-insights",
+  "sitepath": "k-12-education/research-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 535199
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/strategic-planning-and-governance/",
+  "slug": "k-12-education__strategic-planning-and-governance",
+  "sitepath": "k-12-education/strategic-planning-and-governance/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 448652
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/student-supports/",
+  "slug": "k-12-education__student-supports",
+  "sitepath": "k-12-education/student-supports/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 446614
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k-12-education/teacher-recruitment-and-retention/",
+  "slug": "k-12-education__teacher-recruitment-and-retention",
+  "sitepath": "k-12-education/teacher-recruitment-and-retention/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 457529
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k12-agua-fria-video-bac/",
+  "slug": "k12-agua-fria-video-bac",
+  "sitepath": "k12-agua-fria-video-bac/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 285061
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k12-danville-video-bac/",
+  "slug": "k12-danville-video-bac",
+  "sitepath": "k12-danville-video-bac/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 285249
+ },
+ {
+  "url": "https://www.hanoverresearch.com/k12-iowa-city-video-bac/",
+  "slug": "k12-iowa-city-video-bac",
+  "sitepath": "k12-iowa-city-video-bac/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 285276
+ },
+ {
+  "url": "https://www.hanoverresearch.com/national-full-time-mba-ranking-simulator/",
+  "slug": "national-full-time-mba-ranking-simulator",
+  "sitepath": "national-full-time-mba-ranking-simulator/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 304184
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/",
+  "slug": "news",
+  "sitepath": "news/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 452217
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/",
+  "slug": "news__corporate__advanced-television-data-value-above-all-dictates-subscriber-intent",
+  "sitepath": "news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 90196
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/ai-magazine-why-workdays-study-warns-of-talent-loss-in-ai-era/",
+  "slug": "news__corporate__ai-magazine-why-workdays-study-warns-of-talent-loss-in-ai-era",
+  "sitepath": "news/corporate/ai-magazine-why-workdays-study-warns-of-talent-loss-in-ai-era/index.html",
+  "status": 403,
+  "ok": false,
+  "len": 5935
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-how-satisfied-are-physicians-with-their-current-job/",
+  "slug": "news__corporate__beckers-asc-review-how-satisfied-are-physicians-with-their-current-job",
+  "sitepath": "news/corporate/beckers-asc-review-how-satisfied-are-physicians-with-their-current-job/index.html",
+  "status": 403,
+  "ok": false,
+  "len": 774
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-physician-work-demands-broken-down/",
+  "slug": "news__corporate__beckers-asc-review-physician-work-demands-broken-down",
+  "sitepath": "news/corporate/beckers-asc-review-physician-work-demands-broken-down/index.html",
+  "status": 403,
+  "ok": false,
+  "len": 774
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-whats-driving-physician-workplace-frustrations-survey/",
+  "slug": "news__corporate__beckers-asc-review-whats-driving-physician-workplace-frustrations-survey",
+  "sitepath": "news/corporate/beckers-asc-review-whats-driving-physician-workplace-frustrations-survey/index.html",
+  "status": 403,
+  "ok": false,
+  "len": 774
+ },
+ {
+  "url": "https://www.hanoverresearch.com/news/corporate/business-insider-16th-annual-dayforce-pulse-of-talent-71-of-workers-untrained-in-ai-as-adoption-and-expectations-surge/",
+  "slug": "news__corporate__business-insider-16th-annual-dayforce-pulse-of-talent-71-of-workers-untrained-in-ai-as-adoption-and-expectations-surge",
+  "sitepath": "news/corporate/business-insider-16th-annual-dayforce-pulse-of-talent-71-of-workers-untrained-in-ai-as-adoption-and-expectations-surge/index.html",
+  "status": 403,
+  "ok": false,
+  "len": 24
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/",
+  "slug": "podcasts",
+  "sitepath": "podcasts/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 438813
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/",
+  "slug": "podcasts__the-grant-rant",
+  "sitepath": "podcasts/the-grant-rant/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 439100
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/higher-education/advanced-strategies-for-enhancing-your-proposal/",
+  "slug": "podcasts__the-grant-rant__higher-education__advanced-strategies-for-enhancing-your-proposal",
+  "sitepath": "podcasts/the-grant-rant/higher-education/advanced-strategies-for-enhancing-your-proposal/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 340596
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/higher-education/ai-policies-among-federal-grantmakers/",
+  "slug": "podcasts__the-grant-rant__higher-education__ai-policies-among-federal-grantmakers",
+  "sitepath": "podcasts/the-grant-rant/higher-education/ai-policies-among-federal-grantmakers/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 337328
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/higher-education/creative-grantseeking-in-a-challenging-landscape/",
+  "slug": "podcasts__the-grant-rant__higher-education__creative-grantseeking-in-a-challenging-landscape",
+  "sitepath": "podcasts/the-grant-rant/higher-education/creative-grantseeking-in-a-challenging-landscape/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 341569
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/higher-education/debriefing-on-the-fy2026-federal-budget/",
+  "slug": "podcasts__the-grant-rant__higher-education__debriefing-on-the-fy2026-federal-budget",
+  "sitepath": "podcasts/the-grant-rant/higher-education/debriefing-on-the-fy2026-federal-budget/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 340618
+ },
+ {
+  "url": "https://www.hanoverresearch.com/podcasts/the-grant-rant/higher-education/diversifying-funding-as-an-institution-and-a-principal-investigator/",
+  "slug": "podcasts__the-grant-rant__higher-education__diversifying-funding-as-an-institution-and-a-principal-investigator",
+  "sitepath": "podcasts/the-grant-rant/higher-education/diversifying-funding-as-an-institution-and-a-principal-investigator/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 340269
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/",
+  "slug": "press-releases",
+  "sitepath": "press-releases/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 450162
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/corporate/hanover-research-awarded-mental-health-america-bell-seal-for-workplace-mental-health/",
+  "slug": "press-releases__corporate__hanover-research-awarded-mental-health-america-bell-seal-for-workplace-mental-health",
+  "sitepath": "press-releases/corporate/hanover-research-awarded-mental-health-america-bell-seal-for-workplace-mental-health/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 301070
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/corporate/hanover-research-recognized-as-top-50-research-firm-in-insights-association-research-and-data-analytics-report/",
+  "slug": "press-releases__corporate__hanover-research-recognized-as-top-50-research-firm-in-insights-association-research-and-data-analytics-report",
+  "sitepath": "press-releases/corporate/hanover-research-recognized-as-top-50-research-firm-in-insights-association-research-and-data-analytics-report/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 301175
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/corporate/hanover-research-recognized-with-2023-cigna-healthy-workforce-designation/",
+  "slug": "press-releases__corporate__hanover-research-recognized-with-2023-cigna-healthy-workforce-designation",
+  "sitepath": "press-releases/corporate/hanover-research-recognized-with-2023-cigna-healthy-workforce-designation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 302024
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/corporate/new-hanover-research-report-shares-key-trends-for-b2b-companies-in-2022/",
+  "slug": "press-releases__corporate__new-hanover-research-report-shares-key-trends-for-b2b-companies-in-2022",
+  "sitepath": "press-releases/corporate/new-hanover-research-report-shares-key-trends-for-b2b-companies-in-2022/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 301176
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/corporate/new-hanover-research-report-shares-top-trends-disrupting-b2c-companies-in-2022/",
+  "slug": "press-releases__corporate__new-hanover-research-report-shares-top-trends-disrupting-b2c-companies-in-2022",
+  "sitepath": "press-releases/corporate/new-hanover-research-report-shares-top-trends-disrupting-b2c-companies-in-2022/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 300690
+ },
+ {
+  "url": "https://www.hanoverresearch.com/press-releases/higher-education/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants-2/",
+  "slug": "press-releases__higher-education__hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants-2",
+  "sitepath": "press-releases/higher-education/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants-2/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 301946
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/",
+  "slug": "reports-and-briefs",
+  "sitepath": "reports-and-briefs/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 450429
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2018-market-research-impact-report/",
+  "slug": "reports-and-briefs__corporate__2018-market-research-impact-report",
+  "sitepath": "reports-and-briefs/corporate/2018-market-research-impact-report/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342757
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2019-bottled-water-market-report/",
+  "slug": "reports-and-briefs__corporate__2019-bottled-water-market-report",
+  "sitepath": "reports-and-briefs/corporate/2019-bottled-water-market-report/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343065
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2019-trends-in-b2b-e-commerce/",
+  "slug": "reports-and-briefs__corporate__2019-trends-in-b2b-e-commerce",
+  "sitepath": "reports-and-briefs/corporate/2019-trends-in-b2b-e-commerce/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343546
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2019-trends-in-market-analysis/",
+  "slug": "reports-and-briefs__corporate__2019-trends-in-market-analysis",
+  "sitepath": "reports-and-briefs/corporate/2019-trends-in-market-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343330
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2021-emerging-trend-research-brand-equity/",
+  "slug": "reports-and-briefs__corporate__2021-emerging-trend-research-brand-equity",
+  "sitepath": "reports-and-briefs/corporate/2021-emerging-trend-research-brand-equity/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 341548
+ },
+ {
+  "url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2021-trends-in-b2b-manufacturing/",
+  "slug": "reports-and-briefs__corporate__2021-trends-in-b2b-manufacturing",
+  "sitepath": "reports-and-briefs/corporate/2021-trends-in-b2b-manufacturing/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343403
+ },
+ {
+  "url": "https://www.hanoverresearch.com/research-insights/",
+  "slug": "research-insights",
+  "sitepath": "research-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 547726
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/",
+  "slug": "resources",
+  "sitepath": "resources/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 452639
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/higher-education/higher-education-workshop-series/",
+  "slug": "resources__higher-education__higher-education-workshop-series",
+  "sitepath": "resources/higher-education/higher-education-workshop-series/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 341983
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/aasa-becoming-a-more-resilient-leader/",
+  "slug": "resources__k-12-education__aasa-becoming-a-more-resilient-leader",
+  "sitepath": "resources/k-12-education/aasa-becoming-a-more-resilient-leader/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 337857
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/aasa-resilient-leadership-infographic/",
+  "slug": "resources__k-12-education__aasa-resilient-leadership-infographic",
+  "sitepath": "resources/k-12-education/aasa-resilient-leadership-infographic/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 337729
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/aasa-the-role-of-resilience-in-leadership-and-culture/",
+  "slug": "resources__k-12-education__aasa-the-role-of-resilience-in-leadership-and-culture",
+  "sitepath": "resources/k-12-education/aasa-the-role-of-resilience-in-leadership-and-culture/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346610
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/benchmarking-program-evaluation-policies-and-practices/",
+  "slug": "resources__k-12-education__benchmarking-program-evaluation-policies-and-practices",
+  "sitepath": "resources/k-12-education/benchmarking-program-evaluation-policies-and-practices/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 340277
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/benchmarking-strategies-to-rebuild-culture-and-climate/",
+  "slug": "resources__k-12-education__benchmarking-strategies-to-rebuild-culture-and-climate",
+  "sitepath": "resources/k-12-education/benchmarking-strategies-to-rebuild-culture-and-climate/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345259
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-for-community-engagement/",
+  "slug": "resources__k-12-education__best-practices-for-community-engagement",
+  "sitepath": "resources/k-12-education/best-practices-for-community-engagement/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 341269
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-for-professional-learning-communities/",
+  "slug": "resources__k-12-education__best-practices-for-professional-learning-communities",
+  "sitepath": "resources/k-12-education/best-practices-for-professional-learning-communities/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 347089
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-for-raising-community-program-awareness/",
+  "slug": "resources__k-12-education__best-practices-for-raising-community-program-awareness",
+  "sitepath": "resources/k-12-education/best-practices-for-raising-community-program-awareness/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346362
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-for-technology-in-the-classroom/",
+  "slug": "resources__k-12-education__best-practices-for-technology-in-the-classroom",
+  "sitepath": "resources/k-12-education/best-practices-for-technology-in-the-classroom/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342654
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-for-using-teacher-voice-to-foster-innovation/",
+  "slug": "resources__k-12-education__best-practices-for-using-teacher-voice-to-foster-innovation",
+  "sitepath": "resources/k-12-education/best-practices-for-using-teacher-voice-to-foster-innovation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346821
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-in-data-processes-for-state-agencies/",
+  "slug": "resources__k-12-education__best-practices-in-data-processes-for-state-agencies",
+  "sitepath": "resources/k-12-education/best-practices-in-data-processes-for-state-agencies/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342614
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-in-increasing-enrollment-through-marketing-communication-and-events/",
+  "slug": "resources__k-12-education__best-practices-in-increasing-enrollment-through-marketing-communication-and-events",
+  "sitepath": "resources/k-12-education/best-practices-in-increasing-enrollment-through-marketing-communication-and-events/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342665
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/best-practices-in-technology-enhanced-instruction/",
+  "slug": "resources__k-12-education__best-practices-in-technology-enhanced-instruction",
+  "sitepath": "resources/k-12-education/best-practices-in-technology-enhanced-instruction/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343578
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/building-healthy-and-supportive-student-and-staff-relationships/",
+  "slug": "resources__k-12-education__building-healthy-and-supportive-student-and-staff-relationships",
+  "sitepath": "resources/k-12-education/building-healthy-and-supportive-student-and-staff-relationships/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 343905
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/bullying-prevention-tracking-and-messaging/",
+  "slug": "resources__k-12-education__bullying-prevention-tracking-and-messaging",
+  "sitepath": "resources/k-12-education/bullying-prevention-tracking-and-messaging/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346154
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/communicating-data-to-school-boards/",
+  "slug": "resources__k-12-education__communicating-data-to-school-boards",
+  "sitepath": "resources/k-12-education/communicating-data-to-school-boards/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346664
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/efficiencies-in-interoperable-data-systems/",
+  "slug": "resources__k-12-education__efficiencies-in-interoperable-data-systems",
+  "sitepath": "resources/k-12-education/efficiencies-in-interoperable-data-systems/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 339547
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/engaging-in-strategic-planning/",
+  "slug": "resources__k-12-education__engaging-in-strategic-planning",
+  "sitepath": "resources/k-12-education/engaging-in-strategic-planning/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 344206
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/january-2024-superintendents-leadership-council/",
+  "slug": "resources__k-12-education__january-2024-superintendents-leadership-council",
+  "sitepath": "resources/k-12-education/january-2024-superintendents-leadership-council/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346209
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/march-2024-superintendents-leadership-council/",
+  "slug": "resources__k-12-education__march-2024-superintendents-leadership-council",
+  "sitepath": "resources/k-12-education/march-2024-superintendents-leadership-council/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345432
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/may-2023-superintendents-leadership-council/",
+  "slug": "resources__k-12-education__may-2023-superintendents-leadership-council",
+  "sitepath": "resources/k-12-education/may-2023-superintendents-leadership-council/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342759
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/november-2023-superintendents-leadership-council/",
+  "slug": "resources__k-12-education__november-2023-superintendents-leadership-council",
+  "sitepath": "resources/k-12-education/november-2023-superintendents-leadership-council/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345109
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/policies-and-practices-effective-integration-of-technology/",
+  "slug": "resources__k-12-education__policies-and-practices-effective-integration-of-technology",
+  "sitepath": "resources/k-12-education/policies-and-practices-effective-integration-of-technology/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/policy-brief-the-science-of-reading/",
+  "slug": "resources__k-12-education__policy-brief-the-science-of-reading",
+  "sitepath": "resources/k-12-education/policy-brief-the-science-of-reading/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 341512
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/research-brief-building-a-sense-of-belonging/",
+  "slug": "resources__k-12-education__research-brief-building-a-sense-of-belonging",
+  "sitepath": "resources/k-12-education/research-brief-building-a-sense-of-belonging/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 342606
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/resource-guide-engagement-for-decision-making/",
+  "slug": "resources__k-12-education__resource-guide-engagement-for-decision-making",
+  "sitepath": "resources/k-12-education/resource-guide-engagement-for-decision-making/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 344991
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/strategies-to-build-support-for-education-funding/",
+  "slug": "resources__k-12-education__strategies-to-build-support-for-education-funding",
+  "sitepath": "resources/k-12-education/strategies-to-build-support-for-education-funding/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345712
+ },
+ {
+  "url": "https://www.hanoverresearch.com/resources/k-12-education/utilizing-an-interactive-equity-dashboard-to-address-disparities-in-a-school-district-alexandria-city-public-schools-and-hanover-research/",
+  "slug": "resources__k-12-education__utilizing-an-interactive-equity-dashboard-to-address-disparities-in-a-school-district-alexandria-city-public-schools-and-hanover-research",
+  "sitepath": "resources/k-12-education/utilizing-an-interactive-equity-dashboard-to-address-disparities-in-a-school-district-alexandria-city-public-schools-and-hanover-research/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346368
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/",
+  "slug": "solution",
+  "sitepath": "solution/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/brandtracker/",
+  "slug": "solution__brandtracker",
+  "sitepath": "solution/brandtracker/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 222191
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/customer-journey-mapping-insights/",
+  "slug": "solution__customer-journey-mapping-insights",
+  "sitepath": "solution/customer-journey-mapping-insights/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 158965
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/customer-segmentation/",
+  "slug": "solution__customer-segmentation",
+  "sitepath": "solution/customer-segmentation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 204213
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/food-and-beverage/",
+  "slug": "solution__food-and-beverage",
+  "sitepath": "solution/food-and-beverage/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 230588
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/hanover-brand-tracker-for-software-edtech/",
+  "slug": "solution__hanover-brand-tracker-for-software-edtech",
+  "sitepath": "solution/hanover-brand-tracker-for-software-edtech/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 207032
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/quick-turn-survey/",
+  "slug": "solution__quick-turn-survey",
+  "sitepath": "solution/quick-turn-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 370902
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/rapid-insights-survey/",
+  "slug": "solution__rapid-insights-survey",
+  "sitepath": "solution/rapid-insights-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 338472
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/thought-leadership-research/",
+  "slug": "solution__thought-leadership-research",
+  "sitepath": "solution/thought-leadership-research/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 176653
+ },
+ {
+  "url": "https://www.hanoverresearch.com/solution/win-loss-analysis-support/",
+  "slug": "solution__win-loss-analysis-support",
+  "sitepath": "solution/win-loss-analysis-support/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 182192
+ },
+ {
+  "url": "https://www.hanoverresearch.com/subscribe/",
+  "slug": "subscribe",
+  "sitepath": "subscribe/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 292754
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/",
+  "slug": "testimonial",
+  "sitepath": "testimonial/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 443204
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/3pillar-global-go-to-market-strategy/",
+  "slug": "testimonial__corporate__3pillar-global-go-to-market-strategy",
+  "sitepath": "testimonial/corporate/3pillar-global-go-to-market-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 326959
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/alliance-laundry-systems/",
+  "slug": "testimonial__corporate__alliance-laundry-systems",
+  "sitepath": "testimonial/corporate/alliance-laundry-systems/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 327097
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/armstrong-flooring-product-line-survey/",
+  "slug": "testimonial__corporate__armstrong-flooring-product-line-survey",
+  "sitepath": "testimonial/corporate/armstrong-flooring-product-line-survey/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 327242
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/betterworks-sales-outreach-messaging/",
+  "slug": "testimonial__corporate__betterworks-sales-outreach-messaging",
+  "sitepath": "testimonial/corporate/betterworks-sales-outreach-messaging/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 327429
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/bic-accesses-consumer-voice/",
+  "slug": "testimonial__corporate__bic-accesses-consumer-voice",
+  "sitepath": "testimonial/corporate/bic-accesses-consumer-voice/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 325595
+ },
+ {
+  "url": "https://www.hanoverresearch.com/testimonial/corporate/blue-diamond-growers-new-business-strategies/",
+  "slug": "testimonial__corporate__blue-diamond-growers-new-business-strategies",
+  "sitepath": "testimonial/corporate/blue-diamond-growers-new-business-strategies/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 326408
+ },
+ {
+  "url": "https://www.hanoverresearch.com/the-grant-rant/",
+  "slug": "the-grant-rant",
+  "sitepath": "the-grant-rant/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 356093
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/academic-program-development/",
+  "slug": "topic__academic-program-development",
+  "sitepath": "topic/academic-program-development/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 461062
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/advancement/",
+  "slug": "topic__advancement",
+  "sitepath": "topic/advancement/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 453140
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/brand-strategy-higher-education/",
+  "slug": "topic__brand-strategy-higher-education",
+  "sitepath": "topic/brand-strategy-higher-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 456603
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/brand-strategy/",
+  "slug": "topic__brand-strategy",
+  "sitepath": "topic/brand-strategy/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 446951
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/corporate-trends/",
+  "slug": "topic__corporate-trends",
+  "sitepath": "topic/corporate-trends/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 451014
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/corporate/",
+  "slug": "topic__corporate",
+  "sitepath": "topic/corporate/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 439619
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/culture-and-climate/",
+  "slug": "topic__culture-and-climate",
+  "sitepath": "topic/culture-and-climate/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 459533
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/curriculum-instruction/",
+  "slug": "topic__curriculum-instruction",
+  "sitepath": "topic/curriculum-instruction/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 460051
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/customer-experience/",
+  "slug": "topic__customer-experience",
+  "sitepath": "topic/customer-experience/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 449369
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/district-strategic-planning/",
+  "slug": "topic__district-strategic-planning",
+  "sitepath": "topic/district-strategic-planning/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 454894
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/enrollment-community-engagement/",
+  "slug": "topic__enrollment-community-engagement",
+  "sitepath": "topic/enrollment-community-engagement/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 457593
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/enrollment-management/",
+  "slug": "topic__enrollment-management",
+  "sitepath": "topic/enrollment-management/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 460016
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/finance/",
+  "slug": "topic__finance",
+  "sitepath": "topic/finance/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 455247
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/grants-for-higher-ed-institutions/",
+  "slug": "topic__grants-for-higher-ed-institutions",
+  "sitepath": "topic/grants-for-higher-ed-institutions/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 452026
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/higher-ed-marketing/",
+  "slug": "topic__higher-ed-marketing",
+  "sitepath": "topic/higher-ed-marketing/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 458457
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/higher-ed-trends/",
+  "slug": "topic__higher-ed-trends",
+  "sitepath": "topic/higher-ed-trends/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 456084
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/higher-education/",
+  "slug": "topic__higher-education",
+  "sitepath": "topic/higher-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 454776
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/k-12-education/",
+  "slug": "topic__k-12-education",
+  "sitepath": "topic/k-12-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 454067
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/k-12-grants/",
+  "slug": "topic__k-12-grants",
+  "sitepath": "topic/k-12-grants/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 452565
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/k-12-trends/",
+  "slug": "topic__k-12-trends",
+  "sitepath": "topic/k-12-trends/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 458086
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/market-analysis/",
+  "slug": "topic__market-analysis",
+  "sitepath": "topic/market-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 447712
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/operational-planning/",
+  "slug": "topic__operational-planning",
+  "sitepath": "topic/operational-planning/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 458368
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/operations/",
+  "slug": "topic__operations",
+  "sitepath": "topic/operations/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 456935
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/product-lifecycle/",
+  "slug": "topic__product-lifecycle",
+  "sitepath": "topic/product-lifecycle/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 449874
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/program-evaluation/",
+  "slug": "topic__program-evaluation",
+  "sitepath": "topic/program-evaluation/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 460530
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/strategic-planning-governance/",
+  "slug": "topic__strategic-planning-governance",
+  "sitepath": "topic/strategic-planning-governance/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 461029
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/student-success-k-12-education/",
+  "slug": "topic__student-success-k-12-education",
+  "sitepath": "topic/student-success-k-12-education/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 461262
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/student-success/",
+  "slug": "topic__student-success",
+  "sitepath": "topic/student-success/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 461049
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/student-supports/",
+  "slug": "topic__student-supports",
+  "sitepath": "topic/student-supports/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 460416
+ },
+ {
+  "url": "https://www.hanoverresearch.com/topic/teacher-recruitment-retention/",
+  "slug": "topic__teacher-recruitment-retention",
+  "sitepath": "topic/teacher-recruitment-retention/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 463385
+ },
+ {
+  "url": "https://www.hanoverresearch.com/updated-template/pillar-page/",
+  "slug": "updated-template__pillar-page",
+  "sitepath": "updated-template/pillar-page/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/updated-template/updated-case-study-template/",
+  "slug": "updated-template__updated-case-study-template",
+  "sitepath": "updated-template/updated-case-study-template/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/updated-template/updated-gated-content-template/",
+  "slug": "updated-template__updated-gated-content-template",
+  "sitepath": "updated-template/updated-gated-content-template/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/updated-template/updated-template/",
+  "slug": "updated-template__updated-template",
+  "sitepath": "updated-template/updated-template/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 576441
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars-and-newsletters-from-hanover-grants/",
+  "slug": "webinars-and-newsletters-from-hanover-grants",
+  "sitepath": "webinars-and-newsletters-from-hanover-grants/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 294412
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/",
+  "slug": "webinars",
+  "sitepath": "webinars/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 519205
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/corporate/webinar-recording-charting-a-course-responding-to-covid-19/",
+  "slug": "webinars__corporate__webinar-recording-charting-a-course-responding-to-covid-19",
+  "sitepath": "webinars/corporate/webinar-recording-charting-a-course-responding-to-covid-19/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345417
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/corporate/webinar-recording-seeking-growth-in-pandemic-affected-markets-through-targeted-market-analysis/",
+  "slug": "webinars__corporate__webinar-recording-seeking-growth-in-pandemic-affected-markets-through-targeted-market-analysis",
+  "sitepath": "webinars/corporate/webinar-recording-seeking-growth-in-pandemic-affected-markets-through-targeted-market-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 347713
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/corporate/webinar-recording-seeking-new-growth-opportunities-through-market-analysis/",
+  "slug": "webinars__corporate__webinar-recording-seeking-new-growth-opportunities-through-market-analysis",
+  "sitepath": "webinars/corporate/webinar-recording-seeking-new-growth-opportunities-through-market-analysis/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345474
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/corporate/webinar-recording-trends-in-b2b-sales-and-marketing/",
+  "slug": "webinars__corporate__webinar-recording-trends-in-b2b-sales-and-marketing",
+  "sitepath": "webinars/corporate/webinar-recording-trends-in-b2b-sales-and-marketing/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345484
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/higher-education/a-year-in-review-how-large-universities-evolved-in-2024/",
+  "slug": "webinars__higher-education__a-year-in-review-how-large-universities-evolved-in-2024",
+  "sitepath": "webinars/higher-education/a-year-in-review-how-large-universities-evolved-in-2024/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 346944
+ },
+ {
+  "url": "https://www.hanoverresearch.com/webinars/higher-education/advanced-strategies-for-enhancing-your-proposal-narrative/",
+  "slug": "webinars__higher-education__advanced-strategies-for-enhancing-your-proposal-narrative",
+  "sitepath": "webinars/higher-education/advanced-strategies-for-enhancing-your-proposal-narrative/index.html",
+  "status": 200,
+  "ok": true,
+  "len": 345160
+ }
+]
