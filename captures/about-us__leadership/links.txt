@@ -1,2 +1,0 @@
-SPECIAL	#	https://www.hanoverresearch.com/.well-known/captcha/?y=ipc:35.239.245.65:1783959228.827&r=%2Fabout-us%2Fleadership%2F#
-INTERNAL	/.well-known/captcha/343/botdetect/?y=ipc:35.239.245.65:1783959228.827&get=sound&c=bd_captcha&t=ea27c4f154a746665c63cb8a73241c46&sid=343&s=ade1e6348f54b574422b029031d24f66	https://www.hanoverresearch.com/.well-known/captcha/343/botdetect/?y=ipc:35.239.245.65:1783959228.827&get=sound&c=bd_captcha&t=ea27c4f154a746665c63cb8a73241c46&sid=343&s=ade1e6348f54b574422b029031d24f66

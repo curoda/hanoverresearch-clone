@@ -1,0 +1,19 @@
+[
+ {
+  "slug": "about-us__leadership",
+  "desktop": {
+   "mean": 0.081,
+   "max": 0.728,
+   "bands": 9,
+   "oH": 2700,
+   "cH": 2700
+  },
+  "mobile": {
+   "mean": 9.02,
+   "max": 43.403,
+   "bands": 16,
+   "oH": 5064,
+   "cH": 5064
+  }
+ }
+]

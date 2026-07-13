@@ -1,7 +1,0 @@
-FAMILIES:
-"Times New Roman"
-Arial, "Helvetica sans-serif"
-Arial, Helvetica, sans-serif
-Arial
-
-@FONT-FACE:

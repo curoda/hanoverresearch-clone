@@ -52,24 +52,46 @@ async function solveChallenge(page, maxSec = 45) {
   for (let i = 0; i < maxSec; i++) { await page.waitForTimeout(1000); const c = await safeContent(page); if (!isChallenge(c)) return true; }
   return false;
 }
-async function gotoSolved(page, url) {
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
-  const c = await safeContent(page);
-  if (isChallenge(c)) await solveChallenge(page);
-  // wait for the real page body + substantial content (not a transitional/empty state)
+async function pageStyled(page) {
   try {
-    await page.waitForFunction(() => {
+    return await page.evaluate(() => {
       if (!document.body) return false;
+      const cs = getComputedStyle(document.body);
+      const styled = document.styleSheets.length > 40 && /lato/i.test(cs.fontFamily);
       const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
-      const hasContent = document.querySelector('footer, [data-elementor-type], .elementor, main, #content');
-      return h > 800 && !!hasContent;
-    }, { timeout: 30000 });
-  } catch (e) { }
+      return styled && h > 800 && !!document.querySelector('footer, [data-elementor-type], .elementor');
+    });
+  } catch (e) { return false; }
+}
+async function gotoSolved(page, url) {
+  const clone = !/hanoverresearch\.com/.test(url);
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
+    } catch (e) { await page.waitForTimeout(1500); continue; }
+    const c = await safeContent(page);
+    if (isChallenge(c)) await solveChallenge(page);
+    // wait for the real page body + FULLY STYLED content (before CSS applies, JetMenu renders as a
+    // tall unstyled list in Times New Roman; styled -> many stylesheets + Lato body font).
+    try {
+      await page.waitForFunction(() => {
+        if (!document.body) return false;
+        const cs = getComputedStyle(document.body);
+        const styled = document.styleSheets.length > 40 && /lato/i.test(cs.fontFamily);
+        const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+        return styled && h > 800 && !!document.querySelector('footer, [data-elementor-type], .elementor, main, #content');
+      }, { timeout: clone ? 20000 : 25000 });
+    } catch (e) { }
+    if (await pageStyled(page)) return true;
+    await page.waitForTimeout(1500); // rate-limit backoff before retry
+  }
+  return await pageStyled(page);
 }
 async function autoScroll(page) {
   await page.evaluate(async () => {
-    await new Promise(res => { let y = 0; const t = setInterval(() => { window.scrollBy(0, 700); y += 700; if (y > document.body.scrollHeight + 1500) { clearInterval(t); res(); } }, 90); });
-  });
+    if (!document.body) return;
+    await new Promise(res => { let y = 0; const t = setInterval(() => { const h = document.body ? document.body.scrollHeight : 0; window.scrollBy(0, 700); y += 700; if (y > h + 1500) { clearInterval(t); res(); } }, 90); });
+  }).catch(() => {});
   await page.waitForTimeout(1200);
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(400);
@@ -84,6 +106,21 @@ async function autoScroll(page) {
     }, { timeout: 6000 });
   } catch (e) {}
   await page.waitForTimeout(2000);
+}
+async function dismissBanners(page) {
+  // Remove the Termly cookie-consent banner so captures are consistent (a returning visitor
+  // does not see it). Applied identically to origin and clone captures.
+  try {
+    await page.evaluate(() => {
+      document.querySelectorAll('[class*="termly-styles-"]').forEach(el => {
+        // remove the outermost fixed banner container
+        let n = el; for (let i = 0; i < 6 && n.parentElement; i++) { if (getComputedStyle(n).position === 'fixed') break; n = n.parentElement; }
+        (n || el).remove();
+      });
+      document.querySelectorAll('#termly-code-snippet-support, [id^="termly"]').forEach(e => e.remove());
+    });
+  } catch (e) {}
+  await page.waitForTimeout(300);
 }
 function downscaleAndReport(file) {
   try { execSync(`mogrify -resize ${MAXPX}x${MAXPX}\\> ${JSON.stringify(file)}`); } catch (e) {}
@@ -212,12 +249,15 @@ async function captureOne(context, job, outbase, spec, screenshotsOnly) {
   const loaded = new Set();
   page.on('response', r => { const u = r.url(); if (/\.(css|js|png|jpe?g|svg|webp|gif|woff2?|ttf|otf|mp4|webm|ico)(\?|$)/i.test(u) && u.includes('hanoverresearch.com') && r.status() < 400) loaded.add(u.split('#')[0]); });
   console.log(`  [${job.slug}] ${job.url}`);
-  await gotoSolved(page, job.url);
+  const ready = await gotoSolved(page, job.url);
+  if (!ready) { console.log(`    WARN [${job.slug}] not fully styled after retries`); }
   await page.waitForLoadState('networkidle', { timeout: 45000 }).catch(() => { });
   await autoScroll(page);
+  await dismissBanners(page);
   // desktop then mobile
   await segmentCapture(page, VIEWPORTS.desktop, outdir, 'desktop');
   await autoScroll(page);
+  await dismissBanners(page);
   await segmentCapture(page, VIEWPORTS.mobile, outdir, 'mobile');
   await page.setViewportSize(VIEWPORTS.desktop);
   if (!screenshotsOnly) {
@@ -250,6 +290,7 @@ async function captureOne(context, job, outbase, spec, screenshotsOnly) {
   for (const job of jobs) {
     try { await captureOne(context, job, o.outbase, o.spec, screenshotsOnly); ok++; }
     catch (e) { console.log(`  FAIL [${job.slug}]: ${e.message}`); fail++; }
+    if (!o.nowarm) await new Promise(r => setTimeout(r, 2500)); // inter-page backoff (origin rate-limit)
   }
   console.log(`DONE. ok=${ok} fail=${fail}`);
   await browser.close();
