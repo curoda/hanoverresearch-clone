@@ -35,7 +35,7 @@ function toAbs(ref){
     else return null; // skip relative (handled per-css)
     const u = new URL(abs);
     if(!/(^|\.)hanoverresearch\.com$/.test(u.hostname)) return null;
-    if(u.hostname!=='www.hanoverresearch.com') return null; // only www; subdomains are 3rd-party
+    if(u.hostname!=='www.hanoverresearch.com' && u.hostname!=='hanoverresearch.com') return null; // only main domain
     if(!isAssetPath(u.pathname)) return null; // skip page/link URLs
     return u;
   }catch(e){ return null; }
