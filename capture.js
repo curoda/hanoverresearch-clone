@@ -42,6 +42,7 @@ function args() {
     else if (a[i] === '--live') o.live = a[++i];
     else if (a[i] === '--outbase') o.outbase = a[++i];
     else if (a[i] === '--spec') o.spec = true;
+    else if (a[i] === '--nowarm') o.nowarm = true;
   }
   return o;
 }
@@ -55,6 +56,15 @@ async function gotoSolved(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
   const c = await safeContent(page);
   if (isChallenge(c)) await solveChallenge(page);
+  // wait for the real page body + substantial content (not a transitional/empty state)
+  try {
+    await page.waitForFunction(() => {
+      if (!document.body) return false;
+      const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+      const hasContent = document.querySelector('footer, [data-elementor-type], .elementor, main, #content');
+      return h > 800 && !!hasContent;
+    }, { timeout: 30000 });
+  } catch (e) { }
 }
 async function autoScroll(page) {
   await page.evaluate(async () => {
@@ -63,6 +73,17 @@ async function autoScroll(page) {
   await page.waitForTimeout(1200);
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(400);
+  // ensure webfonts are fully loaded before any screenshot (avoids fallback-weight flashes)
+  try { await page.evaluate(() => document.fonts && document.fonts.ready); } catch (e) {}
+  // let Elementor swiper loop-carousels finish initialising (they lay out 1-up until init,
+  // which otherwise inflates page height and misaligns segments)
+  try {
+    await page.waitForFunction(() => {
+      const s = [...document.querySelectorAll('.elementor-loop-container.swiper, .elementor-main-swiper.swiper')];
+      return s.length === 0 || s.filter(x => x.querySelectorAll('.swiper-slide').length > 0).every(x => x.classList.contains('swiper-initialized'));
+    }, { timeout: 6000 });
+  } catch (e) {}
+  await page.waitForTimeout(2000);
 }
 function downscaleAndReport(file) {
   try { execSync(`mogrify -resize ${MAXPX}x${MAXPX}\\> ${JSON.stringify(file)}`); } catch (e) {}
@@ -73,7 +94,7 @@ function downscaleAndReport(file) {
 async function segmentCapture(page, vp, outdir, tag) {
   await page.setViewportSize(vp);
   await page.waitForTimeout(500);
-  const total = await page.evaluate(() => document.body.scrollHeight);
+  const total = await page.evaluate(() => Math.max(document.body ? document.body.scrollHeight : 0, document.documentElement.scrollHeight));
   const step = vp.height; // step by HEIGHT (never width)
   let n = 0; const files = [];
   for (let y = 0; y < total; y += step) {
@@ -217,11 +238,13 @@ async function captureOne(context, job, outbase, spec, screenshotsOnly) {
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ ignoreHTTPSErrors: true, userAgent: UA, viewport: VIEWPORTS.desktop, deviceScaleFactor: 1 });
-  // warm up the challenge once
-  const warm = await context.newPage();
-  console.log('Warming up challenge...');
-  await gotoSolved(warm, HOME);
-  await warm.close();
+  // warm up the challenge once (skip for clone/live captures that aren't behind sgcaptcha)
+  if (!o.nowarm) {
+    const warm = await context.newPage();
+    console.log('Warming up challenge...');
+    await gotoSolved(warm, HOME);
+    await warm.close();
+  }
 
   let ok = 0, fail = 0;
   for (const job of jobs) {

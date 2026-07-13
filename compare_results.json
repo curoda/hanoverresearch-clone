@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "higher-education",
+  "tag": "desktop",
+  "segs": 13,
+  "mean": 14.572,
+  "max": 54.739
+ },
+ {
+  "slug": "higher-education",
+  "tag": "mobile",
+  "segs": 20,
+  "mean": 23.895,
+  "max": 33.922
+ }
+]

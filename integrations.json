@@ -1,0 +1,51 @@
+{
+ "version": 1,
+ "source_url": "https://www.hanoverresearch.com/",
+ "items": [
+  {
+   "type": "contact_form",
+   "page_url": "https://www.hanoverresearch.com/contact-us/",
+   "page_path": "site/contact-us/index.html",
+   "selector": "div.elementor-widget-html script + form, .hbspt-form",
+   "label": "Contact Us form (HubSpot)",
+   "original_target": "HubSpot Forms API — hbspt.forms.create({portalId:\"3409306\", formId:\"024d9e13-92d9-4213-9551-0b7b6be7e31a\"})",
+   "notes": "Rendered client-side by HubSpot's js.hsforms.net embed and submits to Hanover's HubSpot portal 3409306; on the clone it either posts to the original owner's HubSpot or is inert. A new owner needs their own HubSpot portal/form (or a form endpoint/mailto)."
+  },
+  {
+   "type": "subscribe_form",
+   "page_url": "https://www.hanoverresearch.com/hanover-research-newsletter-sign-up/",
+   "page_path": "site/hanover-research-newsletter-sign-up/index.html",
+   "selector": ".hbspt-form, div.elementor-widget-html script",
+   "label": "Newsletter / subscribe form (HubSpot)",
+   "original_target": "HubSpot Forms API — hbspt.forms.create({portalId:\"3409306\", formId:\"f44983c0-d98b-4380-b5a1-6696c1623e5d\"})",
+   "notes": "Same HubSpot newsletter form recurs site-wide (footer and /subscribe/). Renders via HubSpot embed JS and posts to Hanover's HubSpot portal; needs the owner's own HubSpot form or an email-list endpoint."
+  },
+  {
+   "type": "other_dynamic",
+   "page_url": "https://www.hanoverresearch.com/become-a-client/",
+   "page_path": "site/become-a-client/index.html",
+   "selector": ".hbspt-form, div.elementor-widget-html script",
+   "label": "Become a Client / request-a-demo form (HubSpot)",
+   "original_target": "HubSpot Forms API — hbspt.forms.create({portalId:\"3409306\", formId:\"872382ed-bbb5-463c-b275-ba9c738abfd9\"})",
+   "notes": "Lead/demo-request form embedded from HubSpot; posts to Hanover's HubSpot portal 3409306. Needs the owner's own HubSpot portal/form to capture leads."
+  },
+  {
+   "type": "other_dynamic",
+   "page_url": "https://www.hanoverresearch.com/reports-and-briefs/corporate/2019-bottled-water-market-report/",
+   "page_path": "site/reports-and-briefs/corporate/2019-bottled-water-market-report/index.html",
+   "selector": ".hbspt-form, div.elementor-widget-html script",
+   "label": "Gated content download form (HubSpot) — report/resource pages",
+   "original_target": "HubSpot Forms API — hbspt.forms.create({portalId:\"3409306\", formId:\"c3dff425-806c-450a-a384-d814ed6352af\"}) (formId varies per report/resource)",
+   "notes": "Gated-asset download forms appear on report/brief/toolkit/resource pages, each with its own HubSpot formId, all under portal 3409306. Renders via HubSpot embed and gates a file download; needs the owner's own HubSpot form + asset delivery."
+  },
+  {
+   "type": "search",
+   "page_url": "https://www.hanoverresearch.com/",
+   "page_path": "site/index.html",
+   "selector": "form.elementor-search-form",
+   "label": "Site search (Elementor + SearchWP)",
+   "original_target": "GET https://www.hanoverresearch.com/?s=<query> (WordPress/SearchWP search)",
+   "notes": "Site search box appears in the header on every page. On the static clone the form action was neutralised (empty action) so it returns no results page; needs a real search backend or a hosted search service to function."
+  }
+ ]
+}

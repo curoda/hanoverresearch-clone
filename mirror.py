@@ -63,6 +63,15 @@ def force_show(text):
         new = text.replace('<body', '<body class="abst-show-page"', 1)
     return new
 
+CLONE_FIX_TAG = '<script src="/clone-fixes.js"></script>'
+
+def inject_fixes(text):
+    if CLONE_FIX_TAG in text:
+        return text
+    if '</body>' in text:
+        return text.replace('</body>', CLONE_FIX_TAG + '</body>', 1)
+    return text + CLONE_FIX_TAG
+
 def main():
     pages = json.load(open('pages.json'))
     built = 0
@@ -73,12 +82,38 @@ def main():
         text = open(raw_file, encoding='utf-8').read()
         text = rewrite(text)
         text = force_show(text)
+        text = inject_fixes(text)
         out = os.path.join('site', p['sitepath'])
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, 'w', encoding='utf-8') as f:
             f.write(text)
         built += 1
     print(f'built {built} pages')
+    rewrite_css()
+
+
+def rewrite_css():
+    """Rewrite absolute origin URLs in every downloaded CSS file to root-relative so
+    fonts/images load from the clone (not from the sgcaptcha-protected origin)."""
+    n = 0
+    for root, _dirs, files in os.walk('site'):
+        for fn in files:
+            if not fn.endswith('.css'):
+                continue
+            fp = os.path.join(root, fn)
+            try:
+                css = open(fp, encoding='utf-8', errors='ignore').read()
+            except Exception:
+                continue
+            orig = css
+            for pat in ORIGIN_PATTERNS:
+                css = css.replace(pat, '')
+            css = collapse_wp_slashes(css)
+            if css != orig:
+                with open(fp, 'w', encoding='utf-8') as f:
+                    f.write(css)
+                n += 1
+    print(f'rewrote {n} css files')
 
 if __name__ == '__main__':
     main()
