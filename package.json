@@ -1,0 +1,23 @@
+{
+  "name": "hanoverresearch-clone",
+  "version": "1.0.0",
+  "description": "Static, deployable mirror of https://www.hanoverresearch.com/ (WordPress + Elementor + JetMenu).",
+  "main": "audit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://x-access-token:ANTHROPIC_SECRET_PLACEHOLDER_1cbc112f9cca99470e5d6a4d3256851e@github.com/curoda/hanoverresearch-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curoda/hanoverresearch-clone/issues"
+  },
+  "homepage": "https://github.com/curoda/hanoverresearch-clone#readme",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}
