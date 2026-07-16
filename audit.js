@@ -31,8 +31,9 @@ function slugToPath(sp){ return '/' + sp.replace(/index\.html$/, ''); }
   const findings = [];
   const checkpoints = [];
   const page = await context.newPage();
-  page.on('response', r => { const s=r.status(); if(s>=400){ const u=r.url(); findings.push({page:page.url(), url:u, status:s, kind: u.includes(CLONE_HOST)?'CLONE':'THIRD-PARTY'}); } });
-  page.on('requestfailed', r => { const u=r.url(); const err=(r.failure()&&r.failure().errorText)||''; if(/net::ERR_ABORTED/.test(err)) return; findings.push({page:page.url(), url:u, status:'FAILED:'+err, kind: u.includes(CLONE_HOST)?'CLONE':'THIRD-PARTY'}); });
+  const hostOf=u=>{try{return new URL(u).host}catch(e){return ''}};
+  page.on('response', r => { const s=r.status(); if(s>=400){ const u=r.url(); findings.push({page:page.url(), url:u, status:s, kind: hostOf(u)===CLONE_HOST?'CLONE':'THIRD-PARTY'}); } });
+  page.on('requestfailed', r => { const u=r.url(); const err=(r.failure()&&r.failure().errorText)||''; if(/net::ERR_ABORTED/.test(err)) return; findings.push({page:page.url(), url:u, status:'FAILED:'+err, kind: hostOf(u)===CLONE_HOST?'CLONE':'THIRD-PARTY'}); });
 
   let i=0;
   for(const p of sample){

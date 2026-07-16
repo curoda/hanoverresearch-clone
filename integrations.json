@@ -39,6 +39,15 @@
    "notes": "Gated-asset download forms appear on report/brief/toolkit/resource pages, each with its own HubSpot formId, all under portal 3409306. Renders via HubSpot embed and gates a file download; needs the owner's own HubSpot form + asset delivery."
   },
   {
+   "type": "subscribe_form",
+   "page_url": "https://www.hanoverresearch.com/webinars/k-12-education/turning-strategy-into-action-effective-approaches-to-strategic-planning/",
+   "page_path": "site/webinars/k-12-education/turning-strategy-into-action-effective-approaches-to-strategic-planning/index.html",
+   "selector": ".hbspt-form, div.elementor-widget-html script",
+   "label": "Webinar registration / recording-access form (HubSpot) — webinar & podcast pages",
+   "original_target": "HubSpot Forms API — hbspt.forms.create({portalId:\"3409306\", formId:\"2b25e781-d69f-4b69-a35d-83557d3631cc\"}) (formId varies per webinar/podcast)",
+   "notes": "Every webinar page (and the podcast pages) embeds a HubSpot form to register for / unlock the on-demand recording, each with its own formId under portal 3409306. Renders client-side from js.hsforms.net and submits to Hanover's HubSpot portal; on the clone it is inert and needs the owner's own HubSpot form + gated media delivery. Some webinars also link out to hanoverresearch.zoom.us (external, kept as-is)."
+  },
+  {
    "type": "search",
    "page_url": "https://www.hanoverresearch.com/",
    "page_path": "site/index.html",

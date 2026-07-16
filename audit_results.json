@@ -1,44 +1,19 @@
 {
  "base": "https://hanoverresearch-clone.vercel.app",
- "pagesAudited": 40,
+ "pagesAudited": 60,
  "vercelCheckpointPages": 0,
- "cloneDefects": [
-  {
-   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
-   "url": "https://hanoverresearch-clone.vercel.app/autoremarketingmetrics/",
-   "status": 404,
-   "kind": "CLONE"
-  },
-  {
-   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
-   "url": "https://servedby.cherokeemediagroup2.com/zdisplay/188702.js?b=c992780,a1441996,c984415,a1430348,c969267,a1405938,c987316,a1428547&skw=true&ts=1784225753203&domain=hanoverresearch-clone.vercel.app&path=%2Fnews%2Fcorporate%2Fhttps-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&url=https%3A%2F%2Fhanoverresearch-clone.vercel.app%2Fnews%2Fcorporate%2Fhttps-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&os=Linux&browser=chrome&is_mobile=&target=street-wMcimu3AOKyHWIXG",
-   "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
-   "kind": "CLONE"
-  },
-  {
-   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
-   "url": "https://hanoverresearch-clone.vercel.app/cdn-cgi/rum/",
-   "status": 404,
-   "kind": "CLONE"
-  }
- ],
+ "cloneDefects": [],
  "thirdParty": [
   {
-   "page": "https://hanoverresearch-clone.vercel.app/insights-blog/corporate/hanover-in-fundraising-success-5-ways-data-can-enhance-your-donor-focused-fundraising/",
+   "page": "https://hanoverresearch-clone.vercel.app/corporate/market-analysis-solutions/market-entry/",
    "url": "https://app.qualified.com/w/1/JkmcYGLEZdzQCG5E/sentry/proxy",
    "status": 403,
    "kind": "THIRD-PARTY"
   },
   {
-   "page": "https://hanoverresearch-clone.vercel.app/insights-blog/corporate/hanover-in-fundraising-success-5-ways-data-can-enhance-your-donor-focused-fundraising/",
+   "page": "https://hanoverresearch-clone.vercel.app/corporate/market-analysis-solutions/market-entry/",
    "url": "https://epsilon.6sense.com/v3/company/details",
    "status": 403,
-   "kind": "THIRD-PARTY"
-  },
-  {
-   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
-   "url": "https://www.autoremarketing.com/wp-admin/admin-ajax.php?action=alm_get_posts&query_type=standard&id=&post_id=68416&slug=repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools&canonical_url=https%3A%2F%2Fwww.autoremarketing.com%2Far%2Fretail%2Frepairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&posts_per_page=3&page=0&offset=0&original_offset=0&post_type=ar&repeater=default&seo_start_page=1&order=DESC&orderby=date&post__not_in=68416&currentPage=1",
-   "status": "FAILED:net::ERR_FAILED",
    "kind": "THIRD-PARTY"
   }
  ]

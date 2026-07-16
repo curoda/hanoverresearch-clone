@@ -3,29 +3,47 @@
 Live clone: https://hanoverresearch-clone.vercel.app
 Source: https://www.hanoverresearch.com/ (WordPress + Elementor 4.1.4 + JetMenu, HubSpot forms, SiteGround host)
 
-## Scope (pragmatic decision for a 1,858-URL enterprise site)
-The Yoast sitemap enumerates 1,858 same-domain URLs, of which ~1,650 are individual
-templated content items (news 472, testimonials 290, insights-blog 285, reports-and-briefs 275,
-webinars 182, case-studies 83, podcasts 51, press-releases 16). Mirroring every one would be
-gigabytes of unique images and is not the intent of a visual clone.
+## Scope — FULL mirror of every same-domain page
+The Yoast sitemap enumerates **1,859 same-domain URLs**. All were fetched. **1,444 are genuine
+Hanover-hosted pages and are mirrored in full**; the remaining 415 are not Hanover content (see
+below) and are correctly not mirrored.
 
-**Mirrored in full (256 URLs, 251 successfully built):** the complete navigable marketing site —
-homepage, every top-level and nested marketing/service page (page-sitemap), all taxonomy/topic/
-organization-type/expertise/solution/industry hubs, all resource pages, the 8 post-type archive
-pages, and a representative sample (~6 each) of every templated post type so the shared templates
-are faithfully reproduced. The full 1,858-URL inventory is preserved in `urls_all.txt`.
+**Mirrored (1,444 pages):** the complete navigable marketing site (homepage, every top-level/nested
+marketing & service page, all taxonomy/topic/organization-type/expertise/solution/industry hubs,
+all resource pages, the 8 post-type archives, 5 JetMenu mega-menu items) **plus every individual
+templated post**: testimonials 290, insights-blog 277, reports-and-briefs 275, webinars 182,
+case-studies 83, podcasts 51, press-releases 16, and the 65 genuinely Hanover-authored news posts.
+Each page ships its rendered HTML + all same-domain assets, with the same fixes as the rest of the
+mirror (asset/link URL rewrite incl. escaped-slash Elementor JS base, self-hosted fonts CSS `url()`
+rewrite, forced `abst-show-page`, clone-fixes.js). Mirrored in ~230-URL batches with a **1s delay
+between every origin request** (and a block-abort guard) to stay under SiteGround's sgcaptcha rate
+limiter; no block was hit.
 
-**Not individually mirrored:** the ~1,650 remaining templated posts. Their shared template is
-represented by the captured samples. Internal links from archive pages to non-mirrored posts will
-404 on the clone (they are inventoried in `urls_all.txt`). This is a deliberate scope boundary, not
-a rendering defect.
+**Not mirrored (415 URLs — not Hanover content, faithfully excluded):**
+- **348 "news" items are external press-coverage** of Hanover on third-party publishers. On the
+  origin they either HTTP 301-redirect to the publisher (globenewswire.com, k12dive.com, inside-
+  highered.com, businesswire.com, forbes.com, venturebeat.com, cfo.com, itbrief.*, etc.) or the
+  origin proxy-serves the external article's raw HTML (no Hanover header/nav/footer/GTM, e.g.
+  autoremarketing.com, bworldonline.com). Per the same-domain / don't-scrape-external rule these
+  are treated as external and not cloned. Detection: a genuine Hanover page always carries the site
+  GTM id (`GTM-5BPF5XC`); anything the origin serves without it (or that 3xx-redirects off-domain)
+  is external. `batch_fetch.js` refuses to save non-Hanover bodies and does not follow off-domain
+  redirects (it inspects `Location` and only follows same-domain hops).
+- **41 news URLs 403 on the origin** and **26 URLs (mostly old insights-blog `/general/` posts and a
+  few news) 404 on the origin** — source-side, left missing (see below). The original task-flagged 5
+  (beckers-asc-review*, ai-magazine*, business-insider*) are among the external press-coverage set.
+
+The full 1,859-URL inventory is preserved in `urls_all.txt`; `urls.txt` lists the 1,444 mirrored
+pages; `pages.json` records every URL with its status/classification (`ok`, or note `EXTERNAL` /
+`http403` / `http404`).
 
 ## Manual handling (dynamic features — see integrations.json)
-- **HubSpot forms (portal 3409306)** on ~199 pages: contact form (/contact-us/), newsletter/subscribe
+- **HubSpot forms (portal 3409306)** on many pages: contact form (/contact-us/), newsletter/subscribe
   (footer + /subscribe/ + /hanover-research-newsletter-sign-up/), "become a client"/demo request,
-  and gated-content download forms on report/toolkit/resource pages. They render client-side from
-  js.hsforms.net (kept external) and submit to Hanover's HubSpot portal. On the clone they either
-  post to the original owner's HubSpot or are inert; a new owner needs their own HubSpot portal/form.
+  gated-content download forms on report/brief/toolkit/resource pages, and webinar/podcast
+  registration-to-view forms. They render client-side from js.hsforms.net (kept external) and submit
+  to Hanover's HubSpot portal. On the clone they either post to the original owner's HubSpot or are
+  inert; a new owner needs their own HubSpot portal/form.
 - **Site search** (Elementor + SearchWP): header search box on every page. Its form action was
   neutralised (empty action) on the static host, so it returns no results. Needs a real search backend.
 - **Zoom webinar registration** links (hanoverresearch.zoom.us) and **Workday careers** listings
@@ -35,13 +53,20 @@ a rendering defect.
   CDNs with original IDs preserved; they send no meaningful data from the clone domain.
 
 ## Source-side issues (reproduced faithfully — NOT clone defects)
-- 5 "news" sample URLs (/news/corporate/beckers-asc-review-*, /news/corporate/ai-magazine-*, etc.)
-  are external press-coverage redirects: on the origin they 301/403 to third-party publishers
-  (beckersasc.com, aimagazine.com, businessinsider.com). They are not Hanover-hosted pages and are
-  left out of the mirror (documented external redirects).
-- Two images 404 on the ORIGIN and are left missing (no placeholder substituted):
-  `/wp-content/uploads/2017/12/Puzzlepieces_720x390-002-300x163.jpg` and
-  `/wp-content/plugins/bb-bt-ab/img/split-conversion.svg`.
+- **External press-coverage news** (348 URLs) — external redirects/proxied third-party articles,
+  excluded as external content (detailed under Scope above).
+- **26 URLs 404 on the ORIGIN** (old insights-blog `/general/` healthcare-news-digest posts, a few
+  news) and **41 news URLs 403 on the origin** — left out, not cloned.
+- **30 distinct image/asset URLs 404 on the ORIGIN** and are left missing (no placeholder
+  substituted). These are old blog thumbnails (2016–2018 `/uploads/`), a few favicon `?v=3`
+  variants, and relative asset paths embedded inside proxied external-article bodies (`/media/k2/`,
+  `/_next/`, `/cdn-cgi/`) that never resolved on hanoverresearch.com. Includes the two originally
+  flagged: `/wp-content/uploads/2017/12/Puzzlepieces_720x390-002-300x163.jpg` and
+  `/wp-content/plugins/bb-bt-ab/img/split-conversion.svg`. Full list in `missing_assets_report.txt`
+  (all under "KNOWN SOURCE-SIDE 404"). `asset_integrity.py` confirms **0 clone-side missing assets**
+  across all 1,444 pages.
+- `/careers/jobs/` 301-redirects to Workday on the origin; the clone serves a faithful redirect
+  stub to `hanoverresearch.wd5.myworkdayjobs.com/HanoverResearch` (no external content scraped).
 - `/wp-content/newsletter/newsletter.php` is a dynamic PHP endpoint (not a static asset); not mirrored.
 
 ## Clone-side fixes applied during Phase 6
@@ -56,12 +81,30 @@ a rendering defect.
   re-initialises only the uninitialised loop swipers using each widget's own data-settings
   (slidesPerView/spacing/loop/autoplay/arrows/pagination), matching the origin. (Fixes hub-page
   "Research & Insights" carousels + page height.)
+- **Elementor dynamically-imported JS modules (site-wide fix):** Elementor loads widget modules
+  (loop-carousel, counter, nested-tabs/carousel, video, lightbox, share-buttons, form, toggle,
+  search-form, nav-menu, load-more, ajax-pagination, media-carousel, animated-headline, etc.) via
+  runtime `import()` built from `urls.assets` — so they never appear in the HTML and the HTML asset
+  scanner never captured them (true in the prior session too). They 404'd on the clone, leaving
+  those widgets' interactivity dead. **Fixed:** parsed the two webpack runtime chunk maps
+  (`webpack.runtime.min.js`, `webpack-pro.runtime.min.js`) to enumerate all 69 module bundles + the
+  Elementor conditional CSS (dialog/lightbox) and lib JS (dialog, share-link), and downloaded all 73
+  from the origin into `site/wp-content/...`. Now every Elementor widget's JS loads natively.
+  (`download_list.js`, verified 0 module 404s in the local audit.)
+- **Gallery `data-thumbnail` images:** Elementor image-galleries reference thumbnails via
+  `data-thumbnail` (not `src`), which the asset scanner didn't read. 3 such images on
+  `/careers/` + `/careers/social-impact/` (200 on the origin) were missing; downloaded. Scanner
+  (`batch_assets.js`, `asset_integrity.py`) now includes `data-thumbnail`/gallery attrs.
 
 ## Infrastructure note
-- GitHub: the GitHub credential provisioned to this session returned "Bad credentials" for both the
-  REST API and git push across every auth form attempted (the Vercel token worked normally). The
-  full repository (pipeline scripts, raw HTML, built site, tooling, integrations.json) is committed
-  to a local git repository ready to push the moment valid GitHub auth is available; see REPO line.
+- GitHub push now works; the full repository (pipeline scripts, raw HTML, built site, tooling,
+  integrations.json) is committed and pushed to https://github.com/curoda/hanoverresearch-clone
+  incrementally, one commit per batch.
+- Vercel's edge **DDoS "Security Checkpoint"** (Attack Challenge Mode) intermittently returns a 403
+  challenge page to high-volume automated requests; it was disabled via the Vercel API and the live
+  clone serves 200 to normal visitors. Automated verification (capture/audit) uses ≥1s spacing to
+  stay under it; any residual checkpoint hit is detected and reported separately by `audit.js`
+  (never counted as a clone defect).
 
 ## Phase-6 comparison summary
 Objective comparison used a committed offset-tolerant tool (compare_native.js: stitches origin +
@@ -80,10 +123,13 @@ bands) are **entirely dynamic-content timing**, not layout/font/image defects:
   - animated stat counters (CountUp) captured at different values;
   - the AJAX-loaded Elementor promo popup (below) present on origin captures, absent on the static clone;
   - the Termly cookie-consent banner (shown to first-time visitors).
-No HIGH or MEDIUM discrepancies remained after the fixes below. Per-type pages verified pixel-faithful:
+No HIGH or MEDIUM discrepancies remained after the fixes. Per-type pages verified pixel-faithful:
 home, about-us (+leadership/culture), corporate hub, higher-education hub, k-12-education hub +
-grants, expertise/surveys, archives (insights-blog, case-studies, reports-and-briefs), and a
-report/blog template; mobile hamburger (JetMenu/Elementor) opens identically.
+grants, expertise/surveys, archives (insights-blog, case-studies, reports-and-briefs), and — this
+session — individual templated posts (case-study `cdk-global` origin-vs-clone above-the-fold diff
+mean 0.65/255; report, webinar, podcast, testimonial, press-release, insights-blog posts render
+with correct Lato fonts, hero image, breadcrumb, sidebar CTAs, share icons). Mobile hamburger
+(JetMenu/Elementor) opens identically.
 
 ### Additional dynamic feature (Manual handling)
 - **Elementor Pro promo popup** ("Turn Cost Data Into Action", scroll-triggered) is loaded via
@@ -91,28 +137,29 @@ report/blog template; mobile hamburger (JetMenu/Elementor) opens identically.
   clone. Minor promotional element; would need the popup markup + a trigger to reproduce.
 
 ## Audit (audit.js against the live clone)
-- Pre-fix audit flagged many `net::ERR_BLOCKED_BY_ORB` requests to
-  `www.hanoverresearch.com/wp-content/plugins/elementor*/assets/js/*.js` — Elementor's dynamically
-  imported JS modules (loop-carousel, counter, nested-tabs, toggle, popup, form, video, gallery,
-  carousel, share-buttons, etc.). Root cause: the inline `elementorFrontendConfig` set `urls.assets`
-  to a JSON-escaped ABSOLUTE origin URL (`https:\/\/www.hanoverresearch.com\/...`) that the initial
-  rewrite missed. **Fixed** by also rewriting escaped-slash origin URLs in mirror.py; post-fix a
-  live check shows 0 requests to the origin and 0 blocked wp-content requests, and Elementor loop
-  carousels now initialise natively on the clone (verified). This was the underlying cause of the
-  earlier loop-carousel stacking; clone-fixes.js remains as a harmless safety net.
+- `audit.js` loads a spread sample of live pages, logs every response ≥400 and every requestfailed,
+  classifies each by HOST (clone vs third-party), and reports Vercel-checkpoint hits separately.
+  Env: `AUDIT_BASE`, `AUDIT_DELAY_MS` (≥1s to Vercel), `AUDIT_SAMPLE=N` (even spread across all pages).
+- **Final live audit (60-page spread): 0 clone-side ≥400/failed, 0 checkpoint hits.** A full local
+  audit (serving `site/`, no checkpoint noise) plus `asset_integrity.py` over **all 1,444 pages**
+  confirm **0 clone-side missing assets** (only the 30 known source-side 404s remain missing).
 - Remaining audit findings are all THIRD-PARTY / source-side (expected, not clone defects):
-  6sense (403), Qualified (403), Vimeo player + Cloudflare Turnstile (401 — video embed auth),
-  and 503s from www.advanced-television.com (an external publisher referenced by /news items).
+  6sense (403), Qualified (403), and analytics/ad beacons; plus, on the (now-excluded) proxied
+  external-article pages, the publishers' own ad/tag endpoints.
 
-## Per-pass log (Phase 6)
-- Pass 1 — fonts: rewrite CSS `url()` (Lato self-hosted) → header/hero band diff 2% → 0.00%.
-- Pass 2 — blank pages: force `abst-show-page` on <body> (A/B-test opacity:0 hide) → pages visible.
-- Pass 3 — Elementor dynamic JS: rewrite escaped-slash origin URLs → carousels/counters/tabs/popups
-  load + run from the clone; loop-carousel re-init safety net (clone-fixes.js).
-- Capture/verify hardening: styling-readiness wait (avoid unstyled JetMenu captures), font/ swiper
-  settle, cookie-banner + AJAX-popup dismissal, offset-tolerant compare_native.js.
-- Stopping condition met: no HIGH or MEDIUM remain (LOW-only: dynamic-content timing). Manual-handling
-  items (HubSpot forms, search, promo popup) do not block stopping.
-- Note: near the end both the origin (SiteGround sgcaptcha) and the clone host (Vercel edge
-  DDoS "Security Checkpoint") rate-limited this sandbox's high automated-request volume; a normal
-  browser visitor is unaffected (deployment protection is disabled; homepage serves 200).
+## Per-pass log
+- Prior session (samples): font CSS `url()` rewrite; force `abst-show-page`; escaped-slash Elementor
+  JS base rewrite; clone-fixes.js carousel re-init. Verified templates pixel-faithful.
+- This session (full mirror of remaining ~1,650 templated posts):
+  - Pass A — batch mirror all remaining URLs in 7 × ~230-URL batches, 1s/request origin spacing,
+    per-batch block-abort. 1,444 genuine pages built; committed+pushed per batch. No rate-limit block hit.
+  - Pass B — external-content correctness: discovered `context.request` was silently following news
+    external redirects and cloning third-party pages; rewrote the fetcher to not follow off-domain
+    redirects and to refuse non-Hanover bodies (GTM-id keyed); removed 35 external-content news pages.
+  - Pass C — site-wide asset completeness: `asset_integrity.py` + local `audit.js` found the
+    Elementor dynamically-imported JS module bundles (73) and 3 gallery `data-thumbnail` images were
+    missing (never in HTML / never scanned). Downloaded all from origin; re-audit clean.
+  - Redeployed after each material change; final live audit 0 clone defects.
+- Stopping condition met: no HIGH or MEDIUM remain (0 clone-side defects; LOW-only = dynamic-content
+  timing on carousels/counters + third-party analytics). Manual-handling items (HubSpot forms,
+  search, promo popup) do not block stopping.
