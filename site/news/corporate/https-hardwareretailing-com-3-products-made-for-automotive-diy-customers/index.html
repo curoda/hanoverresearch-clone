@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://hardwareretailing.com/xmlrpc.php" />
+<meta property="og:title" content="3 Products Made for Automotive DIY Customers - Hardware Retailing"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="DIYers are now more likely to work on their vehicles to either save money or as a hobby, according t"/>
+<meta property="og:url" content="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/"/>
+<meta property="og:site_name" content="Hardware Retailing"/>
+<meta property="og:image" content="https://hardwareretailing.com/wp-content/uploads/2025/04/AdobeStock_366151302-660x330.jpeg" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.0 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>3 Products Made for Automotive DIY Customers | Hardware Retailing</title>
+	<meta name="description" content="To keep your shelves stocked for automotive DIYers, consider stocking these products from Forney Industries." />
+	<link rel="canonical" href="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="3 Products Made for Automotive DIY Customers | Hardware Retailing" />
+	<meta property="og:description" content="To keep your shelves stocked for automotive DIYers, consider stocking these products from Forney Industries." />
+	<meta property="og:url" content="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" />
+	<meta property="og:site_name" content="Hardware Retailing" />
+	<meta property="article:publisher" content="https://www.facebook.com/HardwareRetailing" />
+	<meta property="article:published_time" content="2025-04-07T15:34:23+00:00" />
+	<meta property="article:modified_time" content="2025-04-07T17:03:02+00:00" />
+	<meta property="og:image" content="https://hardwareretailing.com/wp-content/uploads/2025/04/AdobeStock_366151302-scaled.jpeg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1315" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Jacob Musselman" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Jacob Musselman" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#article","isPartOf":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/"},"author":{"name":"Jacob Musselman","@id":"https:\/\/hardwareretailing.com\/#\/schema\/person\/7701307fce983a236ec2e58bb328c203"},"headline":"3 Products Made for Automotive DIY Customers","datePublished":"2025-04-07T15:34:23+00:00","dateModified":"2025-04-07T17:03:02+00:00","mainEntityOfPage":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/"},"wordCount":259,"image":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#primaryimage"},"thumbnailUrl":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2025\/04\/AdobeStock_366151302-scaled.jpeg","keywords":["Forney","HOT PRODUCTS","new products","product","product news","PRODUCT Trends","products","trending products","welding","Welding Products"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/","url":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/","name":"3 Products Made for Automotive DIY Customers | Hardware Retailing","isPartOf":{"@id":"https:\/\/hardwareretailing.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#primaryimage"},"image":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#primaryimage"},"thumbnailUrl":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2025\/04\/AdobeStock_366151302-scaled.jpeg","datePublished":"2025-04-07T15:34:23+00:00","dateModified":"2025-04-07T17:03:02+00:00","author":{"@id":"https:\/\/hardwareretailing.com\/#\/schema\/person\/7701307fce983a236ec2e58bb328c203"},"description":"To keep your shelves stocked for automotive DIYers, consider stocking these products from Forney Industries.","breadcrumb":{"@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#primaryimage","url":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2025\/04\/AdobeStock_366151302-scaled.jpeg","contentUrl":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2025\/04\/AdobeStock_366151302-scaled.jpeg","width":2560,"height":1315,"caption":"Welding Products"},{"@type":"BreadcrumbList","@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/hardwareretailing.com\/"},{"@type":"ListItem","position":2,"name":"Uncategorized","item":"https:\/\/hardwareretailing.com\/category\/uncategorized\/"},{"@type":"ListItem","position":3,"name":"3 Products Made for Automotive DIY Customers"}]},{"@type":"WebSite","@id":"https:\/\/hardwareretailing.com\/#website","url":"https:\/\/hardwareretailing.com\/","name":"Hardware Retailing","description":"The Industry&#039;s Source for Insights and Information","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/hardwareretailing.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/hardwareretailing.com\/#\/schema\/person\/7701307fce983a236ec2e58bb328c203","name":"Jacob Musselman","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2024\/11\/Jacob-150x150.jpg","url":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2024\/11\/Jacob-150x150.jpg","contentUrl":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2024\/11\/Jacob-150x150.jpg","caption":"Jacob Musselman"},"description":"Jacob is the content coordinator for Hardware Retailing Magazine. A lifelong Hoosier, Jacob earned a B.S. in journalism and telecommunications with a minor in digital publishing from Ball State University. He loves making bagels, going to farmers markets with his wife Hannah and two dogs and watching Formula One.","url":"https:\/\/hardwareretailing.com\/author\/jmusselman\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Hardware Retailing &raquo; Feed" href="https://hardwareretailing.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hardware Retailing &raquo; Comments Feed" href="https://hardwareretailing.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://hardwareretailing.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhardwareretailing.com%2F3-products-made-for-automotive-diy-customers%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://hardwareretailing.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhardwareretailing.com%2F3-products-made-for-automotive-diy-customers%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='formidable-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/formidable/css/formidableforms.css?ver=1773942211' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+
+
+<link data-minify="1" rel='stylesheet' id='advpsStyleSheet-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/advanced-post-slider/advps-style.css?ver=1773942211' media='all' />
+<link rel='stylesheet' id='gallery-all-css-css' href='https://hardwareretailing.com/wp-content/plugins/gallery-images/style/gallery-all.css' media='all' />
+<link data-minify="1" rel='stylesheet' id='style2-os-css-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/gallery-images/style/style2-os.css?ver=1773942211' media='all' />
+<link data-minify="1" rel='stylesheet' id='lightbox-css-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/gallery-images/style/lightbox.css?ver=1773942211' media='all' />
+<link data-minify="1" rel='stylesheet' id='fontawesome-css-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/gallery-images/style/css/font-awesome.css?ver=1773942211' media='all' />
+<link data-minify="1" rel='stylesheet' id='ppress-frontend-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=1773942211' media='all' />
+<link rel='stylesheet' id='ppress-flatpickr-css' href='https://hardwareretailing.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css' media='all' />
+<link rel='stylesheet' id='ppress-select2-css' href='https://hardwareretailing.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css' media='all' />
+<link data-minify="1" rel='stylesheet' id='parent-style-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa/style.css?ver=1773942211' media='all' />
+<link data-minify="1" rel='stylesheet' id='tie-style-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa-child/style.css?ver=1773942211' media='all' />
+<link data-minify="1" rel='stylesheet' id='tie-ilightbox-skin-css' href='https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa/css/ilightbox/dark-skin/skin.css?ver=1773942211' media='all' />
+<link rel='stylesheet' id='Droid+Sans-css' href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,700' media='all' />
+<script type="rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://hardwareretailing.com/wp-includes/js/jquery/jquery.min.js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://hardwareretailing.com/wp-includes/js/jquery/jquery-migrate.min.js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="advps_front_script-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/advanced-post-slider/js/advps.frnt.script.js?ver=1773942211" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="advps_jbx-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/advanced-post-slider/bxslider/jquery.bxslider.min.js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="ppress-flatpickr-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="ppress-select2-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js" data-rocket-defer defer></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="rocketlazyloadscript" id="google_gtagjs-js" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-T0Q20F7491" async></script>
+<script type="rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["hardwareretailing.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-T0Q20F7491");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<script type="rocketlazyloadscript"></script><link rel="https://api.w.org/" href="https://hardwareretailing.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://hardwareretailing.com/wp-json/wp/v2/posts/88965" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hardwareretailing.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://hardwareretailing.com/?p=88965' />
+
+<!-- This site is using AdRotate Professional v5.23.1 to display their advertisements - https://ajdg.solutions/ -->
+<!-- AdRotate CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.g-wall { display:block; position:fixed; left:0; top:0; width:100%; height:100%; z-index:-1; }
+	.woocommerce-page .g, .bbpress-wrapper .g { margin: 20px auto; clear:both; }
+	.g-5 { margin:0px 0px 0px 0px; width:100%; max-width:728px; height:100%; max-height:90px; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+		.woocommerce-page .g, .bbpress-wrapper .g { margin: 10px auto; }
+	}
+</style>
+<!-- /AdRotate CSS -->
+
+<meta name="generator" content="Site Kit by Google 1.182.0" /><!-- HFCM by 99 Robots - Snippet # 1: Tracking code -->
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '065e0b15ccf082ed426d06fdc71b138ee72b5502', { region: 'eu' });
+</script>
+<!-- /end HFCM by 99 Robots -->
+<script type="rocketlazyloadscript">document.documentElement.className += " js";</script>
+<link rel="shortcut icon" href="https://hardwareretailing.com/wp-content/themes/max-magazine-child/images/favicon.ico" title="Favicon" />
+<!--[if IE]>
+<script type="text/javascript">jQuery(document).ready(function (){ jQuery(".menu-item").has("ul").children("a").attr("aria-haspopup", "true");});</script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="https://hardwareretailing.com/wp-content/themes/sahifa/js/html5.js"></script>
+<script src="https://hardwareretailing.com/wp-content/themes/sahifa/js/selectivizr-min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="all" href="https://hardwareretailing.com/wp-content/themes/sahifa/css/ie9.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="https://hardwareretailing.com/wp-content/themes/sahifa/css/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="https://hardwareretailing.com/wp-content/themes/sahifa/css/ie7.css" />
+<![endif]-->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://hardwareretailing.com/wp-content/themes/max-magazine-child/images/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://hardwareretailing.com/wp-content/themes/max-magazine-child/images/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://hardwareretailing.com/wp-content/themes/max-magazine-child/images/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="https://hardwareretailing.com/wp-content/themes/max-magazine-child/images/favicon.ico" />
+
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/charts/loader.js?ver=1773942211" data-rocket-defer defer></script>
+
+<style type="text/css" media="screen">
+
+body{
+	font-family: 'Droid Sans';
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height:8px;
+}
+
+#main-nav,
+.cat-box-content,
+#sidebar .widget-container,
+.post-listing,
+#commentform {
+	border-bottom-color: #ef3636;
+}
+
+.search-block .search-button,
+#topcontrol,
+#main-nav ul li.current-menu-item a,
+#main-nav ul li.current-menu-item a:hover,
+#main-nav ul li.current_page_parent a,
+#main-nav ul li.current_page_parent a:hover,
+#main-nav ul li.current-menu-parent a,
+#main-nav ul li.current-menu-parent a:hover,
+#main-nav ul li.current-page-ancestor a,
+#main-nav ul li.current-page-ancestor a:hover,
+.pagination span.current,
+.share-post span.share-text,
+.flex-control-paging li a.flex-active,
+.ei-slider-thumbs li.ei-slider-element,
+.review-percentage .review-item span span,
+.review-final-score,
+.button,
+a.button,
+a.more-link,
+#main-content input[type="submit"],
+.form-submit #submit,
+#login-form .login-button,
+.widget-feedburner .feedburner-subscribe,
+input[type="submit"],
+#buddypress button,
+#buddypress a.button,
+#buddypress input[type=submit],
+#buddypress input[type=reset],
+#buddypress ul.button-nav li a,
+#buddypress div.generic-button a,
+#buddypress .comment-reply-link,
+#buddypress div.item-list-tabs ul li a span,
+#buddypress div.item-list-tabs ul li.selected a,
+#buddypress div.item-list-tabs ul li.current a,
+#buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+#members-list-options a.selected,
+#groups-list-options a.selected,
+body.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.dark-skin #members-list-options a.selected,
+body.dark-skin #groups-list-options a.selected,
+.search-block-large .search-button,
+#featured-posts .flex-next:hover,
+#featured-posts .flex-prev:hover,
+a.tie-cart span.shooping-count,
+.woocommerce span.onsale,
+.woocommerce-page span.onsale ,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+#check-also-close,
+a.post-slideshow-next,
+a.post-slideshow-prev,
+.widget_price_filter .ui-slider .ui-slider-handle,
+.quantity .minus:hover,
+.quantity .plus:hover,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+#reading-position-indicator  {
+	background-color:#ef3636;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color:#ef3636 !important;
+}
+
+#theme-footer,
+#theme-header,
+.top-nav ul li.current-menu-item:before,
+#main-nav .menu-sub-content ,
+#main-nav ul ul,
+#check-also-box {
+	border-top-color: #ef3636;
+}
+
+.search-block:after {
+	border-right-color:#ef3636;
+}
+
+body.rtl .search-block:after {
+	border-left-color:#ef3636;
+}
+
+#main-nav ul > li.menu-item-has-children:hover > a:after,
+#main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #ef3636;
+}
+
+.widget.timeline-posts li a:hover,
+.widget.timeline-posts li a:hover span.tie-date {
+	color: #ef3636;
+}
+
+.widget.timeline-posts li a:hover span.tie-date:before {
+	background: #ef3636;
+	border-color: #ef3636;
+}
+
+#order_review,
+#order_review_heading {
+	border-color: #ef3636;
+}
+
+
+a:hover {
+	color: #ed1c24;
+}
+		
+.top-nav ul li a:hover, .top-nav ul li:hover > a, .top-nav ul :hover > a , .top-nav ul li.current-menu-item a {
+	color: #ed1c23;
+}
+		
+#main-nav ul li a:hover, #main-nav ul li:hover > a, #main-nav ul :hover > a , #main-nav  ul ul li:hover > a, #main-nav  ul ul :hover > a {
+	color: #ffffff;
+}
+		
+#main-nav ul li.current-menu-item a, #main-nav ul li.current_page_parent a {
+	color: #ffffff;
+}
+		
+#theme-footer a {
+	color: #ffffff;
+}
+		
+#theme-footer a:hover {
+	color: #ff4c4c;
+}
+		
+</style>
+
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+			/* <![CDATA[ */
+				var sf_position = '0';
+				var sf_templates = "<a href=\"{search_url_escaped}\">View All Results<\/a>";
+				var sf_input = '.search-live';
+				jQuery(document).ready(function(){
+					jQuery(sf_input).ajaxyLiveSearch({"expand":false,"searchUrl":"https:\/\/hardwareretailing.com\/?s=%s","text":"Search","delay":500,"iwidth":180,"width":315,"ajaxUrl":"https:\/\/hardwareretailing.com\/wp-admin\/admin-ajax.php","rtl":0});
+					jQuery(".live-search_ajaxy-selective-input").keyup(function() {
+						var width = jQuery(this).val().length * 8;
+						if(width < 50) {
+							width = 50;
+						}
+						jQuery(this).width(width);
+					});
+					jQuery(".live-search_ajaxy-selective-search").click(function() {
+						jQuery(this).find(".live-search_ajaxy-selective-input").focus();
+					});
+					jQuery(".live-search_ajaxy-selective-close").click(function() {
+						jQuery(this).parent().remove();
+					});
+				});
+			/* ]]> */
+		});</script>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script type="rocketlazyloadscript">
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-TQJ7QV2' );
+			
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel="icon" href="https://hardwareretailing.com/wp-content/uploads/2019/08/cropped-RedT-Icon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://hardwareretailing.com/wp-content/uploads/2019/08/cropped-RedT-Icon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hardwareretailing.com/wp-content/uploads/2019/08/cropped-RedT-Icon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://hardwareretailing.com/wp-content/uploads/2019/08/cropped-RedT-Icon-270x270.jpg" />
+<style id="wp-custom-css">
+.author-info {
+	background-color: #f6f6f6
+}
+
+.author-info img.author-img {
+	max-width: 130px !important;
+	margin-top: -5px;
+}
+
+.author-info-content h3 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.author-info-content {
+	padding-left: 0px !important;
+}
+
+.author-info-content h3 {
+	font-size: 16px;
+}
+
+.author-info-content p {
+	padding-top: 10px;
+}
+
+/* Industry New Section */
+div#slideshow1775 div.group_items {
+	background-color: white !important;
+}
+
+/* Association Section */
+div#slideshow6146 div.group_items {
+	background-color: white !important;
+}
+</style>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><script type="rocketlazyloadscript" data-rocket-src="https://hardwareretailing.com/wp-content/themes/sahifa/js/jquery.validate.js" data-rocket-defer defer></script>
+</head>
+<body class="abst-show-page" data-rsssl=1 id="top" class="wp-singular post-template-default single single-post postid-88965 single-format-standard wp-theme-sahifa wp-child-theme-sahifa-child lazy-enabled wpb-js-composer js-comp-ver-8.7.4 vc_responsive">
+
+<div class="wrapper-outer">
+
+	<div class="background-cover"></div>
+
+	<aside id="slide-out">
+
+			<div class="search-mobile">
+			<form method="get" id="searchform-mobile" action="https://hardwareretailing.com/">
+				<button class="search-button" type="submit" value="Search"><i class="fa fa-search"></i></button>
+				<input type="text" id="s-mobile" name="s" title="Search" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"  />
+			</form>
+		</div><!-- .search-mobile /-->
+	
+			<div class="social-icons">
+		<a class="ttip-none" title="Facebook" href="http://www.facebook.com/HardwareRetailing" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-facebook"></i></a><a class="ttip-none" title="LinkedIn" href="https://www.linkedin.com/company/244427/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-linkedin"></i></a><a class="ttip-none" title="Youtube" href="http://www.youtube.com/channel/UCRyP5tAeosyqMUdkOnl3WTA" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-youtube"></i></a><a class="ttip-none" title="instagram" href="https://www.instagram.com/hardwareretailing/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-instagram"></i></a>
+			</div>
+
+	
+		<div id="mobile-menu" ></div>
+	</aside><!-- #slide-out /-->
+
+		<div id="wrapper" class="boxed">
+		<div class="inner-wrapper">
+
+		<header id="theme-header" class="theme-header">
+						<div id="top-nav" class="top-nav">
+				<div class="container">
+
+			
+				<div class="top-menu"><ul id="menu-top" class="menu"><li id="menu-item-10024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10024"><a href="https://hardwareretailing.com/about-us/" data-ps2id-api="true" data-wpel-link="internal">About the Magazine</a></li>
+<li id="menu-item-10022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10022"><a href="https://hardwareretailing.com/contact-us/" data-ps2id-api="true" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-10027" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10027"><a target="_blank" href="http://yournhpa.org" data-ps2id-api="true" data-wpel-link="external" rel="external noopener noreferrer">NHPA</a></li>
+<li id="menu-item-10028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10028"><a target="_blank" data-ps2id-api="true">Subscribe</a>
+<ul class="sub-menu">
+	<li id="menu-item-83476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83476"><a href="https://yournhpa.org/subscribe/" data-ps2id-api="true" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Subscribe to Our Newsletters</a></li>
+	<li id="menu-item-83475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83475"><a href="https://www.subscriptiondb.com/hwr/start/" data-ps2id-api="true" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Subscribe to the Magazine</a></li>
+</ul>
+</li>
+<li id="menu-item-84633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84633"><a href="https://hardwareretailing.com/advertise/" data-ps2id-api="true" data-wpel-link="internal">Advertise</a></li>
+</ul></div>
+						<div class="search-block">
+						<form method="get" id="searchform-header" action="https://hardwareretailing.com/">
+							<button class="search-button" type="submit" value="Search"><i class="fa fa-search"></i></button>
+							<input class="search-live" type="text" id="s-header" name="s" title="Search" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"  />
+						</form>
+					</div><!-- .search-block /-->
+			<div class="social-icons">
+		<a class="ttip-none" title="Facebook" href="http://www.facebook.com/HardwareRetailing" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-facebook"></i></a><a class="ttip-none" title="LinkedIn" href="https://www.linkedin.com/company/244427/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-linkedin"></i></a><a class="ttip-none" title="Youtube" href="http://www.youtube.com/channel/UCRyP5tAeosyqMUdkOnl3WTA" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-youtube"></i></a><a class="ttip-none" title="instagram" href="https://www.instagram.com/hardwareretailing/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-instagram"></i></a>
+			</div>
+
+	
+	
+				</div><!-- .container /-->
+			</div><!-- .top-menu /-->
+			
+		<div class="header-content">
+
+					<a id="slide-out-open" class="slide-out-open" href="#"><span></span></a>
+		
+			<div class="logo" style=" margin-top:15px;">
+			<h2>								<a title="Hardware Retailing" href="https://hardwareretailing.com/" data-wpel-link="internal">
+					<img src="https://hardwareretailing.com/wp-content/uploads/2021/03/Hardware-Retailing-logo-shadow-separated.png" alt="Hardware Retailing"  /><strong>Hardware Retailing The Industry&#039;s Source for Insights and Information</strong>
+				</a>
+			</h2>			</div><!-- .logo /-->
+			<div class="e3lan e3lan-top">			<div class="g g-5"><div class="g-dyn a-3 c-1"><a onClick="gtag(&#039;event&#039;, &#039;click&#039;, {&#039;advert_name&#039;: &#039;[Rotating Banner 1]&#039;});" href="https://www.orgill.com/success" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><img src="https://hardwareretailing.com/wp-content/uploads/2026/06/728x90_banner_mattsbuildingsupply_GIF-1.gif" width="660" /></a><img class="pixel" style="width:0 !important; height:0 !important;" width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="gtag('event', 'impression', {'advert_name': '[Rotating Banner 1]'});" alt="" /></div><div class="g-dyn a-10 c-2"><a onClick="gtag(&#039;event&#039;, &#039;click&#039;, {&#039;advert_name&#039;: &#039;[Rotating Banner 2]&#039;});" href="https://www.gnedi.com/?utm_source=HardwareRetailing&amp;utm_medium=July2026BannerAd&amp;utm_campaign=GNEHomepage" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><img src="https://hardwareretailing.com/wp-content/uploads/2026/06/Hardware_Retailing_Banner_Ad_July2026-scaled.png" width="660" /></a><img class="pixel" style="width:0 !important; height:0 !important;" width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="gtag('event', 'impression', {'advert_name': '[Rotating Banner 2]'});" alt="" /></div><div class="g-dyn a-17 c-3"><a onClick="gtag(&#039;event&#039;, &#039;click&#039;, {&#039;advert_name&#039;: &#039;[Rotating Banner 3]&#039;});" href="https://www.ecisolutions.com/products/rocksolid-max/?qgad=749295107232&amp;qgterm=rocksolid+max&amp;utm_source=hardware-retailer&amp;utm_medium=referral&amp;utm_campaign=lbmh-inbound-inquiry-demo-request-rocksolid-max&amp;utm_term=rocksolid+max&amp;utm_content=RSM-General&amp;utm_tactic=display&amp;gad_source=1&amp;gad_campaignid=22134792703&amp;gbraid=0AAAAAD9BmheC81kloc8VVgj7d7wUl0i-t&amp;gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD2wdfnU2IQxvFnIRbkqUdcYdcVkaET4haxsxPyrkqB_JKvlh1Dq7kwaArccEALw_wcB" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><img src="https://hardwareretailing.com/wp-content/uploads/2026/06/ECI-RSM-AIForSuppliersAndDealers-HardwareRetailing-DigitalAd-728x90-1.jpg" width="660" /></a><img class="pixel" style="width:0 !important; height:0 !important;" width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="gtag('event', 'impression', {'advert_name': '[Rotating Banner 3]'});" alt="" /></div></div>				</div>			<div class="clear"></div>
+
+		</div>
+													<nav id="main-nav" class="fixed-enabled">
+				<div class="container">
+
+				
+					<div class="main-menu"><ul id="menu-main-nav" class="menu"><li id="menu-item-9963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-9963"><a href="https://hardwareretailing.com/" data-ps2id-api="true" data-wpel-link="internal">Home</a></li>
+<li id="menu-item-10007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10007"><a href="https://hardwareretailing.com/industry-news/" data-ps2id-api="true" data-wpel-link="internal">News</a></li>
+<li id="menu-item-84404" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-84404"><a href="https://hardwareretailing.com/category/checkouts/" data-ps2id-api="true" data-wpel-link="internal">Checkouts</a></li>
+<li id="menu-item-85168" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85168"><a href="https://hardwareretailing.com/category/milestones/" data-ps2id-api="true" data-wpel-link="internal">Milestones</a></li>
+<li id="menu-item-10001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10001"><a href="https://hardwareretailing.com/operations/" data-ps2id-api="true" data-wpel-link="internal">Operations</a></li>
+<li id="menu-item-10004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10004"><a href="https://hardwareretailing.com/products/" data-ps2id-api="true" data-wpel-link="internal">Products</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-87099" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87099"><a href="https://hardwareretailing.com/category/products/product-news/" data-ps2id-api="true" data-wpel-link="internal">Product News</a></li>
+</ul>
+</li>
+<li id="menu-item-53116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53116"><a href="https://hardwareretailing.com/categories/" data-ps2id-api="true" data-wpel-link="internal">Categories</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-65855" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65855"><a href="https://hardwareretailing.com/category/category/clothing/" data-ps2id-api="true" data-wpel-link="internal">Clothing</a></li>
+	<li id="menu-item-65856" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65856"><a href="https://hardwareretailing.com/category/category/electrical/" data-ps2id-api="true" data-wpel-link="internal">Electrical</a></li>
+	<li id="menu-item-65857" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65857"><a href="https://hardwareretailing.com/category/category/farm-pet-ranch/" data-ps2id-api="true" data-wpel-link="internal">Farm, Pet &#038; Ranch</a></li>
+	<li id="menu-item-65858" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65858"><a href="https://hardwareretailing.com/category/category/hand-tools/" data-ps2id-api="true" data-wpel-link="internal">Hand Tools</a></li>
+	<li id="menu-item-65859" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65859"><a href="https://hardwareretailing.com/category/category/hardware/" data-ps2id-api="true" data-wpel-link="internal">Hardware</a></li>
+	<li id="menu-item-65860" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65860"><a href="https://hardwareretailing.com/category/category/housewares/" data-ps2id-api="true" data-wpel-link="internal">Housewares</a></li>
+	<li id="menu-item-65861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65861"><a href="https://hardwareretailing.com/category/category/lawn-garden/" data-ps2id-api="true" data-wpel-link="internal">Lawn &#038; Garden</a></li>
+	<li id="menu-item-65862" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65862"><a href="https://hardwareretailing.com/category/category/lumber-building-materials/" data-ps2id-api="true" data-wpel-link="internal">Lumber &#038; Building Materials</a></li>
+	<li id="menu-item-65864" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65864"><a href="https://hardwareretailing.com/category/category/niches/" data-ps2id-api="true" data-wpel-link="internal">Niches</a></li>
+	<li id="menu-item-65865" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65865"><a href="https://hardwareretailing.com/category/category/outdoor-living/" data-ps2id-api="true" data-wpel-link="internal">Outdoor Living</a></li>
+	<li id="menu-item-65866" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65866"><a href="https://hardwareretailing.com/category/category/outdoor-power-equipment/" data-ps2id-api="true" data-wpel-link="internal">Outdoor Power Equipment</a></li>
+	<li id="menu-item-65867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65867"><a href="https://hardwareretailing.com/category/category/paint-sundries/" data-ps2id-api="true" data-wpel-link="internal">Paint &#038; Sundries</a></li>
+	<li id="menu-item-65868" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65868"><a href="https://hardwareretailing.com/category/category/plumbing/" data-ps2id-api="true" data-wpel-link="internal">Plumbing</a></li>
+	<li id="menu-item-65869" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65869"><a href="https://hardwareretailing.com/category/category/power-tools/" data-ps2id-api="true" data-wpel-link="internal">Power Tools</a></li>
+	<li id="menu-item-65870" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65870"><a href="https://hardwareretailing.com/category/category/store-services/" data-ps2id-api="true" data-wpel-link="internal">Store Services</a></li>
+	<li id="menu-item-65863" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65863"><a href="https://hardwareretailing.com/category/category/miscellaneous/" data-ps2id-api="true" data-wpel-link="internal">Miscellaneous</a></li>
+</ul>
+</li>
+<li id="menu-item-18667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18667"><a href="https://hardwareretailing.com/research-guides/" data-ps2id-api="true" data-wpel-link="internal">Research &#038; Guides</a></li>
+<li id="menu-item-70737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70737"><a target="_blank" href="https://yournhpa.org/podcasts/" data-ps2id-api="true" data-wpel-link="external" rel="external noopener noreferrer">Podcasts</a></li>
+<li id="menu-item-73873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73873"><a target="_blank" href="https://yournhpa.org/events/industry-calendar/" data-ps2id-api="true" data-wpel-link="external" rel="external noopener noreferrer">Calendar</a></li>
+</ul></div>					
+					
+				</div>
+			</nav><!-- .main-nav /-->
+					</header><!-- #header /-->
+
+	
+	
+	<div id="main-content" class="container">
+
+	
+	
+	
+	
+	
+	<div class="content">
+
+		
+		<div xmlns:v="http://rdf.data-vocabulary.org/#"  id="crumbs"><span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" class="crumbs-home" href="https://hardwareretailing.com" data-wpel-link="internal">Home</a></span> <span class="delimiter">&raquo;</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://hardwareretailing.com/category/uncategorized/" data-wpel-link="internal">Uncategorized</a></span> <span class="delimiter">&raquo;</span> <span class="current">3 Products Made for Automotive DIY Customers</span></div>
+		
+
+		
+		<article class="post-listing post-88965 post type-post status-publish format-standard has-post-thumbnail  category-uncategorized tag-forney tag-hot-products-2 tag-new-products tag-product tag-product-news tag-product-trends tag-products-2 tag-trending-products tag-welding tag-welding-products" id="the-post">
+			
+			<div class="single-post-thumb">
+			<img width="660" height="330" src="https://hardwareretailing.com/wp-content/uploads/2025/04/AdobeStock_366151302-660x330.jpeg" class="attachment-slider size-slider wp-post-image" alt="Welding Products" decoding="async" fetchpriority="high" srcset="https://hardwareretailing.com/wp-content/uploads/2025/04/AdobeStock_366151302-660x330.jpeg 660w, https://hardwareretailing.com/wp-content/uploads/2025/04/AdobeStock_366151302-1050x525.jpeg 1050w" sizes="(max-width: 660px) 100vw, 660px" />		</div>
+	
+		
+
+
+			<div class="post-inner">
+
+							<h1 class="name post-title entry-title"><span itemprop="name">3 Products Made for Automotive DIY Customers</span></h1>
+
+						
+<p class="post-meta">
+		
+	<span class="post-meta-author"><i class="fa fa-user"></i><a href="https://hardwareretailing.com/author/jmusselman/" title="" data-wpel-link="internal">Jacob Musselman </a></span>
+	
+		
+	<span class="tie-date"><i class="fa fa-clock-o"></i>April 7, 2025</span>	
+	<span class="post-cats"><i class="fa fa-folder"></i><a href="https://hardwareretailing.com/category/uncategorized/" rel="category tag" data-wpel-link="internal">Uncategorized</a></span>
+	
+</p>
+<div class="clear"></div>
+			
+				<div class="entry">
+					<div class="share-post">
+	<span class="share-text">Share</span>
+	
+		<script type="rocketlazyloadscript">
+	window.___gcfg = {lang: 'en-US'};
+	(function(w, d, s) {
+	  function go(){
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.src = url; js.id = id;
+		  fjs.parentNode.insertBefore(js, fjs);
+		};
+		load('//connect.facebook.net/en/all.js#xfbml=1', 	'fbjssdk' );
+		load('https://apis.google.com/js/plusone.js', 		'gplus1js');
+		load('//platform.twitter.com/widgets.js', 			'tweetjs' );
+	  }
+	  if (w.addEventListener) { w.addEventListener("load", go, false); }
+	  else if (w.attachEvent) { w.attachEvent("onload",go); }
+	}(window, document, 'script'));
+	</script>
+	<ul class="normal-social">	
+			<li>
+			<div class="fb-like" data-href="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		</li>
+		
+						<li><script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/in.js?ver=1773942213" data-rocket-type="text/javascript" data-rocket-defer defer></script><script type="IN/Share" data-url="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" data-counter="right"></script></li>
+			</ul>
+		<div class="clear"></div>
+</div> <!-- .share-post -->
+					
+					<p>DIYers are now more likely to work on their vehicles to either save money or as a hobby, according to a <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://hedgescompany.com/blog/2024/07/characteristics-automotive-diy-consumers/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">2024 survey</a></span> from the Auto Care Association, which uses analysis from Hanover Research. The survey found that 72% of DIYers perform their own maintenance to save money, 48% do it for self-reliance and 42% do it for convenience and time efficiency. To keep your shelves stocked for automotive DIYers, consider stocking these products from <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://www.forneyind.com/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Forney Industries</a></span>.</p>
+<p><strong>Multi-Purpose Welder</strong></p>
+<p>The <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://www.forneyind.com/forney-designed-tested-trusted-410-forney-220-multi-process-mp-welder" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Forney 220 MP</a></span> from Forney Industries is a multiprocess welder capable of MIG, Flux-Cored, Stick and DC TIG welding. It operates on 120- or 240-volt input power and delivers up to 220 amps. This welder features a large digital display, synergic controls and dual gas inputs, making it suitable for a range of materials and applications.</p>
+<p><strong>Strip and Finish Disc</strong></p>
+<p>The <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://www.forneyind.com/forney-71946-strip-and-finish-disc-heavy-duty-4-1-2-in-x-7-8-in-type-27" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Strip and Finish Disc</a></span> from Forney Industries is a heavy-duty Type 27 disc measuring 4 <span style="font-weight: 400;">½</span> inches in diameter with a <span style="font-weight: 400;">⅞</span>-inch arbor. Designed for cleaning and stripping metal surfaces, it features purple nonwoven fiber webbing adhered to a fiberglass backing. The open web design ensures cooler operation and reduces clogging, maintaining cutting effectiveness. Suitable for use on steel, stainless steel and aluminum, it operates at a maximum of 10,000 RPM.​</p>
+<p><strong>Battery Charger</strong></p>
+<p>The <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://www.forneyind.com/forney-52750-battery-charger-6v-at-2-10-and-20-amps-12v-at-2-10-20-and-100-amps-start" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Forney 52750 Battery Charger</a></span> supports 6V and 12V batteries with multiple charging modes, including 2, 10 and 20 amps. It also provides a 100-amp engine start function for 12V systems. The unit includes LED indicators, safety features, and push-button controls for ease of use across a variety of vehicles and battery types.</p>
+					
+									</div><!-- .entry /-->
+
+
+				<div class="share-post">
+	<span class="share-text">Share</span>
+	
+		<script type="rocketlazyloadscript">
+	window.___gcfg = {lang: 'en-US'};
+	(function(w, d, s) {
+	  function go(){
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.src = url; js.id = id;
+		  fjs.parentNode.insertBefore(js, fjs);
+		};
+		load('//connect.facebook.net/en/all.js#xfbml=1', 	'fbjssdk' );
+		load('https://apis.google.com/js/plusone.js', 		'gplus1js');
+		load('//platform.twitter.com/widgets.js', 			'tweetjs' );
+	  }
+	  if (w.addEventListener) { w.addEventListener("load", go, false); }
+	  else if (w.attachEvent) { w.attachEvent("onload",go); }
+	}(window, document, 'script'));
+	</script>
+	<ul class="normal-social">	
+			<li>
+			<div class="fb-like" data-href="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		</li>
+		
+						<li><script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/in.js?ver=1773942213" data-rocket-type="text/javascript" data-rocket-defer defer></script><script type="IN/Share" data-url="https://hardwareretailing.com/3-products-made-for-automotive-diy-customers/" data-counter="right"></script></li>
+			</ul>
+		<div class="clear"></div>
+</div> <!-- .share-post -->				<div class="clear"></div>
+			</div><!-- .post-inner -->
+
+			<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","dateCreated":"2025-04-07T11:34:23-04:00","datePublished":"2025-04-07T11:34:23-04:00","dateModified":"2025-04-07T13:03:02-04:00","headline":"3 Products Made for Automotive DIY Customers","name":"3 Products Made for Automotive DIY Customers","keywords":"Forney,HOT PRODUCTS,new products,product,product news,PRODUCT Trends,products,trending products,welding,Welding Products","url":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/","description":"DIYers are now more likely to work on their vehicles to either save money or as a hobby, according to a 2024 survey from the Auto Care Association, which uses analysis from Hanover Research. The surve","copyrightYear":"2025","publisher":{"@id":"#Publisher","@type":"Organization","name":"Hardware Retailing","logo":{"@type":"ImageObject","url":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2021\/03\/Hardware-Retailing-logo-shadow-separated.png"},"sameAs":["http:\/\/www.facebook.com\/HardwareRetailing","https:\/\/www.linkedin.com\/company\/244427\/","http:\/\/www.youtube.com\/channel\/UCRyP5tAeosyqMUdkOnl3WTA","https:\/\/www.instagram.com\/hardwareretailing\/"]},"sourceOrganization":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers\/"},"author":{"@type":"Person","name":"Jacob Musselman","url":"https:\/\/hardwareretailing.com\/author\/jmusselman\/"},"articleSection":"Uncategorized","articleBody":"DIYers are now more likely to work on their vehicles to either save money or as a hobby, according to a 2024 survey from the Auto Care Association, which uses analysis from Hanover Research. The survey found that 72% of DIYers perform their own maintenance to save money, 48% do it for self-reliance and 42% do it for convenience and time efficiency. To keep your shelves stocked for automotive DIYers, consider stocking these products from Forney Industries.\r\n\r\nMulti-Purpose Welder\r\n\r\nThe Forney 220 MP from Forney Industries is a multiprocess welder capable of MIG, Flux-Cored, Stick and DC TIG welding. It operates on 120- or 240-volt input power and delivers up to 220 amps. This welder features a large digital display, synergic controls and dual gas inputs, making it suitable for a range of materials and applications.\r\n\r\nStrip and Finish Disc\r\n\r\nThe Strip and Finish Disc from Forney Industries is a heavy-duty Type 27 disc measuring 4 \u00bd inches in diameter with a \u215e-inch arbor. Designed for cleaning and stripping metal surfaces, it features purple nonwoven fiber webbing adhered to a fiberglass backing. The open web design ensures cooler operation and reduces clogging, maintaining cutting effectiveness. Suitable for use on steel, stainless steel and aluminum, it operates at a maximum of 10,000 RPM.\u200b\r\n\r\nBattery Charger\r\n\r\nThe Forney 52750 Battery Charger supports 6V and 12V batteries with multiple charging modes, including 2, 10 and 20 amps. It also provides a 100-amp engine start function for 12V systems. The unit includes LED indicators, safety features, and push-button controls for ease of use across a variety of vehicles and battery types.","image":{"@type":"ImageObject","url":"https:\/\/hardwareretailing.com\/wp-content\/uploads\/2025\/04\/AdobeStock_366151302-scaled.jpeg","width":2560,"height":1315}}</script>
+		</article><!-- .post-listing -->
+		<p class="post-tag">Tags <a href="https://hardwareretailing.com/tag/forney/" rel="tag" data-wpel-link="internal">Forney</a> <a href="https://hardwareretailing.com/tag/hot-products-2/" rel="tag" data-wpel-link="internal">HOT PRODUCTS</a> <a href="https://hardwareretailing.com/tag/new-products/" rel="tag" data-wpel-link="internal">new products</a> <a href="https://hardwareretailing.com/tag/product/" rel="tag" data-wpel-link="internal">product</a> <a href="https://hardwareretailing.com/tag/product-news/" rel="tag" data-wpel-link="internal">product news</a> <a href="https://hardwareretailing.com/tag/product-trends/" rel="tag" data-wpel-link="internal">PRODUCT Trends</a> <a href="https://hardwareretailing.com/tag/products-2/" rel="tag" data-wpel-link="internal">products</a> <a href="https://hardwareretailing.com/tag/trending-products/" rel="tag" data-wpel-link="internal">trending products</a> <a href="https://hardwareretailing.com/tag/welding/" rel="tag" data-wpel-link="internal">welding</a> <a href="https://hardwareretailing.com/tag/welding-products/" rel="tag" data-wpel-link="internal">Welding Products</a></p>
+
+		
+				<section id="author-box">
+			<div class="block-head">
+				<h3>About Jacob Musselman </h3><div class="stripe-line"></div>
+			</div>
+			<div class="post-listing">
+				<div class="author-bio">
+	<div class="author-avatar">
+		<img data-del="avatar" src='https://hardwareretailing.com/wp-content/uploads/2024/11/Jacob-150x150.jpg' class='avatar pp-user-avatar avatar-90 photo ' height='90' width='90'/>	</div><!-- #author-avatar -->
+			<div class="author-description">
+						Jacob is the content coordinator for Hardware Retailing Magazine. A lifelong Hoosier, Jacob earned a B.S. in journalism and telecommunications with a minor in digital publishing from Ball State University. He loves making bagels, going to farmers markets with his wife Hannah and two dogs and watching Formula One.		</div><!-- #author-description -->
+			<div class="author-social flat-social">
+																																</div>
+		<div class="clear"></div>
+</div>
+				</div>
+		</section><!-- #author-box -->
+		
+
+				<div class="post-navigation">
+			<div class="post-previous"><a href="https://hardwareretailing.com/illinois-hardware-store-offers-unique-delivery-service/" rel="prev" data-wpel-link="internal"><span>Previous</span> Illinois Hardware Store Offers Unique Delivery Service</a></div>
+			<div class="post-next"><a href="https://hardwareretailing.com/hot-products-april-9-2025/" rel="next" data-wpel-link="internal"><span>Next</span> Hot Products &#8211; April 9, 2025</a></div>
+		</div><!-- .post-navigation -->
+		
+			<section id="related_posts">
+		<div class="block-head">
+			<h3>Related Articles</h3><div class="stripe-line"></div>
+		</div>
+		<div class="post-listing">
+						<div class="related-item">
+							
+				<div class="post-thumbnail">
+					<a href="https://hardwareretailing.com/ace-retail-group-expands-in-4-states/" data-wpel-link="internal">
+						<img width="310" height="165" src="https://hardwareretailing.com/wp-content/uploads/2026/05/ARG-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="Ace Retail Group" decoding="async" />						<span class="fa overlay-icon"></span>
+					</a>
+				</div><!-- post-thumbnail /-->
+							
+				<h3><a href="https://hardwareretailing.com/ace-retail-group-expands-in-4-states/" rel="bookmark" data-wpel-link="internal">Ace Retail Group Expands in 4 States</a></h3>
+				<p class="post-meta"><span class="tie-date"><i class="fa fa-clock-o"></i>May 6, 2026</span></p>
+			</div>
+						<div class="related-item">
+							
+				<div class="post-thumbnail">
+					<a href="https://hardwareretailing.com/hot-products-april-29-2026/" data-wpel-link="internal">
+						<img width="310" height="155" src="https://hardwareretailing.com/wp-content/uploads/2024/10/Hot-Products_featured-image_Update.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="Hot Products" decoding="async" loading="lazy" />						<span class="fa overlay-icon"></span>
+					</a>
+				</div><!-- post-thumbnail /-->
+							
+				<h3><a href="https://hardwareretailing.com/hot-products-april-29-2026/" rel="bookmark" data-wpel-link="internal">Hot Products &#8211; April 29, 2026</a></h3>
+				<p class="post-meta"><span class="tie-date"><i class="fa fa-clock-o"></i>April 21, 2026</span></p>
+			</div>
+						<div class="related-item">
+							
+				<div class="post-thumbnail">
+					<a href="https://hardwareretailing.com/walmart-offers-facility-services-to-businesses/" data-wpel-link="internal">
+						<img width="310" height="165" src="https://hardwareretailing.com/wp-content/uploads/2026/04/Walmart_Upstream-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="Walmart facility services" decoding="async" loading="lazy" />						<span class="fa overlay-icon"></span>
+					</a>
+				</div><!-- post-thumbnail /-->
+							
+				<h3><a href="https://hardwareretailing.com/walmart-offers-facility-services-to-businesses/" rel="bookmark" data-wpel-link="internal">Walmart Offers Facility Services to Businesses</a></h3>
+				<p class="post-meta"><span class="tie-date"><i class="fa fa-clock-o"></i>April 16, 2026</span></p>
+			</div>
+						<div class="clear"></div>
+		</div>
+	</section>
+	
+			
+	<section id="check-also-box" class="post-listing check-also-right">
+		<a href="#" id="check-also-close"><i class="fa fa-close"></i></a>
+
+		<div class="block-head">
+			<h3>Check Also</h3>
+		</div>
+
+				<div class="check-also-post">
+						
+			<div class="post-thumbnail">
+				<a href="https://hardwareretailing.com/qxo-completes-acquisition-of-kodiak-building-partners/" data-wpel-link="internal">
+					<img width="310" height="165" src="https://hardwareretailing.com/wp-content/uploads/2026/02/qxo-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="qxo q&amp;a" decoding="async" loading="lazy" />					<span class="fa overlay-icon"></span>
+				</a>
+			</div><!-- post-thumbnail /-->
+						
+			<h2 class="post-title"><a href="https://hardwareretailing.com/qxo-completes-acquisition-of-kodiak-building-partners/" rel="bookmark" data-wpel-link="internal">QXO Completes Acquisition of Kodiak Building Partners</a></h2>
+			<p>QXO announced it has completed its acquisition of Koriak Building Partners from Court Square Capital &hellip;</p>
+		</div>
+			</section>
+			
+			
+	
+		
+				
+<div id="comments">
+
+
+<div class="clear"></div>
+
+
+</div><!-- #comments -->
+
+	</div><!-- .content -->
+<aside id="sidebar">
+	<div class="theiaStickySidebar">
+<div id="text-html-widget-69" class="widget text-html"><div class="widget-top"><h4>Current Issue: July/August 2026</h4><div class="stripe-line"></div></div>
+						<div class="widget-container"><div ><div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?d=hardware_retailing_july_august_2026&hideIssuuLogo=true&showOtherPublicationsAsSuggestions=true&u=yournhpa"></iframe></div>
+				</div><div class="clear"></div></div></div><!-- .widget /-->			<div id="text-html-widget-68" class="text-html-box" style="text-align:center;">
+			<div>
+    <a style="border: 1px #E2261E solid; padding: 10px 20px;" href="https://issuu.com/yournhpa/stacks/43367dbbd3b8442895cf4144228eb7a9" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Magazine Archive</a>
+</div>			</div>
+		<div id="text-html-widget-66" class="widget text-html"><div class="widget-top"><h4> </h4><div class="stripe-line"></div></div>
+						<div class="widget-container"><div ><div class="a-single a-13"><a onClick="gtag(&#039;event&#039;, &#039;click&#039;, {&#039;advert_name&#039;: &#039;[Primary Sidebar]&#039;});" href="https://us06web.zoom.us/webinar/register/WN_T5GmtFmfSf-0UKNYn4fz3Q#/registration" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><img src="https://hardwareretailing.com/wp-content/uploads/2026/07/Epicor-Webinar_300x250.gif" width="300" /></a><img class="pixel" style="width:0 !important; height:0 !important;" width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="gtag('event', 'impression', {'advert_name': '[Primary Sidebar]'});" alt="" /></div>
+				</div><div class="clear"></div></div></div><!-- .widget /--><div id="text-html-widget-67" class="widget text-html"><div class="widget-top"><h4> </h4><div class="stripe-line"></div></div>
+						<div class="widget-container"><div ><div class="g g-4"><div class="g-single a-9"><a onClick="gtag(&#039;event&#039;, &#039;click&#039;, {&#039;advert_name&#039;: &#039;[Secondary Sidebar]&#039;});" href="https://ihiconference.org/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><img src="https://hardwareretailing.com/wp-content/uploads/2026/06/BOGO-300x250-1.gif" width="300" /></a><img class="pixel" style="width:0 !important; height:0 !important;" width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="gtag('event', 'impression', {'advert_name': '[Secondary Sidebar]'});" alt="" /></div></div>	
+				</div><div class="clear"></div></div></div><!-- .widget /--><div id="social-8" class="widget social-icons-widget"><div class="widget-top"><h4>Follow Us!</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div class="social-icons social-colored">
+		<a class="ttip-none" title="Facebook" href="http://www.facebook.com/HardwareRetailing" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-facebook"></i></a><a class="ttip-none" title="LinkedIn" href="https://www.linkedin.com/company/244427/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-linkedin"></i></a><a class="ttip-none" title="Youtube" href="http://www.youtube.com/channel/UCRyP5tAeosyqMUdkOnl3WTA" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-youtube"></i></a><a class="ttip-none" title="instagram" href="https://www.instagram.com/hardwareretailing/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><i class="fa fa-instagram"></i></a>
+			</div>
+
+</div></div><!-- .widget /-->	</div><!-- .theiaStickySidebar /-->
+</aside><!-- #sidebar /--><div class="clear"></div>
+</div><!-- .container /-->
+<div class="e3lan e3lan-bottom">			<!-- Either there are no banners, they are disabled or none qualified for this location! -->
+				</div>
+				
+<div class="clear"></div>
+<div class="footer-bottom">
+	<div class="container">
+		<div class="alignright">
+			2026
+| Hardware Retailing		</div>
+				
+		<div class="alignleft">
+			© NHPA. All rights reserved		</div>
+		<div class="clear"></div>
+	</div><!-- .Container -->
+</div><!-- .Footer bottom -->
+
+</div><!-- .inner-Wrapper -->
+</div><!-- #Wrapper -->
+</div><!-- .Wrapper-outer -->
+<div id="fb-root"></div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/sahifa-child/*","/wp-content/themes/sahifa/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    adroll_adv_id = "T2PATLBXZFAADI4AAIK63N";
+    adroll_pix_id = "KGPTG7MRF5ENXAQLN3IEON";
+
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script><div id="reading-position-indicator"></div>		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQJ7QV2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		<script type="rocketlazyloadscript" data-minify="1" id="adrotate-groups-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/adrotate-pro/library/jquery.groups.js?ver=1773942211" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="jquery.gicolorbox-js-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/gallery-images/js/jquery.colorbox.js?ver=1773942211" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="gallery-hugeitmicro-min-js-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/gallery-images/js/jquery.hugeitmicro.min.js" data-rocket-defer defer></script>
+<script id="page-scroll-to-id-plugin-script-js-extra">
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion]","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+//# sourceURL=page-scroll-to-id-plugin-script-js-extra
+</script>
+<script type="rocketlazyloadscript" id="page-scroll-to-id-plugin-script-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js" data-rocket-defer defer></script>
+<script id="ppress-frontend-script-js-extra">
+var pp_ajax_form = {"ajaxurl":"https://hardwareretailing.com/wp-admin/admin-ajax.php","confirm_delete":"Are you sure?","deleting_text":"Deleting...","deleting_error":"An error occurred. Please try again.","nonce":"73f65fd7e8","disable_ajax_form":"false","is_checkout":"0","is_checkout_tax_enabled":"0","is_checkout_autoscroll_enabled":"true"};
+//# sourceURL=ppress-frontend-script-js-extra
+</script>
+<script type="rocketlazyloadscript" id="ppress-frontend-script-js" data-rocket-src="https://hardwareretailing.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js" data-rocket-defer defer></script>
+<script id="tie-scripts-js-extra">
+var tie = {"mobile_menu_active":"true","mobile_menu_top":"","lightbox_all":"true","lightbox_gallery":"true","woocommerce_lightbox":"","lightbox_skin":"dark","lightbox_thumb":"vertical","lightbox_arrows":"","sticky_sidebar":"1","is_singular":"1","SmothScroll":"","reading_indicator":"true","lang_no_results":"No Results","lang_results_found":"Results Found"};
+//# sourceURL=tie-scripts-js-extra
+</script>
+<script type="rocketlazyloadscript" data-minify="1" id="tie-scripts-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa/js/tie-scripts.js?ver=1773942212" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="tie-ilightbox-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa/js/ilightbox.packed.js?ver=1773942212" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="google-recaptcha-js" data-rocket-src="https://www.google.com/recaptcha/api.js?render=6LfTSqgUAAAAAM-K-xgXyxd1CMiT4AEilg-ILY9T"></script>
+<script type="rocketlazyloadscript" id="wp-polyfill-js" data-rocket-src="https://hardwareretailing.com/wp-includes/js/dist/vendor/wp-polyfill.min.js"></script>
+<script type="rocketlazyloadscript" id="wpcf7-recaptcha-js-before">
+var wpcf7_recaptcha = {
+    "sitekey": "6LfTSqgUAAAAAM-K-xgXyxd1CMiT4AEilg-ILY9T",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+</script>
+<script type="rocketlazyloadscript" data-minify="1" id="wpcf7-recaptcha-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=1773942212" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="tie-search-js" data-rocket-src="https://hardwareretailing.com/wp-content/cache/min/1/wp-content/themes/sahifa/js/search.js?ver=1773942212" data-rocket-defer defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://hardwareretailing.com/wp-includes/js/wp-emoji-release.min.js"}}
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://hardwareretailing.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script type="rocketlazyloadscript"></script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener("load", function(event) {
+jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function(){
+var form=jQuery(this); 
+var screen_width=""; var screen_height="";
+ if(screen_width == ""){
+ if(screen){
+   screen_width=screen.width;  
+ }else{
+     screen_width=jQuery(window).width();
+ }    }  
+  if(screen_height == ""){
+ if(screen){
+   screen_height=screen.height;  
+ }else{
+     screen_height=jQuery(window).height();
+ }    }
+form.append('<input type="hidden" name="vx_width" value="'+screen_width+'">');
+form.append('<input type="hidden" name="vx_height" value="'+screen_height+'">');
+form.append('<input type="hidden" name="vx_url" value="'+window.location.href+'">');  
+}); 
+
+});
+});</script> 
+<!-- AdRotate JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(document).ready(function(){if(jQuery.fn.gslider) {
+	jQuery('.g-5').gslider({groupid:5,speed:8000,repeat_impressions:'Y'});
+}});
+});</script>
+<!-- /AdRotate JS -->
+
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/hardwareretailing.com\/wp-admin\/admin-ajax.php","nonce":"68956ce324","url":"https:\/\/hardwareretailing.com\/3-products-made-for-automotive-diy-customers","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span"}</script><script data-name="wpr-wpr-beacon" src='https://hardwareretailing.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1c23bfc5e5bfc36',t:'MTc4NDIxNzc3OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script src="/clone-fixes.js"></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
