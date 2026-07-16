@@ -5310,9 +5310,9 @@
   "slug": "news__corporate__cio-dive-capacity-releases-inaugural-state-of-support-automation-report",
   "sitepath": "news/corporate/cio-dive-capacity-releases-inaugural-state-of-support-automation-report/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 170431,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/computerweekly-com-workday-research-75-of-employees-will-work-with-artificial-intelligence-but-not-for-it/",
@@ -5382,9 +5382,9 @@
   "slug": "news__corporate__globe-newswire-temenos-sets-new-benchmark-for-scalability-of-ai-powered-banking-with-microsoft",
   "sitepath": "news/corporate/globe-newswire-temenos-sets-new-benchmark-for-scalability-of-ai-powered-banking-with-microsoft/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 60545,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/hanover-loyalty-program-insights-featured-on-cmo-com-and-huffington-post/",
@@ -5472,18 +5472,18 @@
   "slug": "news__corporate__hrd-ai-productivity-gains-offset-by-rework-costs-study-finds",
   "sitepath": "news/corporate/hrd-ai-productivity-gains-offset-by-rework-costs-study-finds/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 73809,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/http-businessghana-com-site-news-business-328776-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment/",
   "slug": "news__corporate__http-businessghana-com-site-news-business-328776-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment",
   "sitepath": "news/corporate/http-businessghana-com-site-news-business-328776-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 50426,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-bankingjournal-aba-com-2025-05-survey-majority-of-financial-institutions-deploying-generative-ai/",
@@ -5742,18 +5742,18 @@
   "slug": "news__corporate__https-news-yahoo-com-forcing-workers-back-office-might-090024457-html",
   "sitepath": "news/corporate/https-news-yahoo-com-forcing-workers-back-office-might-090024457-html/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 499522,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-recurly-com-resources-guide-going-global-essential-guide-for-expanding-your-subscription-business-sourceid1hp_promo/",
   "slug": "news__corporate__https-recurly-com-resources-guide-going-global-essential-guide-for-expanding-your-subscription-business-sourceid1hp_promo",
   "sitepath": "news/corporate/https-recurly-com-resources-guide-going-global-essential-guide-for-expanding-your-subscription-business-sourceid1hp_promo/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 123251,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-tech-einnews-com-pr_news-713518174-contract-services-group-partners-with-dailypay-to-help-boost-hiring-efforts-as-the-busy-summer-travel-season-approaches/",
@@ -5778,36 +5778,36 @@
   "slug": "news__corporate__https-thewire-in-ptiprnews-turtle-wax-launches-you-are-how-you-car-in-india",
   "sitepath": "news/corporate/https-thewire-in-ptiprnews-turtle-wax-launches-you-are-how-you-car-in-india/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 21217,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-venturebeat-com-enterprise-analytics-report-85-of-financial-leaders-are-preparing-for-possible-recession-and-economic-disruption-in-2023/",
   "slug": "news__corporate__https-venturebeat-com-enterprise-analytics-report-85-of-financial-leaders-are-preparing-for-possible-recession-and-economic-disruption-in-2023",
   "sitepath": "news/corporate/https-venturebeat-com-enterprise-analytics-report-85-of-financial-leaders-are-preparing-for-possible-recession-and-economic-disruption-in-2023/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 113469,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-venturebeat-com-security-how-ai-and-data-enrichment-can-protect-the-vulnerable-during-a-recession/",
   "slug": "news__corporate__https-venturebeat-com-security-how-ai-and-data-enrichment-can-protect-the-vulnerable-during-a-recession",
   "sitepath": "news/corporate/https-venturebeat-com-security-how-ai-and-data-enrichment-can-protect-the-vulnerable-during-a-recession/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 135522,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-accountingtoday-com-news-finance-leaders-preparing-for-tax-changes/",
   "slug": "news__corporate__https-www-accountingtoday-com-news-finance-leaders-preparing-for-tax-changes",
   "sitepath": "news/corporate/https-www-accountingtoday-com-news-finance-leaders-preparing-for-tax-changes/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 252721,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-aftermarketnews-com-mema-auto-care-repair-act-2025/",
@@ -5832,9 +5832,9 @@
   "slug": "news__corporate__https-www-autobodynews-com-news-federal-repair-act-reintroduced-in-congress",
   "sitepath": "news/corporate/https-www-autobodynews-com-news-federal-repair-act-reintroduced-in-congress/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 102085,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
@@ -5877,9 +5877,9 @@
   "slug": "news__corporate__https-www-bankingexchange-com-news-feed-item-10323-most-financial-institutions-using-generative-ai",
   "sitepath": "news/corporate/https-www-bankingexchange-com-news-feed-item-10323-most-financial-institutions-using-generative-ai/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 78046,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-beautypackaging-com-contents-view_breaking-news-2022-04-26-rohrer-debuts-new-eco-friendly-packaging-solutions/",
@@ -5895,9 +5895,9 @@
   "slug": "news__corporate__https-www-bevindustry-com-articles-95320-warehouse-operations-turning-to-robotics-to-tackle-labor-challenges",
   "sitepath": "news/corporate/https-www-bevindustry-com-articles-95320-warehouse-operations-turning-to-robotics-to-tackle-labor-challenges/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 134312,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-bodyshopbusiness-com-survey-independent-repair-shops-view-vehicle-data-access-as-top-issue/",
@@ -6084,63 +6084,63 @@
   "slug": "news__corporate__https-www-cfo-com-budgeting-planning-strategy-budgeting-planning-2022-11-economic-disruption-supply-chain-esg-forecasting",
   "sitepath": "news/corporate/https-www-cfo-com-budgeting-planning-strategy-budgeting-planning-2022-11-economic-disruption-supply-chain-esg-forecasting/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 279201,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfo-com-news-symplr-cfo-inflation-jobs-data-return-to-office-691999/",
   "slug": "news__corporate__https-www-cfo-com-news-symplr-cfo-inflation-jobs-data-return-to-office-691999",
   "sitepath": "news/corporate/https-www-cfo-com-news-symplr-cfo-inflation-jobs-data-return-to-office-691999/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 280995,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-ais-quest-transform-corporate-finance-hurdles-702904/",
   "slug": "news__corporate__https-www-cfodive-com-news-ais-quest-transform-corporate-finance-hurdles-702904",
   "sitepath": "news/corporate/https-www-cfodive-com-news-ais-quest-transform-corporate-finance-hurdles-702904/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 276710,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-cfos-plan-to-boost-esg-spending-despite-recession-risk-survey-635744/",
   "slug": "news__corporate__https-www-cfodive-com-news-cfos-plan-to-boost-esg-spending-despite-recession-risk-survey-635744",
   "sitepath": "news/corporate/https-www-cfodive-com-news-cfos-plan-to-boost-esg-spending-despite-recession-risk-survey-635744/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 272997,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-costs-top-finance-automation-hurdle-ai-machine-learning-650352/",
   "slug": "news__corporate__https-www-cfodive-com-news-costs-top-finance-automation-hurdle-ai-machine-learning-650352",
   "sitepath": "news/corporate/https-www-cfodive-com-news-costs-top-finance-automation-hurdle-ai-machine-learning-650352/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 272354,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-inflation-talent-shortages-undercut-finance-team-efficiency-report-653937/",
   "slug": "news__corporate__https-www-cfodive-com-news-inflation-talent-shortages-undercut-finance-team-efficiency-report-653937",
   "sitepath": "news/corporate/https-www-cfodive-com-news-inflation-talent-shortages-undercut-finance-team-efficiency-report-653937/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 275691,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-ciodive-com-news-enterprise-it-budgets-ai-finops-apptio-ibm-738414/",
   "slug": "news__corporate__https-www-ciodive-com-news-enterprise-it-budgets-ai-finops-apptio-ibm-738414",
   "sitepath": "news/corporate/https-www-ciodive-com-news-enterprise-it-budgets-ai-finops-apptio-ibm-738414/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 269719,
-  "note": ""
+  "note": "EXTERNAL_REDIRECT"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cpapracticeadvisor-com-2024-02-06-how-to-manage-tax-exempt-sales-more-effectively-101511/",

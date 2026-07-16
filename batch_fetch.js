@@ -26,6 +26,11 @@ async function rateGate() {
 
 async function safeContent(page) { for (let i = 0; i < 6; i++) { try { return await page.content(); } catch (e) { await page.waitForTimeout(500); } } return ''; }
 function isChallenge(h) { return !h || h.includes('sgchallenge') || h.includes('Robot Challenge') || h.includes('sgcaptcha'); }
+// A genuine Hanover WordPress page always carries the site GTM id + wp-content/Elementor markers.
+// Some /news/ items are external-publisher REDIRECTS (e.g. globenewswire.com); context.request.get
+// silently follows the redirect and returns the third-party page. Detect & refuse to save those
+// (same-domain-only rule): treat as an external redirect, not clonable content.
+function isHanover(h) { return h.includes('GTM-5BPF5XC') || h.includes('/wp-content/plugins/elementor') || h.includes('/wp-content/themes/') || h.includes('hanoverresearch.com/wp-content'); }
 async function solve(page) { for (let i = 0; i < 45; i++) { await page.waitForTimeout(1000); const c = await safeContent(page); if (!isChallenge(c)) return true; } return false; }
 
 function urlToSlug(u) { const p = new URL(u).pathname.replace(/\/+$/, ''); if (p === '') return 'home'; return p.replace(/^\//, '').replace(/\//g, '__'); }
@@ -59,13 +64,16 @@ function urlToSitePath(u) { const p = new URL(u).pathname.replace(/\/+$/, ''); i
       manifest.push({ url: u, slug, sitepath: urlToSitePath(u), status: 200, ok: true, len, note: 'cached' });
       ok++; continue;
     }
-    let raw = '', status = 0, got = false, challenged = false;
+    let raw = '', status = 0, got = false, challenged = false, external = false;
     for (let attempt = 0; attempt < 4 && !got; attempt++) {
       try {
         await rateGate();
         const r = await context.request.get(u, { timeout: 45000, headers: { 'Accept': 'text/html,application/xhtml+xml' } });
         status = r.status(); raw = await r.text();
-        if (status === 200 && !isChallenge(raw)) { got = true; break; }
+        if (status === 200 && !isChallenge(raw)) {
+          if (!isHanover(raw)) { external = true; break; } // followed an external redirect — refuse
+          got = true; break;
+        }
         if (isChallenge(raw)) { challenged = true; }
         else { break; } // real non-200 (403 external redirect / 404) — not a challenge, stop retrying
       } catch (e) { raw = 'ERR ' + e.message; }
@@ -78,7 +86,7 @@ function urlToSitePath(u) { const p = new URL(u).pathname.replace(/\/+$/, ''); i
       manifest.push({ url: u, slug, sitepath: urlToSitePath(u), status, ok: true, len: raw.length, note: '' });
     } else {
       fail++;
-      const note = challenged && isChallenge(raw) ? 'CHALLENGE' : ('http' + status);
+      const note = external ? 'EXTERNAL' : (challenged && isChallenge(raw) ? 'CHALLENGE' : ('http' + status));
       manifest.push({ url: u, slug, sitepath: urlToSitePath(u), status, ok: false, len: raw.length, note });
       if (note === 'CHALLENGE') { consecBlock++; console.log(`BLOCK? ${u} (consec=${consecBlock})`); }
       else { consecBlock = 0; console.log(`SKIP ${u} status=${status} note=${note}`); }
