@@ -92,3 +92,23 @@ the reported bug's scope.
   target `/college-plans-for-reopenin/`; one `/resources/…` brief).
 
 Full lists: `fix_plan.json` (`origin404`, `redir_to_404`, `redir_final_unmirrored`, `live200`).
+
+### 3. `<link rel="next"/"prev">` pagination hints — not clickable navigation
+40 archive/taxonomy index pages carry a `<head>` `<link rel="next" href="/…/page/2/">` SEO hint
+pointing to archive page 2+, which this mirror never cloned (only page 1 of each archive was
+mirrored — a pre-existing coverage decision). These are machine-readable pagination hints, not
+user-facing `<a>` navigation, and are faithful to the origin's own markup, so they were left as-is.
+There are **no clickable "Next page" `<a>` links** on these archives (the origin paginates via
+AJAX/"load more"), so user navigation is not broken by this.
+
+## Live verification (post-deploy)
+- `/about-us/client-testimonials/` → **308 → `/testimonial/`** (origin used 301; Vercel emits 308 for
+  `permanent:true`, equivalent for GET). Same for `/b2b-manufacturing/` → `/industry/b2b-manufacturing/`,
+  `/research-insights/reports-briefs/` → `/reports-and-briefs/`, etc. All final targets return 200.
+- The "Back to All Testimonials" link now serves `href="/testimonial/"` on live testimonial pages
+  across all three categories (verified on the insightsoftware, Clayton State University, Searcy
+  School District, and General Tools pages).
+- Live crawl of a 19-page diverse sample (258 unique internal targets): every target resolves 2xx or
+  redirects to a 2xx, except the documented pre-existing coverage gaps (`/privacy-policy/`,
+  `/higher-education/hanover-digital/`, `<link rel=next>` `/…/page/2/`). Zero of the 326 fixed paths
+  are broken; zero new breakage introduced.

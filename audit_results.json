@@ -1,17 +1,17 @@
 {
  "base": "https://hanoverresearch-clone.vercel.app",
- "pagesAudited": 60,
+ "pagesAudited": 16,
  "vercelCheckpointPages": 0,
  "cloneDefects": [],
  "thirdParty": [
   {
-   "page": "https://hanoverresearch-clone.vercel.app/corporate/market-analysis-solutions/market-entry/",
+   "page": "https://hanoverresearch-clone.vercel.app/reports-and-briefs/corporate/a-step-by-step-guide-to-market-analysis/",
    "url": "https://app.qualified.com/w/1/JkmcYGLEZdzQCG5E/sentry/proxy",
    "status": 403,
    "kind": "THIRD-PARTY"
   },
   {
-   "page": "https://hanoverresearch-clone.vercel.app/corporate/market-analysis-solutions/market-entry/",
+   "page": "https://hanoverresearch-clone.vercel.app/reports-and-briefs/k-12-education/action-guide-characteristics-of-high-performing-schools/",
    "url": "https://epsilon.6sense.com/v3/company/details",
    "status": 403,
    "kind": "THIRD-PARTY"
