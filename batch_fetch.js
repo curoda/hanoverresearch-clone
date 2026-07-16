@@ -65,17 +65,28 @@ function urlToSitePath(u) { const p = new URL(u).pathname.replace(/\/+$/, ''); i
       ok++; continue;
     }
     let raw = '', status = 0, got = false, challenged = false, external = false;
+    let fetchUrl = u;
     for (let attempt = 0; attempt < 4 && !got; attempt++) {
       try {
         await rateGate();
-        const r = await context.request.get(u, { timeout: 45000, headers: { 'Accept': 'text/html,application/xhtml+xml' } });
-        status = r.status(); raw = await r.text();
+        // maxRedirects:0 -> do NOT auto-follow. We inspect Location and only follow same-domain
+        // redirects; external redirects (many /news/ press-coverage items) are flagged, never fetched.
+        const r = await context.request.get(fetchUrl, { timeout: 45000, maxRedirects: 0, headers: { 'Accept': 'text/html,application/xhtml+xml' } });
+        status = r.status();
+        if (status >= 300 && status < 400) {
+          const loc = r.headers()['location'] || '';
+          let host = '';
+          try { host = new URL(loc, fetchUrl).hostname; } catch (e) {}
+          if (host === 'www.hanoverresearch.com' || host === 'hanoverresearch.com') { fetchUrl = new URL(loc, fetchUrl).href; continue; } // same-domain redirect: follow once more
+          external = true; break; // external redirect: refuse
+        }
+        raw = await r.text();
         if (status === 200 && !isChallenge(raw)) {
-          if (!isHanover(raw)) { external = true; break; } // followed an external redirect — refuse
+          if (!isHanover(raw)) { external = true; break; } // safety: non-Hanover body
           got = true; break;
         }
         if (isChallenge(raw)) { challenged = true; }
-        else { break; } // real non-200 (403 external redirect / 404) — not a challenge, stop retrying
+        else { break; } // real non-200 (404 etc.) — not a challenge, stop retrying
       } catch (e) { raw = 'ERR ' + e.message; }
       // re-warm via a real navigation if challenged
       await rateGate();
