@@ -1,0 +1,2314 @@
+{
+ "FIX": {
+  "/b2b-manufacturing/": [
+   "/industry/b2b-manufacturing/",
+   1423
+  ],
+  "/building-products/": [
+   "/industry/building-products/",
+   1423
+  ],
+  "/cpg/": [
+   "/industry/cpg/",
+   1423
+  ],
+  "/edtech/": [
+   "/industry/edtech/",
+   1423
+  ],
+  "/software/": [
+   "/industry/software/",
+   1423
+  ],
+  "/insights-blog/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants/": [
+   "/insights-blog/higher-education/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants/",
+   14
+  ],
+  "/research-insights/case-studies/": [
+   "/case-studies/",
+   22
+  ],
+  "/about-us/client-testimonials/": [
+   "/testimonial/",
+   291
+  ],
+  "/about-us/news/": [
+   "/news/",
+   70
+  ],
+  "/reports-and-briefs/top-five-trends-disrupting-b2b-businesses-in-2022/": [
+   "/reports-and-briefs/corporate/top-five-trends-disrupting-b2b-businesses-in-2022/",
+   3
+  ],
+  "/reports-and-briefs/the-top-five-trends-disrupting-b2c-business-in-2022/": [
+   "/reports-and-briefs/corporate/the-top-five-trends-disrupting-b2c-business-in-2022/",
+   3
+  ],
+  "/reports-and-briefs/2022-trends-in-higher-education/": [
+   "/reports-and-briefs/higher-education/2022-trends-in-higher-education/",
+   3
+  ],
+  "/reports-and-briefs/2022-trends-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/2022-trends-in-k-12-education/",
+   3
+  ],
+  "/corporate/product-lifecycle/product-message-testing/%20": [
+   "/corporate/product-lifecycle/product-message-testing/",
+   2
+  ],
+  "/testimonial/cloverdale-foods-company/": [
+   "/testimonial/corporate/cloverdale-foods-company/",
+   3
+  ],
+  "/case-studies/sauer-brands-video-testimonial/": [
+   "/case-studies/corporate/sauer-brands-video-testimonial/",
+   8
+  ],
+  "/testimonial/new-client-testimonial-why-nuun-is-partnering-with-hanover-research/": [
+   "/testimonial/corporate/new-client-testimonial-why-nuun-is-partnering-with-hanover-research/",
+   1
+  ],
+  "/testimonial/once-upon-a-farm-organics/": [
+   "/testimonial/corporate/once-upon-a-farm-organics/",
+   2
+  ],
+  "/case-studies/mueller-leverages-market-analysis-for-long-term-product-strategy-2/": [
+   "/case-studies/corporate/mueller-leverages-market-analysis-for-long-term-product-strategy-2/",
+   5
+  ],
+  "/case-studies/mermet-leverages-path-to-purchase-insights-to-help-expand-its-online-presence/": [
+   "/case-studies/corporate/mermet-leverages-path-to-purchase-insights-to-help-expand-its-online-presence/",
+   5
+  ],
+  "/case-studies/manitou-group/": [
+   "/case-studies/corporate/manitou-group/",
+   6
+  ],
+  "/corporate/brand-strategy/content-marketing/": [
+   "/corporate/brand-strategy/thought-leadership/",
+   1
+  ],
+  "/expertise/qualitative-research/%20": [
+   "/expertise/qualitative-research/",
+   1
+  ],
+  "/case-studies/case-study-validating-market-presence-through-customer-feedback-sylvan-learning/": [
+   "/case-studies/corporate/case-study-validating-market-presence-through-customer-feedback-sylvan-learning/",
+   3
+  ],
+  "/case-studies/hanover-provides-learning-a-z-integrated-research-to-support-business-growth/": [
+   "/case-studies/corporate/hanover-provides-learning-a-z-integrated-research-to-support-business-growth/",
+   1
+  ],
+  "/testimonial/armstrong-flooring-product-line-survey/": [
+   "/testimonial/corporate/armstrong-flooring-product-line-survey/",
+   4
+  ],
+  "/corporate/product-lifecycle/pricing-strategy/%20": [
+   "/corporate/product-lifecycle/pricing-strategy/",
+   1
+  ],
+  "/corporate/product-lifecycle/product-portfolio-review/%20": [
+   "/corporate/product-lifecycle/product-portfolio-review/",
+   1
+  ],
+  "/testimonial/3pillar-global-go-to-market-strategy/": [
+   "/testimonial/corporate/3pillar-global-go-to-market-strategy/",
+   3
+  ],
+  "/case-studies/standing-out-in-a-niche-software-space/": [
+   "/case-studies/corporate/standing-out-in-a-niche-software-space/",
+   9
+  ],
+  "/testimonial/bluescape/": [
+   "/testimonial/corporate/bluescape/",
+   2
+  ],
+  "/testimonial/evoqua-water-technologies/": [
+   "/testimonial/corporate/evoqua-water-technologies/",
+   4
+  ],
+  "/case-studies/rheem-homeowner-contractor-demand-for-sustainability/": [
+   "/case-studies/corporate/rheem-homeowner-contractor-demand-for-sustainability/",
+   4
+  ],
+  "/case-studies/new-albany-plain-local-school-district-social-emotional-learning/": [
+   "/case-studies/k-12-education/new-albany-plain-local-school-district-social-emotional-learning/",
+   2
+  ],
+  "/case-studies/iowa-wesleyan-university-economic-impact/": [
+   "/case-studies/higher-education/iowa-wesleyan-university-economic-impact/",
+   2
+  ],
+  "/testimonial/sigma/": [
+   "/testimonial/corporate/sigma/",
+   3
+  ],
+  "/research-insights/reports-briefs/": [
+   "/reports-and-briefs/",
+   253
+  ],
+  "/testimonial/marmon-water-survey/": [
+   "/testimonial/corporate/marmon-water-survey/",
+   2
+  ],
+  "/case-studies/douglas-county-school-district-explores-stakeholder-perceptions-of-school-start-times/": [
+   "/case-studies/k-12-education/douglas-county-school-district-explores-stakeholder-perceptions-of-school-start-times/",
+   2
+  ],
+  "/case-studies/ball-state-and-hanover-research-case-study/": [
+   "/case-studies/higher-education/ball-state-and-hanover-research-case-study/",
+   5
+  ],
+  "/k-12-education/k-12-advisory-services/)": [
+   "/k-12-education/k-12-advisory-services/",
+   2
+  ],
+  "/hanover-digital/": [
+   "/k-12-education/hanover-digital/",
+   9
+  ],
+  "/reports-and-briefs/prevent-teacher-burnout-staff-well-being-check-in-toolkit/": [
+   "/reports-and-briefs/k-12-education/prevent-teacher-burnout-staff-well-being-check-in-toolkit/",
+   6
+  ],
+  "/case-studies/bakersfield-city-school-district-professional-development/": [
+   "/case-studies/k-12-education/bakersfield-city-school-district-professional-development/",
+   1
+  ],
+  "/testimonial/k-12-education/hanover-research-partners-with-san-bernardino-county-superintendent-of-schools-to-nurture-community-engagement/": [
+   "/testimonial/k-12-education/hanover-research-partners-with-sbcss-to-nurture-community-engagement/",
+   1
+  ],
+  "/press-releases/hanover-research-recognized-with-2023-cigna-healthy-workforce-designation/": [
+   "/press-releases/corporate/hanover-research-recognized-with-2023-cigna-healthy-workforce-designation/",
+   1
+  ],
+  "/press-releases/hanover-research-awarded-mental-health-america-bell-seal-for-workplace-mental-health/": [
+   "/press-releases/corporate/hanover-research-awarded-mental-health-america-bell-seal-for-workplace-mental-health/",
+   1
+  ],
+  "/reports-and-briefs/current-state-of-school-climate-in-public-schools/": [
+   "/reports-and-briefs/k-12-education/current-state-of-school-climate-in-public-schools/",
+   3
+  ],
+  "/testimonial/ceres-unified-school-district/": [
+   "/testimonial/k-12-education/ceres-unified-school-district/",
+   1
+  ],
+  "/reports-and-briefs/k-12-program-evaluations-guide/": [
+   "/reports-and-briefs/k-12-education/k-12-program-evaluations-guide/",
+   7
+  ],
+  "/testimonial/chula-vista-elementary-school-district-partners-with-hanover-to-support-students-to-achieve-greater-success/": [
+   "/testimonial/k-12-education/chula-vista-elementary-school-district-partners-with-hanover-to-support-students-to-achieve-greater-success/",
+   2
+  ],
+  "/market-research-revenue-calculator/": [
+   "/interactive-tools/corporate/research-revenue-calculator/",
+   10
+  ],
+  "/reports-and-briefs/guide-to-customer-experience-measurement/": [
+   "/reports-and-briefs/corporate/guide-to-customer-experience-measurement/",
+   3
+  ],
+  "/case-studies/bic-leverages-hanover-partnership-to-access-the-consumer-voice/": [
+   "/case-studies/corporate/bic-leverages-hanover-partnership-to-access-the-consumer-voice/",
+   3
+  ],
+  "/case-studies/hanover-research-quantifies-promotion-offers-for-princess-cruises/": [
+   "/case-studies/corporate/hanover-research-quantifies-promotion-offers-for-princess-cruises/",
+   4
+  ],
+  "/reports-and-briefs/the-state-of-market-research/": [
+   "/reports-and-briefs/corporate/the-state-of-market-research/",
+   13
+  ],
+  "/testimonial/alliance-laundry-systems/": [
+   "/testimonial/corporate/alliance-laundry-systems/",
+   1
+  ],
+  "/case-studies/how-clayton-homes-uses-hanovers-strategic-partnership-to-validate-brand-awareness/": [
+   "/case-studies/corporate/how-clayton-homes-uses-hanovers-strategic-partnership-to-validate-brand-awareness/",
+   2
+  ],
+  "/testimonial/flexcon-company/": [
+   "/testimonial/corporate/flexcon-company/",
+   2
+  ],
+  "/case-studies/hanovers-research-based-insight-drives-new-product-development/": [
+   "/case-studies/corporate/hanovers-research-based-insight-drives-new-product-development/",
+   3
+  ],
+  "/reports-and-briefs/the-state-of-product-development/": [
+   "/reports-and-briefs/corporate/the-state-of-product-development/",
+   6
+  ],
+  "/testimonial/general-tools/": [
+   "/testimonial/corporate/general-tools/",
+   1
+  ],
+  "/testimonial/health-language/": [
+   "/testimonial/corporate/health-language/",
+   2
+  ],
+  "/testimonial/circor-aerospace/": [
+   "/testimonial/corporate/circor-aerospace/",
+   2
+  ],
+  "/reports-and-briefs/covid-19-coronavirus-situation-report/": [
+   "/reports-and-briefs/corporate/covid-19-coronavirus-situation-report/",
+   1
+  ],
+  "/reports-and-briefs/covid-19-coronavirus-business-response-snapshot/": [
+   "/reports-and-briefs/corporate/covid-19-coronavirus-business-response-snapshot/",
+   1
+  ],
+  "/coronavirus-covid-19-tracker/": [
+   "/",
+   2
+  ],
+  "/reports-and-briefs/covid-19-impact-on-consumer-spending/": [
+   "/reports-and-briefs/corporate/covid-19-impact-on-consumer-spending/",
+   1
+  ],
+  "/reports-and-briefs/charting-the-course-forward-planning-your-district-reopening-strategy-amid-covid-19/": [
+   "/reports-and-briefs/k-12-education/charting-the-course-forward-planning-your-district-reopening-strategy-amid-covid-19/",
+   1
+  ],
+  "/reports-and-briefs/2021-trends-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/2021-trends-in-k-12-education/",
+   1
+  ],
+  "/education-solutions/k-12-education/educator-learning-center/": [
+   "/k-12-education/educator-learning-center/",
+   1
+  ],
+  "/reports-and-briefs/2021-trends-in-b2b-manufacturing/": [
+   "/reports-and-briefs/corporate/2021-trends-in-b2b-manufacturing/",
+   1
+  ],
+  "/reports-and-briefs/fall-2020-enrollment-report/": [
+   "/reports-and-briefs/higher-education/fall-2020-enrollment-report/",
+   2
+  ],
+  "/reports-and-briefs/2024-trends-in-higher-education/": [
+   "/reports-and-briefs/higher-education/2024-trends-in-higher-education/",
+   4
+  ],
+  "/reports-and-briefs/2023-trends-in-higher-education/": [
+   "/reports-and-briefs/higher-education/2023-trends-in-higher-education/",
+   3
+  ],
+  "/reports-and-briefs/2022-prospective-student-survey/": [
+   "/reports-and-briefs/higher-education/2022-prospective-student-survey/",
+   2
+  ],
+  "/reports-and-briefs/2021-trends-in-higher-education/": [
+   "/reports-and-briefs/higher-education/2021-trends-in-higher-education/",
+   1
+  ],
+  "/reports-and-briefs/top-career-skills-for-new-grads-in-2024/": [
+   "/reports-and-briefs/higher-education/top-career-skills-for-new-grads-in-2024/",
+   2
+  ],
+  "/reports-and-briefs/2023-national-admitted-student-survey/": [
+   "/reports-and-briefs/higher-education/2023-national-admitted-student-survey/",
+   3
+  ],
+  "/reports-and-briefs/national-admitted-student-survey-2021/": [
+   "/reports-and-briefs/higher-education/national-admitted-student-survey-2021/",
+   1
+  ],
+  "/reports-and-briefs/the-state-of-prospective-student-enrollment/": [
+   "/reports-and-briefs/higher-education/the-state-of-prospective-student-enrollment/",
+   2
+  ],
+  "/reports-and-briefs/2020-national-advancement-report/": [
+   "/reports-and-briefs/higher-education/2020-national-advancement-report/",
+   1
+  ],
+  "/reports-and-briefs/covid-19s-impact-on-international-students-academic-plans/": [
+   "/reports-and-briefs/higher-education/covid-19s-impact-on-international-students-academic-plans/",
+   2
+  ],
+  "/about-us/diversity-equity-and-inclusion/": [
+   "/about-us/culture/",
+   2
+  ],
+  "/research-insights/webinars/": [
+   "/webinars/",
+   1
+  ],
+  "/news/press-release-hanover-wins-2019-ies-sales-excellence-award/": [
+   "/news/corporate/press-release-hanover-wins-2019-ies-sales-excellence-award/",
+   1
+  ],
+  "/reports-and-briefs/k-12-data-literacy-checklist/": [
+   "/reports-and-briefs/k-12-education/k-12-data-literacy-checklist/",
+   9
+  ],
+  "/reports-and-briefs/program-evaluation-toolkit/": [
+   "/reports-and-briefs/k-12-education/program-evaluation-toolkit/",
+   1
+  ],
+  "/reports-and-briefs/2024-trends-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/2024-trends-in-k-12-education/",
+   4
+  ],
+  "/insights-blog/what-are-the-most-popular-k-12-technology-research-projects-in-demand/": [
+   "/insights-blog/k-12-education/what-are-the-most-popular-k-12-technology-research-projects-in-demand/",
+   1
+  ],
+  "/corporate-solutions/brand-strategy/": [
+   "/corporate/brand-strategy/",
+   1
+  ],
+  "/corporate-solutions": [
+   "/corporate/",
+   1
+  ],
+  "/newsroom/press-release-2019-ies-sales-excellence-awards/": [
+   "/news/",
+   1
+  ],
+  "/about/": [
+   "/about-us/",
+   1
+  ],
+  "/corporate-solutions/": [
+   "/corporate/",
+   1
+  ],
+  "/insights-blog/data-visualization-for-higher-education-what-mapping-can-tell-us-about-online-program-marketing/": [
+   "/insights-blog/higher-education/data-visualization-for-higher-education-what-mapping-can-tell-us-about-online-program-marketing/",
+   2
+  ],
+  "/brandtracker/": [
+   "/solution/brandtracker/",
+   3
+  ],
+  "/customer-segmentation/": [
+   "/solution/customer-segmentation/",
+   1
+  ],
+  "/customer-journey-mapping-insights/": [
+   "/solution/customer-journey-mapping-insights/",
+   2
+  ],
+  "/corporate/pricing-solutions/": [
+   "/corporate/solution/pricing-solutions/",
+   1
+  ],
+  "/thought-leadership-research/": [
+   "/solution/thought-leadership-research/",
+   1
+  ],
+  "/press-releases/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants-2/": [
+   "/press-releases/higher-education/hanover-research-passes-major-milestone-helps-clients-win-over-1-billion-in-grants-2/",
+   1
+  ],
+  "/case-studies/iowa-city-community-school-district-video-testimonial/": [
+   "/case-studies/k-12-education/iowa-city-community-school-district-video-testimonial/",
+   1
+  ],
+  "/case-studies/faculty-engagement-with-data/": [
+   "/case-studies/higher-education/faculty-engagement-with-data/",
+   1
+  ],
+  "/insights-blog/evolving-disruptions-and-shifting-consumer-preferences-shape-2022-for-b2c-brands/": [
+   "/insights-blog/corporate/evolving-disruptions-and-shifting-consumer-preferences-shape-2022-for-b2c-brands/",
+   1
+  ],
+  "/reports-and-briefs/higher-education-scenario-planning-toolkit-2020-2021/": [
+   "/reports-and-briefs/higher-education/higher-education-scenario-planning-toolkit-2020-2021/",
+   1
+  ],
+  "/reports-and-briefs/best-practices-for-marketing-the-virtual-campus/": [
+   "/reports-and-briefs/higher-education/best-practices-for-marketing-the-virtual-campus/",
+   1
+  ],
+  "/reports-and-briefs/covid-19-coronavirus-higher-education-field-guide": [
+   "/reports-and-briefs/higher-education/covid-19-coronavirus-higher-education-field-guide/",
+   1
+  ],
+  "/reports-and-briefs/covid-19-coronavirus-faqs-for-higher-education/": [
+   "/reports-and-briefs/higher-education/covid-19-coronavirus-faqs-for-higher-education/",
+   1
+  ],
+  "/k-12-education/school-climate/": [
+   "/k-12-education/culture-and-climate/",
+   7
+  ],
+  "/webinars/evaluating-the-influence-of-school-environment-on-student-staff-wellbeing/": [
+   "/webinars/k-12-education/evaluating-the-influence-of-school-environment-on-student-staff-wellbeing/",
+   1
+  ],
+  "/reports-and-briefs/2023-trends-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/2023-trends-in-k-12-education/",
+   3
+  ],
+  "/reports-and-briefs/supporting-successful-high-school-transitions/": [
+   "/reports-and-briefs/k-12-education/supporting-successful-high-school-transitions/",
+   2
+  ],
+  "/reports-and-briefs/solving-k-12-professional-learning-challenges-in-2023/": [
+   "/reports-and-briefs/k-12-education/solving-k-12-professional-learning-challenges-in-2023/",
+   2
+  ],
+  "/reports-and-briefs/positive-school-climate/": [
+   "/reports-and-briefs/k-12-education/positive-school-climate/",
+   4
+  ],
+  "/webinars/enhancing-student-outcomes-in-k-12-districts-strategies-for-success/": [
+   "/webinars/k-12-education/enhancing-student-outcomes-in-k-12-districts-strategies-for-success/",
+   2
+  ],
+  "/reports-and-briefs/student-well-being-program-evaluation-checklist/": [
+   "/reports-and-briefs/k-12-education/student-well-being-program-evaluation-checklist/",
+   4
+  ],
+  "/reports-and-briefs/k-12-education/instructional-audit-toolkit/": [
+   "/reports-and-briefs/k-12-education/k-12-instructional-audit-toolkit/",
+   1
+  ],
+  "/k-12-education/academic-program-planning-and-impact/": [
+   "/k-12-education/program-evaluation/",
+   5
+  ],
+  "/reports-and-briefs/the-current-state-of-social-and-emotional-learning-in-public-schools/": [
+   "/reports-and-briefs/k-12-education/the-current-state-of-social-and-emotional-learning-in-public-schools/",
+   2
+  ],
+  "/insights-blog/demonstrate-the-value-of-k-12-social-emotional-learning-by-measuring-it/": [
+   "/insights-blog/k-12-education/demonstrate-the-value-of-k-12-social-emotional-learning-by-measuring-it/",
+   1
+  ],
+  "/insights-blog/4-ways-to-build-a-positive-k-12-school-climate/": [
+   "/insights-blog/k-12-education/4-ways-to-build-a-positive-k-12-school-climate/",
+   1
+  ],
+  "/reports-and-briefs/logic-model-school-safety-audit/": [
+   "/reports-and-briefs/k-12-education/logic-model-school-safety-audit/",
+   1
+  ],
+  "/reports-and-briefs/Program-Planning-Guide-Social-Emotional-Learning/": [
+   "/reports-and-briefs/k-12-education/program-planning-guide-social-emotional-learning/",
+   1
+  ],
+  "/webinars/building-system-capacity-for-program-evaluations/": [
+   "/webinars/k-12-education/building-system-capacity-for-program-evaluations/",
+   2
+  ],
+  "/webinars/supporting-teacher-wellness-and-retention/": [
+   "/webinars/k-12-education/supporting-teacher-wellness-and-retention/",
+   1
+  ],
+  "/webinars/webinar-recording-navigating-professional-learning-in-a-virtual-environment/": [
+   "/webinars/k-12-education/webinar-recording-navigating-professional-learning-in-a-virtual-environment/",
+   1
+  ],
+  "/insights-blog/k-12-trauma-informed-resources-for-coping-with-tragedy-loss/": [
+   "/insights-blog/k-12-education/k-12-trauma-informed-resources-for-coping-with-tragedy-loss/",
+   1
+  ],
+  "/reports-and-briefs/engaging-families-and-communities-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/engaging-families-and-communities-in-k-12-education/",
+   5
+  ],
+  "/insights-blog/top-benefits-of-family-and-community-engagement/": [
+   "/insights-blog/k-12-education/top-benefits-of-family-and-community-engagement/",
+   2
+  ],
+  "/reports-and-briefs/ai-best-practices-in-k-12-education/": [
+   "/reports-and-briefs/k-12-education/ai-best-practices-in-k-12-education/",
+   2
+  ],
+  "/reports-and-briefs/k-12-education/2026-trends-in-k-12-education/%20": [
+   "/reports-and-briefs/k-12-education/2026-trends-in-k-12-education/",
+   1
+  ],
+  "/reports-and-briefs/2017-k-12-education-trend-report/": [
+   "/reports-and-briefs/k-12-education/2017-k-12-education-trend-report/",
+   1
+  ],
+  "/reports-and-briefs/implementing-social-emotional-learning-in-k-12/": [
+   "/reports-and-briefs/k-12-education/implementing-social-emotional-learning-in-k-12/",
+   1
+  ],
+  "/reports-and-briefs/k-12-instructional-audit-roadmap/": [
+   "/reports-and-briefs/k-12-education/k-12-instructional-audit-roadmap/",
+   1
+  ],
+  "/k-12-education/strategic-planning/": [
+   "/k-12-education/strategic-planning-and-governance/",
+   4
+  ],
+  "/reports-and-briefs/action-planning-toolkit/": [
+   "/reports-and-briefs/k-12-education/action-planning-toolkit/",
+   5
+  ],
+  "/reports-and-briefs/research-brief-the-digital-divide-technology-integration-in-school-districts/": [
+   "/reports-and-briefs/k-12-education/research-brief-the-digital-divide-technology-integration-in-school-districts/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-best-practices-measuring-social-emotional-learning/": [
+   "/reports-and-briefs/k-12-education/research-brief-best-practices-measuring-social-emotional-learning/",
+   1
+  ],
+  "/insights-blog/applying-student-data-to-district-decision-making/": [
+   "/insights-blog/k-12-education/applying-student-data-to-district-decision-making/",
+   1
+  ],
+  "/reports-and-briefs/new-superintendent-transition-toolkit/": [
+   "/reports-and-briefs/k-12-education/new-superintendent-transition-toolkit/",
+   1
+  ],
+  "/insights-blog/best-practices-in-math-interventions/": [
+   "/insights-blog/k-12-education/best-practices-in-math-interventions/",
+   2
+  ],
+  "/insights-blog/five-teacher-engagement-strategies-collaborative-culture/": [
+   "/insights-blog/k-12-education/five-teacher-engagement-strategies-collaborative-culture/",
+   1
+  ],
+  "/reports-and-briefs/2014-k-12-education-market-leadership-report/": [
+   "/reports-and-briefs/k-12-education/2014-k-12-education-market-leadership-report/",
+   1
+  ],
+  "/insights-blog/using-data-to-solve-k12-challenges/": [
+   "/insights-blog/k-12-education/using-data-to-solve-k12-challenges/",
+   6
+  ],
+  "/case-studies/danville-public-schools-data-strategic-change/": [
+   "/case-studies/k-12-education/danville-public-schools-data-strategic-change/",
+   1
+  ],
+  "/reports-and-briefs/top-7-tips-successful-rebrand/": [
+   "/reports-and-briefs/corporate/top-7-tips-successful-rebrand/",
+   4
+  ],
+  "/insights-blog/what-is-product-development-strategy/": [
+   "/insights-blog/corporate/what-is-product-development-strategy/",
+   6
+  ],
+  "/insights-blog/measuring-customer-experience/": [
+   "/insights-blog/corporate/measuring-customer-experience/",
+   5
+  ],
+  "/insights-blog/4-product-portfolio-optimization-tips-multi-product-lines/": [
+   "/insights-blog/corporate/4-product-portfolio-optimization-tips-multi-product-lines/",
+   1
+  ],
+  "/reports-and-briefs/trends-in-b2b-marketing-2018/": [
+   "/reports-and-briefs/corporate/trends-in-b2b-marketing-2018/",
+   2
+  ],
+  "/reports-and-briefs/research-brief-harnessing-power-data/": [
+   "/reports-and-briefs/corporate/research-brief-harnessing-power-data/",
+   2
+  ],
+  "/reports-and-briefs/the-impact-of-customer-journey-maps/": [
+   "/reports-and-briefs/corporate/the-impact-of-customer-journey-maps/",
+   1
+  ],
+  "/reports-and-briefs/common-pitfalls-customer-experience-measurement/": [
+   "/reports-and-briefs/corporate/common-pitfalls-customer-experience-measurement/",
+   2
+  ],
+  "/reports-and-briefs/2019-trends-in-market-analysis/": [
+   "/reports-and-briefs/corporate/2019-trends-in-market-analysis/",
+   2
+  ],
+  "/insights-blog/brand-tracking-surveys-guide/": [
+   "/insights-blog/corporate/brand-tracking-surveys-guide/",
+   3
+  ],
+  "/reports-and-briefs/guide-to-brand-health-measurement/": [
+   "/reports-and-briefs/corporate/guide-to-brand-health-measurement/",
+   5
+  ],
+  "/reports-and-briefs/brand-tracking-101-guide/": [
+   "/reports-and-briefs/corporate/brand-tracking-101-guide/",
+   4
+  ],
+  "/reports-and-briefs/infographic-dos-donts-digital-marketing-campaigns/": [
+   "/reports-and-briefs/corporate/infographic-dos-donts-digital-marketing-campaigns/",
+   1
+  ],
+  "/insights-blog/what-is-market-research/": [
+   "/insights-blog/corporate/what-is-market-research/",
+   2
+  ],
+  "/insights-blog/market-dynamics-three-questions/": [
+   "/insights-blog/corporate/market-dynamics-three-questions/",
+   1
+  ],
+  "/reports-and-briefs/five-critical-tests-for-market-growth/": [
+   "/reports-and-briefs/corporate/five-critical-tests-for-market-growth/",
+   1
+  ],
+  "/reports-and-briefs/five-step-guide-to-successful-merger-acquisition-target-identification/": [
+   "/reports-and-briefs/corporate/five-step-guide-to-successful-merger-acquisition-target-identification/",
+   2
+  ],
+  "/reports-and-briefs/how-to-measure-customer-satisfaction/": [
+   "/reports-and-briefs/corporate/how-to-measure-customer-satisfaction/",
+   4
+  ],
+  "/reports-and-briefs/voc-program-2/": [
+   "/reports-and-briefs/corporate/voc-program-2/",
+   2
+  ],
+  "/insights-blog/how-to-use-grantseeking-to-increase-philanthropic-income/": [
+   "/insights-blog/corporate/how-to-use-grantseeking-to-increase-philanthropic-income/",
+   1
+  ],
+  "/corporate/customer-experience/customer-behavior/": [
+   "/corporate/customer-experience/win-loss-analysis/",
+   1
+  ],
+  "/reports-and-briefs/customer-journey-mapping-toolkit-update/": [
+   "/reports-and-briefs/corporate/customer-journey-mapping-toolkit-update/",
+   1
+  ],
+  "/insights-blog/four-tried-tested-techniques-measuring-customer-experience/": [
+   "/insights-blog/corporate/four-tried-tested-techniques-measuring-customer-experience/",
+   1
+  ],
+  "/insights-blog/three-steps-of-a-successful-voice-of-customer-analysis/": [
+   "/insights-blog/corporate/three-steps-of-a-successful-voice-of-customer-analysis/",
+   1
+  ],
+  "/reports-and-briefs/the-state-of-product-development": [
+   "/reports-and-briefs/corporate/the-state-of-product-development/",
+   1
+  ],
+  "/reports-and-briefs/trends-in-consumer-marketing-2018/": [
+   "/reports-and-briefs/corporate/trends-in-consumer-marketing-2018/",
+   2
+  ],
+  "/insights-blog/top-5-reasons-regular-brand-tracking-is-essential-for-your-business/": [
+   "/insights-blog/corporate/top-5-reasons-regular-brand-tracking-is-essential-for-your-business/",
+   2
+  ],
+  "/insights-blog/4-strategies-for-product-expansion/": [
+   "/insights-blog/corporate/4-strategies-for-product-expansion/",
+   3
+  ],
+  "/insights-blog/market-research-methods/": [
+   "/insights-blog/corporate/market-research-methods/",
+   2
+  ],
+  "/reports-and-briefs/2021-trends-in-shifting-consumer-behavior/": [
+   "/reports-and-briefs/corporate/2021-trends-in-shifting-consumer-behavior/",
+   1
+  ],
+  "/reports-and-briefs/the-state-of-brand-measurement/": [
+   "/reports-and-briefs/corporate/the-state-of-brand-measurement/",
+   2
+  ],
+  "/insights-blog/crm-and-loyalty-programs-best-practices/": [
+   "/insights-blog/corporate/crm-and-loyalty-programs-best-practices/",
+   1
+  ],
+  "/reports-and-briefs/product-development-strategy-guide/": [
+   "/reports-and-briefs/corporate/product-development-strategy-guide/",
+   2
+  ],
+  "/reports-and-briefs/critical-pitfalls-of-the-new-product-development-process/": [
+   "/reports-and-briefs/corporate/critical-pitfalls-of-the-new-product-development-process/",
+   4
+  ],
+  "/reports-and-briefs/new-product-development-checklist-2/": [
+   "/reports-and-briefs/corporate/new-product-development-checklist-2/",
+   1
+  ],
+  "/reports-and-briefs/market-research-stats-you-need-to-know/": [
+   "/reports-and-briefs/corporate/market-research-stats-you-need-to-know/",
+   1
+  ],
+  "/reports-and-briefs/ultimate-guide-to-market-research/": [
+   "/reports-and-briefs/corporate/ultimate-guide-to-market-research/",
+   1
+  ],
+  "/case-studies/baltimore-aircoil-company/": [
+   "/case-studies/corporate/baltimore-aircoil-company/",
+   1
+  ],
+  "/2015/09/15/hanover-provides-learning-a-z-integrated-research-to-support-business-growth/": [
+   "/case-studies/corporate/hanover-provides-learning-a-z-integrated-research-to-support-business-growth/",
+   1
+  ],
+  "/reports-and-briefs/leveraging-your-customer-experience-toolbox/": [
+   "/reports-and-briefs/corporate/leveraging-your-customer-experience-toolbox/",
+   1
+  ],
+  "/2016/10/25/hanovers-research-based-insight-drives-new-product-development/": [
+   "/case-studies/corporate/hanovers-research-based-insight-drives-new-product-development/",
+   1
+  ],
+  "/insights-blog/four-stages-of-product-development-where-qualitative-research-counts/": [
+   "/insights-blog/corporate/four-stages-of-product-development-where-qualitative-research-counts/",
+   1
+  ],
+  "/reports-and-briefs/product-concept-testing-secret-to-meeting-customer-needs/": [
+   "/reports-and-briefs/corporate/product-concept-testing-secret-to-meeting-customer-needs/",
+   2
+  ],
+  "/insights-blog/5-things-to-do-to-before-brand-tracking/": [
+   "/insights-blog/corporate/5-things-to-do-to-before-brand-tracking/",
+   1
+  ],
+  "/insights-blog/does-your-organization-need-one-time-or-ongoing-brand-tracking/": [
+   "/insights-blog/corporate/does-your-organization-need-one-time-or-ongoing-brand-tracking/",
+   1
+  ],
+  "/reports-and-briefs/6-must-know-brand-tracking-metrics/": [
+   "/reports-and-briefs/corporate/6-must-know-brand-tracking-metrics/",
+   1
+  ],
+  "/case-studies/how-wayfair-keeps-close-tabs-on-brand-awareness/": [
+   "/case-studies/corporate/how-wayfair-keeps-close-tabs-on-brand-awareness/",
+   1
+  ],
+  "/reports-and-briefs/new-product-development-questions/": [
+   "/reports-and-briefs/corporate/new-product-development-questions/",
+   1
+  ],
+  "/quick-turn-survey/": [
+   "/solution/quick-turn-survey/",
+   1
+  ],
+  "/reports-and-briefs/the-consumer-shift-of-2021/": [
+   "/reports-and-briefs/corporate/the-consumer-shift-of-2021/",
+   1
+  ],
+  "/reports-and-briefs/drive-enrollment-with-cross-departmental-collaboration-update/": [
+   "/reports-and-briefs/higher-education/drive-enrollment-with-cross-departmental-collaboration-update/",
+   5
+  ],
+  "/reports-and-briefs/higher-education-marketing-strategy/": [
+   "/reports-and-briefs/higher-education/higher-education-marketing-strategy/",
+   2
+  ],
+  "/webinars/thinking-strategically-about-workforce-alignment-in-higher-education/": [
+   "/webinars/higher-education/thinking-strategically-about-workforce-alignment-in-higher-education/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-best-practices-in-graduate-student-recruitment/": [
+   "/reports-and-briefs/higher-education/research-brief-best-practices-in-graduate-student-recruitment/",
+   2
+  ],
+  "/reports-and-briefs/top-10-degrees-on-the-rise-in-2022/": [
+   "/reports-and-briefs/higher-education/top-10-degrees-on-the-rise-in-2022/",
+   2
+  ],
+  "/reports-and-briefs/the-2021-state-of-prospective-student-enrollment/": [
+   "/reports-and-briefs/higher-education/the-2021-state-of-prospective-student-enrollment/",
+   1
+  ],
+  "/reports-and-briefs/four-critical-steps-to-optimize-degree-program-portfolios/": [
+   "/reports-and-briefs/higher-education/four-critical-steps-to-optimize-degree-program-portfolios/",
+   1
+  ],
+  "/webinars/executive-panel-series-developing-academic-programs-in-a-new-era/": [
+   "/webinars/higher-education/executive-panel-series-developing-academic-programs-in-a-new-era/",
+   1
+  ],
+  "/reports-and-briefs/top-10-degrees-on-the-rise-in-2023/": [
+   "/reports-and-briefs/higher-education/top-10-degrees-on-the-rise-in-2023/",
+   6
+  ],
+  "/education-solutions/higher-education/academic-solutions/enrollment-management/": [
+   "/higher-education/enrollment-management/",
+   1
+  ],
+  "/reports-and-briefs/case-for-data-driven-program-development/": [
+   "/reports-and-briefs/higher-education/case-for-data-driven-program-development/",
+   2
+  ],
+  "/reports-and-briefs/7-key-findings-in-h2-2019-employer-hiring-trends/": [
+   "/reports-and-briefs/higher-education/7-key-findings-in-h2-2019-employer-hiring-trends/",
+   1
+  ],
+  "/reports-and-briefs/diagnostic-assessing-degree-program-health/": [
+   "/reports-and-briefs/higher-education/diagnostic-assessing-degree-program-health/",
+   1
+  ],
+  "/reports-and-briefs/building-graduates-employers-want-hire-post-graduation-employment/": [
+   "/reports-and-briefs/higher-education/building-graduates-employers-want-hire-post-graduation-employment/",
+   3
+  ],
+  "/reports-and-briefs/alumni-engagement-strategies-to-promote-fundraising/": [
+   "/reports-and-briefs/higher-education/alumni-engagement-strategies-to-promote-fundraising/",
+   3
+  ],
+  "/reports-and-briefs/turning-tide-student-retention/": [
+   "/reports-and-briefs/higher-education/turning-tide-student-retention/",
+   2
+  ],
+  "/reports-and-briefs/preventing-student-dropout-toolkit/": [
+   "/reports-and-briefs/higher-education/preventing-student-dropout-toolkit/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-analysis-tuition-pricing-strategies/": [
+   "/reports-and-briefs/higher-education/research-brief-analysis-tuition-pricing-strategies/",
+   3
+  ],
+  "/grant-consulting-bios/": [
+   "/",
+   1
+  ],
+  "/insights-blog/expert-insight-why-grantseeking-strategy-matters-in-fund-development/": [
+   "/insights-blog/higher-education/expert-insight-why-grantseeking-strategy-matters-in-fund-development/",
+   1
+  ],
+  "/reports-and-briefs/step-by-step-guide-to-a-comprehensive-academic-portfolio-review/": [
+   "/reports-and-briefs/higher-education/step-by-step-guide-to-a-comprehensive-academic-portfolio-review/",
+   8
+  ],
+  "/2017/06/12/hanovers-evidence-based-research-guides-holy-family-program-evaluation/": [
+   "/case-studies/higher-education/hanovers-evidence-based-research-guides-holy-family-program-evaluation/",
+   1
+  ],
+  "/insights-blog/6th-nordp-annual-research-development-conference/": [
+   "/insights-blog/higher-education/6th-nordp-annual-research-development-conference/",
+   1
+  ],
+  "/reports-and-briefs/the-2022-state-of-alumni-giving-report/": [
+   "/reports-and-briefs/higher-education/the-2022-state-of-alumni-giving-report/",
+   1
+  ],
+  "/webinars/executive-panel-series-building-a-cohesive-brand-identity-across-the-university/": [
+   "/webinars/higher-education/executive-panel-series-building-a-cohesive-brand-identity-across-the-university/",
+   1
+  ],
+  "/reports-and-briefs/4-ways-to-support-faculty-led-higher-education-grants/": [
+   "/reports-and-briefs/higher-education/4-ways-to-support-faculty-led-higher-education-grants/",
+   5
+  ],
+  "/insights-blog/metric-your-higher-education-competitors-arent-using/": [
+   "/insights-blog/higher-education/metric-your-higher-education-competitors-arent-using/",
+   1
+  ],
+  "/insights-blog/how-starbucks-paying-it-forward-and-shifting-financial-models-are-contributing-to-the-american-dream/": [
+   "/insights-blog/higher-education/how-starbucks-paying-it-forward-and-shifting-financial-models-are-contributing-to-the-american-dream/",
+   1
+  ],
+  "/insights-blog/expert-insight-demonstrating-value-in-legal-education/": [
+   "/insights-blog/higher-education/expert-insight-demonstrating-value-in-legal-education/",
+   1
+  ],
+  "/reports-and-briefs/2022-national-admitted-student-survey/": [
+   "/reports-and-briefs/higher-education/2022-national-admitted-student-survey/",
+   1
+  ],
+  "/webinars/executive-panel-series-reshaping-recruitment-ahead-of-the-enrollment-cliff/": [
+   "/webinars/higher-education/executive-panel-series-reshaping-recruitment-ahead-of-the-enrollment-cliff/",
+   1
+  ],
+  "/reports-and-briefs/trends-in-higher-education-2018/": [
+   "/reports-and-briefs/higher-education/trends-in-higher-education-2018/",
+   2
+  ],
+  "/insights-blog/applying-research-to-navigate-todays-law-school-landscape/": [
+   "/insights-blog/higher-education/applying-research-to-navigate-todays-law-school-landscape/",
+   1
+  ],
+  "/insights-blog/a-tactical-guide-to-graduate-student-recruitment/": [
+   "/insights-blog/higher-education/a-tactical-guide-to-graduate-student-recruitment/",
+   1
+  ],
+  "/reports-and-briefs/4-ways-to-measure-marketing-effectiveness/": [
+   "/reports-and-briefs/higher-education/4-ways-to-measure-marketing-effectiveness/",
+   2
+  ],
+  "/insights-blog/4-critical-strategies-for-matching-academic-programs-to-student-demand/": [
+   "/insights-blog/higher-education/4-critical-strategies-for-matching-academic-programs-to-student-demand/",
+   3
+  ],
+  "/webinars/engaging-collaborators-to-enhance-your-proposal/": [
+   "/webinars/higher-education/engaging-collaborators-to-enhance-your-proposal/",
+   1
+  ],
+  "/reports-and-briefs/2023-national-prospective-student-survey/": [
+   "/reports-and-briefs/higher-education/2023-national-prospective-student-survey/",
+   2
+  ],
+  "/reports-and-briefs/research-brief-managing-enrollment-decline-accurate-forecasting-2/": [
+   "/reports-and-briefs/higher-education/research-brief-managing-enrollment-decline-accurate-forecasting-2/",
+   1
+  ],
+  "/webinars/using-data-to-prevent-and-recover-stop-out-college-students/": [
+   "/webinars/higher-education/using-data-to-prevent-and-recover-stop-out-college-students/",
+   1
+  ],
+  "/insights-blog/best-practices-for-higher-education-academic-portfolio-review/": [
+   "/insights-blog/higher-education/best-practices-for-higher-education-academic-portfolio-review/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-unlocking-power-alumni-giving/": [
+   "/reports-and-briefs/higher-education/research-brief-unlocking-power-alumni-giving/",
+   1
+  ],
+  "/education-solutions/higher-education/national-full-time-mba-ranking-simulator/": [
+   "/national-full-time-mba-ranking-simulator/",
+   1
+  ],
+  "/reports-and-briefs/special-report-higher-education-market-leadership-report/": [
+   "/reports-and-briefs/higher-education/special-report-higher-education-market-leadership-report/",
+   2
+  ],
+  "/reports-and-briefs/strategic-planning-in-higher-education-best-practices-and-benchmarking-form/": [
+   "/reports-and-briefs/higher-education/strategic-planning-in-higher-education-best-practices-and-benchmarking-form/",
+   1
+  ],
+  "/webinars/whats-ahead-in-2024-trends-we-see-in-higher-education/": [
+   "/webinars/higher-education/whats-ahead-in-2024-trends-we-see-in-higher-education/",
+   1
+  ],
+  "/reports-and-briefs/9-tips-to-attract-generation-z-students/": [
+   "/reports-and-briefs/higher-education/9-tips-to-attract-generation-z-students/",
+   1
+  ],
+  "/reports-and-briefs/top-10-degrees-on-the-rise-in-2024/": [
+   "/reports-and-briefs/higher-education/top-10-degrees-on-the-rise-in-2024/",
+   1
+  ],
+  "/2017/11/10/6-ways-leverage-marketing-increase-enrollments/": [
+   "/insights-blog/higher-education/6-ways-leverage-marketing-increase-enrollments/",
+   1
+  ],
+  "/2018/03/27/diagnostic-assessing-degree-program-health/": [
+   "/reports-and-briefs/higher-education/diagnostic-assessing-degree-program-health/",
+   1
+  ],
+  "/insights-blog/how-to-improve-your-us-news-world-report-rankings/": [
+   "/insights-blog/higher-education/how-to-improve-your-us-news-world-report-rankings/",
+   1
+  ],
+  "/reports-and-briefs/top-career-skills-for-new-grads-in-2023/": [
+   "/reports-and-briefs/higher-education/top-career-skills-for-new-grads-in-2023/",
+   2
+  ],
+  "/reports-and-briefs/5-higher-ed-trends-to-watch-in-2023/": [
+   "/reports-and-briefs/higher-education/5-higher-ed-trends-to-watch-in-2023/",
+   1
+  ],
+  "/reports-and-briefs/planning-and-delivering-online-k-12-instruction-during-covid-19-school-closures/": [
+   "/reports-and-briefs/k-12-education/planning-and-delivering-online-k-12-instruction-during-covid-19-school-closures/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-grant-funding-every-student-succeeds-act/": [
+   "/reports-and-briefs/k-12-education/research-brief-grant-funding-every-student-succeeds-act/",
+   1
+  ],
+  "/insights-blog/planning-to-grow-your-market-share/": [
+   "/insights-blog/corporate/planning-to-grow-your-market-share/",
+   1
+  ],
+  "/webinars/understanding-the-2023-cohort-hanovers-admitted-student-survey/": [
+   "/webinars/higher-education/understanding-the-2023-cohort-hanovers-admitted-student-survey/",
+   1
+  ],
+  "/education-solutions/higher-education/": [
+   "/higher-education/",
+   1
+  ],
+  "/reports-and-briefs/2016-hanover-research-higher-education-industry-report/": [
+   "/reports-and-briefs/higher-education/2016-hanover-research-higher-education-industry-report/",
+   1
+  ],
+  "/reports-and-briefs/strategic-plan-implementation-framework/": [
+   "/reports-and-briefs/k-12-education/strategic-plan-implementation-framework/",
+   6
+  ],
+  "/reports-and-briefs/successful-program-implementation-toolkit/": [
+   "/reports-and-briefs/k-12-education/successful-program-implementation-toolkit/",
+   1
+  ],
+  "/reports-and-briefs/virtual-student-engagement-toolkit/": [
+   "/reports-and-briefs/k-12-education/virtual-student-engagement-toolkit/",
+   1
+  ],
+  "/reports-and-briefs/enhance-your-program-evaluation-efficacy-by-developing-logic-models/": [
+   "/reports-and-briefs/k-12-education/enhance-your-program-evaluation-efficacy-by-developing-logic-models/",
+   1
+  ],
+  "/reports-and-briefs/engaging-families-and-communities-in-k-12-education": [
+   "/reports-and-briefs/k-12-education/engaging-families-and-communities-in-k-12-education/",
+   1
+  ],
+  "/reports-and-briefs/five-critical-steps-of-a-successful-market-analysis/": [
+   "/reports-and-briefs/corporate/five-critical-steps-of-a-successful-market-analysis/",
+   5
+  ],
+  "/brandtracker": [
+   "/solution/brandtracker/",
+   1
+  ],
+  "/higher-education//reports-and-briefs/drive-enrollment-with-cross-departmental-collaboration-update/": [
+   "/reports-and-briefs/higher-education/drive-enrollment-with-cross-departmental-collaboration-update/",
+   1
+  ],
+  "/reports-and-briefs/4-ways-to-support-faculty-led-higher-education-grants": [
+   "/reports-and-briefs/higher-education/4-ways-to-support-faculty-led-higher-education-grants/",
+   1
+  ],
+  "/insights-blog/top-higher-ed-trends-for-the-2023-24-academic-year/": [
+   "/insights-blog/higher-education/top-higher-ed-trends-for-the-2023-24-academic-year/",
+   2
+  ],
+  "/reports-and-briefs/top-10-bachelors-and-masters-degrees-on-the-rise/": [
+   "/reports-and-briefs/higher-education/top-10-bachelors-and-masters-degrees-on-the-rise/",
+   1
+  ],
+  "/reports-and-briefs/best-practices-in-law-school-marketing-and-recruitment-strategies/": [
+   "/reports-and-briefs/higher-education/best-practices-in-law-school-marketing-and-recruitment-strategies/",
+   1
+  ],
+  "/webinars/managing-large-research-proposals/": [
+   "/webinars/higher-education/managing-large-research-proposals/",
+   1
+  ],
+  "/case-studies/uva-masters-of-business-analytics-degree/": [
+   "/case-studies/higher-education/uva-masters-of-business-analytics-degree/",
+   4
+  ],
+  "/case-studies/aultman-college-nursing-health-sciences-launches-four-year-program-hanovers-analysis/": [
+   "/case-studies/higher-education/aultman-college-nursing-health-sciences-launches-four-year-program-hanovers-analysis/",
+   3
+  ],
+  "/testimonial/boise-state-university-college-of-engineering-recruitment-student-success/": [
+   "/testimonial/higher-education/boise-state-university-college-of-engineering-recruitment-student-success/",
+   1
+  ],
+  "/testimonial/mcpherson-college-enrollment-management/": [
+   "/testimonial/higher-education/mcpherson-college-enrollment-management/",
+   1
+  ],
+  "/case-studies/royal-college-of-surgeons-in-ireland-rcsi-targets-international-graduate-students/": [
+   "/case-studies/higher-education/royal-college-of-surgeons-in-ireland-rcsi-targets-international-graduate-students/",
+   1
+  ]
+ },
+ "REDIR_UNMIRRORED": {
+  "/resources/research-brief-conducting-an-equity-audit-aasa/": [
+   "/resources/k-12-education/research-brief-conducting-an-equity-audit-aasa/",
+   2
+  ],
+  "/reports-and-briefs/current-state-of-diversity-equity-and-inclusion/": [
+   "/reports-and-briefs/k-12-education/current-state-of-diversity-equity-and-inclusion/",
+   2
+  ],
+  "/reports-and-briefs/anti-racism-discussion-guide/": [
+   "/reports-and-briefs/k-12-education/anti-racism-discussion-guide/",
+   2
+  ],
+  "/reports-and-briefs/preparing-for-dei-strategic-planning/": [
+   "/reports-and-briefs/k-12-education/preparing-for-dei-strategic-planning/",
+   2
+  ],
+  "/corporate/brand-strategy/content-marketing/%20": [
+   "/corporate/brand-strategy/content-marketing/",
+   1
+  ],
+  "/reports-and-briefs/action-planning-toolkit/)": [
+   "/reports-and-briefs/action-planning-toolkit/",
+   1
+  ],
+  "/market-analysis/": [
+   "/insights-blog/market-analysis/",
+   1
+  ],
+  "/reports-and-briefs/your-5-step-guide-to-merger-acquisition-target-identification/": [
+   "/reports-and-briefs/five-step-guide-to-successful-merger-acquisition-target-identification/",
+   1
+  ],
+  "/reports-and-briefs/webinar-recording-inside-student-perspectives-covid19-concerns-and-retention-strategies/": [
+   "/404/",
+   2
+  ],
+  "/news/hanover-research-recognized-as-top-50-research-firm-in-insights-association-research-and-data-analytics-report/": [
+   "/press-release/hanover-research-recognized-as-top-50-research-firm-in-insights-association-research-and-data-analytics-report/",
+   1
+  ],
+  "/paragonk12": [
+   "/education-solutions/k-12-education/",
+   1
+  ],
+  "/paragonk12/": [
+   "/education-solutions/k-12-education/",
+   2
+  ],
+  "/2017-k-12-education-trends-report/": [
+   "/reports-and-briefs/2017-k-12-education-trend-report/",
+   1
+  ],
+  "/corporate-solutions/customer-insights/": [
+   "/corporate-solutions/customer-experience-solutions/",
+   2
+  ],
+  "/corporate-solutions/product-innovation/": [
+   "/corporate-solutions/product-lifecycle-solutions/",
+   1
+  ],
+  "/corporate-solutions/pricing-strategy/": [
+   "/corporate-solutions/product-lifecycle-solutions/",
+   1
+  ],
+  "/corporate-solutions/consumer-journey/": [
+   "/corporate-solutions/customer-experience-solutions/",
+   1
+  ],
+  "/corporate-solutions/market-entry/": [
+   "/corporate-solutions/market-analysis-solutions/",
+   1
+  ],
+  "/corporate-solutions/ma-opportunity-evaluation/": [
+   "/corporate-solutions/market-analysis-solutions/",
+   1
+  ],
+  "/corporate-solutions/sales-team-effectiveness/": [
+   "/corporate-solutions/",
+   1
+  ],
+  "/corporate-solutions/channel-partner-effectiveness-distributor-dealer-sales/": [
+   "/corporate-solutions/sales-team-effectiveness/",
+   1
+  ],
+  "/corporate-solutions/channel-partner-effectiveness-retail-sales/": [
+   "/corporate-solutions/sales-team-effectiveness/",
+   1
+  ],
+  "/2017-higher-education-trends-report/": [
+   "/reports-and-briefs/2017-higher-education-trend-report/",
+   3
+  ],
+  "/category/blog/higher-education-blog/": [
+   "/insights/insights-blog/",
+   1
+  ],
+  "/reports-and-briefs/webinar-recording-international-student-enrollment-amid-a-global-crisis/": [
+   "/404/",
+   1
+  ],
+  "/reports-and-briefs/webinar-recording-proposal-writing-in-the-time-of-covid19/": [
+   "/404/",
+   1
+  ],
+  "/college-plans-for-reopening/": [
+   "/college-plans-for-reopenin/",
+   1
+  ],
+  "/reports-and-briefs/critical-steps-to-successful-program-implementation/": [
+   "/reports-and-briefs/toolkits/successful-program-implementation-toolkit/",
+   1
+  ],
+  "/reports-and-briefs/the-why-and-how-of-a-positive-school-climate/": [
+   "/reports-and-briefs/positive-school-climate/",
+   3
+  ],
+  "/reports-and-briefs/inclusive-teacher-recruitment-and-retention-practices/": [
+   "/reports-and-briefs/k-12-education/inclusive-teacher-recruitment-and-retention-practices/",
+   1
+  ],
+  "/reports-and-briefs/district-leaders-guide-for-developing-a-professional-learning-plan/": [
+   "/reports-and-briefs/district-leaders-guide-for-developing-k-12-professional-learning-plan/",
+   2
+  ],
+  "/category/blog/k-12-blog/": [
+   "/blog/k-12-blog/",
+   1
+  ],
+  "/reports-and-briefs/district-leaders-guide-for-developing-a-k12-professional-learning-plan/": [
+   "/reports-and-briefs/district-leaders-guide-for-developing-k-12-professional-learning-plan/",
+   1
+  ],
+  "/reports-and-briefs/data-literacy-checklist/": [
+   "/reports-and-briefs/k-12-data-literacy-checklist/",
+   1
+  ],
+  "/reports-and-briefs/power-customer-journey-mapping-2022/": [
+   "/reports-and-briefs/power-customer-journey-mapping/",
+   3
+  ],
+  "/reports-and-briefs/five-critical-tests-for-market-growth-2022/": [
+   "/reports-and-briefs/five-critical-tests-for-market-growth/",
+   2
+  ],
+  "/reports-and-briefs/top-6-brand-tracking-metrics/": [
+   "/reports-and-briefs/6-must-know-brand-tracking-metrics/",
+   1
+  ],
+  "/reports-and-briefs/top-7-tips-for-a-successful-rebrand/": [
+   "/reports-and-briefs/top-7-tips-successful-rebrand/",
+   1
+  ],
+  "/reports-and-briefs/new-product-development-process-pitfalls/": [
+   "/reports-and-briefs/critical-pitfalls-of-the-new-product-development-process/",
+   2
+  ],
+  "/reports-and-briefs/market-growth-five-critical-tests/": [
+   "/reports-and-briefs/five-critical-tests-for-market-growth/",
+   1
+  ],
+  "/reports-and-briefs/the-customer-segmentation-toolkit/": [
+   "/reports-and-briefs/guide-to-customer-segmentation/",
+   2
+  ],
+  "/insights/hanover-research-executes-survey-for-tripwire-to-evaluate-attitudes-about-cybersecurity/": [
+   "/insights-blog/hanover-research-executes-survey-for-tripwire-to-evaluate-attitudes-about-cybersecurity/",
+   1
+  ],
+  "/model/capabilities/": [
+   "/about/",
+   1
+  ],
+  "/2015/04/22/blue-diamond-uses-hanover-to-evaluate-product-growth-opportunities/": [
+   "/case-studies/blue-diamond-uses-hanover-to-evaluate-product-growth-opportunities/",
+   1
+  ],
+  "/2015/04/22/bic-leverages-hanover-partnership-to-access-the-consumer-voice/": [
+   "/case-studies/bic-leverages-hanover-partnership-to-access-the-consumer-voice/",
+   1
+  ],
+  "/insights/expert-insight-why-grantseeking-strategy-matters-in-fund-development/": [
+   "/insights-blog/expert-insight-why-grantseeking-strategy-matters-in-fund-development/",
+   1
+  ],
+  "/reports-and-briefs/research-brief-best-practices-higher-education-marketing-strategy/": [
+   "/reports-and-briefs/higher-education-marketing-strategy/",
+   1
+  ],
+  "/reports-and-briefs/the-enrollment-challenge-tactics-for-every-department/": [
+   "/reports-and-briefs/enrollment-tactics-for-every-department/",
+   1
+  ],
+  "/2018/03/01/top-10-undergraduate-degree-programs-rise-decline/": [
+   "/insights-blog/top-10-undergraduate-degree-programs-on-the-rise-and-decline/",
+   1
+  ],
+  "/2013/02/16/online-mba-market-study/": [
+   "/education-solutions/higher-education/",
+   1
+  ],
+  "/reports-and-briefs/2022-higher-education-diversity-equity-inclusion-survey/": [
+   "/reports-and-briefs/higher-education/2022-higher-education-diversity-equity-inclusion-survey/",
+   1
+  ],
+  "/2016/11/21/research-brief-every-student-succeeds-act-preparation-guide/": [
+   "/reports-and-briefs/the-every-student-succeeds-act-preparation-guide/",
+   1
+  ],
+  "/k-12-education/district-strategic-planning/": [
+   "/k-12-education/strategic-planning/",
+   3
+  ],
+  "/reports-and-briefs/webinar-recording-strategies-for-school-district-reopening-plans/": [
+   "/404/",
+   1
+  ],
+  "/k-12-education/student-success/": [
+   "/k-12-education/diversity-equity-inclusion/",
+   2
+  ],
+  "/webinars/unlocking-equity-a-guide-for-inclusive-teaching-and-learning/": [
+   "/webinars/k-12-education/unlocking-equity-a-guide-for-inclusive-teaching-and-learning/",
+   1
+  ],
+  "/k-12-education/academic-program-evaluation/": [
+   "/k-12-education/academic-program-planning-and-impact/",
+   1
+  ],
+  "/insights-blog/why-college-and-career-readiness-is-an-integral-component-of-k-12-education/": [
+   "/insights-blog/k-12-education/why-college-and-career-readiness-is-an-integral-component-of-k-12-education/",
+   1
+  ],
+  "/insights-blog/student-belonging-the-next-dei-frontier-in-higher-education/": [
+   "/insights-blog/higher-education/student-belonging-the-next-dei-frontier-in-higher-education/",
+   1
+  ],
+  "/insights-blog/higher-education-diversity-equity-and-inclusion-survey/": [
+   "/insights-blog/higher-education/higher-education-diversity-equity-and-inclusion-survey/",
+   1
+  ],
+  "/higher-education/enrollment-management/cross-department-enrollment-strategy/": [
+   "/insights-blog/cross-department-enrollment-strategy/",
+   1
+  ],
+  "/case-studies/case-study-applying-research-to-improve-retention-clarion-university/": [
+   "/case-studies/applying-research-to-improve-retention-clarion-university/",
+   1
+  ]
+ },
+ "REDIR_EXTERNAL": {},
+ "LIVE_200_UNMIRRORED": [
+  [
+   "/privacy-policy/",
+   1436
+  ],
+  [
+   "/covid-19-business-conditions-tracker-sampler-version/",
+   2
+  ],
+  [
+   "/media/SRA-Conference-2014.bmp",
+   1
+  ],
+  [
+   "/climate-assessment-survey-example-dashboard/",
+   1
+  ],
+  [
+   "/resources/k-12-education/research-summary-supporting-student-mental-health-in-high-achieving-environments/",
+   2
+  ],
+  [
+   "/resources/k-12-education/best-practices-in-supporting-student-mental-health/",
+   2
+  ],
+  [
+   "/resources/k-12-education/research-summary-leveraging-grant-funding-to-support-k12-priorities/",
+   3
+  ],
+  [
+   "/resources/k-12-education/new-superintendents-guide/",
+   6
+  ],
+  [
+   "/resources/k-12-education/research-summary-school-consolidation/",
+   3
+  ],
+  [
+   "/resources/k-12-education/infographic-2025-superintendents-needs-assessment-survey-masa/",
+   3
+  ],
+  [
+   "/resources/k-12-education/toolkit-conducting-school-safety-and-security-needs-assessments/",
+   3
+  ],
+  [
+   "/resources/k-12-education/research-summary-fencing-for-school-safety/",
+   3
+  ],
+  [
+   "/resources/k-12-education/best-practices-for-physical-safety/",
+   3
+  ],
+  [
+   "/corporate/customer-experience-new-template/",
+   2
+  ],
+  [
+   "/corporate/brand-strategy-new-template/",
+   2
+  ],
+  [
+   "/corporate/brand-tracker-use-cases/",
+   1
+  ],
+  [
+   "/corporate/product-lifecycle-new-template/",
+   2
+  ],
+  [
+   "/corporate/market-analysis-new-template-v2/",
+   2
+  ],
+  [
+   "/resources/k-12-education/research-summary-empowering-families-in-the-age-of-ai-strategies-for-school-districts/",
+   5
+  ],
+  [
+   "/resources/k-12-education/literature-review-navigating-political-climates/",
+   3
+  ],
+  [
+   "/resources/k-12-education/ai-tools-for-k-12-district-administrators/",
+   1
+  ],
+  [
+   "/resources/k-12-education/leadership-dos-and-donts-for-ai-use/",
+   1
+  ],
+  [
+   "/resources/k-12-education/ai-integration-into-k-12-administrative-systems/",
+   1
+  ],
+  [
+   "/tags/college-career-readiness/",
+   3
+  ],
+  [
+   "/tags/grow-students-sel-competencies/",
+   5
+  ],
+  [
+   "/tags/k-12-education/",
+   50
+  ],
+  [
+   "/tags/support-sel-learning/",
+   5
+  ],
+  [
+   "/author/lnuland/",
+   1
+  ],
+  [
+   "/tags/build-safe-supportive-environments/",
+   2
+  ],
+  [
+   "/tags/engage-families-communities/",
+   7
+  ],
+  [
+   "/tags/implement-supportive-strategies-for-staff/",
+   9
+  ],
+  [
+   "/tags/adapt-your-professional-development-framework/",
+   6
+  ],
+  [
+   "/tags/establish-annual-program-evaluations/",
+   6
+  ],
+  [
+   "/tags/identify-the-needs-of-vulnerable-populations/",
+   10
+  ],
+  [
+   "/tags/inform-decisions-around-professional-development/",
+   8
+  ],
+  [
+   "/tags/prioritize-resources-for-underrepresented-students/",
+   5
+  ],
+  [
+   "/tags/reinforce-your-districts-professional-learning-priorities/",
+   5
+  ],
+  [
+   "/tags/identify-gaps-in-program-implementation/",
+   12
+  ],
+  [
+   "/tags/understand-program-implementation-best-practices/",
+   13
+  ],
+  [
+   "/tags/visualize-the-path-to-program-success/",
+   17
+  ],
+  [
+   "/author/sphillips/",
+   1
+  ],
+  [
+   "/tags/academic-recovery/",
+   3
+  ],
+  [
+   "/tags/esser/",
+   2
+  ],
+  [
+   "/tags/improve-operations/",
+   4
+  ],
+  [
+   "/tags/k-12-trends/",
+   5
+  ],
+  [
+   "/tags/student-well-being/",
+   3
+  ],
+  [
+   "/tags/teacher-retention/",
+   3
+  ],
+  [
+   "/tags/guide-stakeholders-through-the-process/",
+   5
+  ],
+  [
+   "/tags/identify-opportunity-gaps/",
+   14
+  ],
+  [
+   "/tags/engage-staff-in-quality-dialogues/",
+   12
+  ],
+  [
+   "/tags/professional-development/",
+   1
+  ],
+  [
+   "/tags/retain-quality-educators/",
+   4
+  ],
+  [
+   "/tags/teacher-engagement/",
+   1
+  ],
+  [
+   "/tags/program-evaluation/",
+   5
+  ],
+  [
+   "/tags/student-experience/",
+   11
+  ],
+  [
+   "/tags/determine-the-effectiveness-of-district-operations/",
+   18
+  ],
+  [
+   "/tags/instructional-audit/",
+   1
+  ],
+  [
+   "/tags/student-achievement/",
+   1
+  ],
+  [
+   "/tags/student-success/",
+   6
+  ],
+  [
+   "/tags/success/",
+   1
+  ],
+  [
+   "/tags/understand-district-curriculum-and-instruction/",
+   8
+  ],
+  [
+   "/tags/budget-decisions/",
+   3
+  ],
+  [
+   "/tags/k-12-budgets/",
+   2
+  ],
+  [
+   "/tags/k-12-enrollment/",
+   1
+  ],
+  [
+   "/tags/measure-the-success-of-your-strategy/",
+   13
+  ],
+  [
+   "/tags/k-12-leadership/",
+   2
+  ],
+  [
+   "/tags/superintendent-transition/",
+   2
+  ],
+  [
+   "/tags/improve-change-management-in-your-district/",
+   8
+  ],
+  [
+   "/tags/and-in-person-learning-gaps/",
+   1
+  ],
+  [
+   "/tags/hybrid/",
+   1
+  ],
+  [
+   "/tags/measure-online/",
+   1
+  ],
+  [
+   "/tags/predict-learning-loss/",
+   4
+  ],
+  [
+   "/author/ebeeson/",
+   1
+  ],
+  [
+   "/tags/align-your-teams-program-evaluation-plan/",
+   9
+  ],
+  [
+   "/tags/share-program-improvement-plans/",
+   5
+  ],
+  [
+   "/author/ccorik/",
+   1
+  ],
+  [
+   "/tags/focus-strategic-vision-into-actionable-goal/",
+   8
+  ],
+  [
+   "/tags/identify-strategic-priorities/",
+   15
+  ],
+  [
+   "/tags/measure-online-hybrid-and-in-person-learning-gaps/",
+   5
+  ],
+  [
+   "/tags/measure-school-climate/",
+   6
+  ],
+  [
+   "/tags/prioritize-strategic-efforts/",
+   10
+  ],
+  [
+   "/tags/professional-services/",
+   11
+  ],
+  [
+   "/tags/recruit-retain-and-develop-talent/",
+   2
+  ],
+  [
+   "/tags/improve-your-remote-and-hybrid-curriculum/",
+   2
+  ],
+  [
+   "/tags/support-remote-and-hybrid-learning-success/",
+   2
+  ],
+  [
+   "/tags/track-implementation-of-programming-or-practices/",
+   9
+  ],
+  [
+   "/author/kshujaa/",
+   1
+  ],
+  [
+   "/tags/program-implementation/",
+   1
+  ],
+  [
+   "/tags/k-12-community-engagement/",
+   1
+  ],
+  [
+   "/tags/k-12-community-partnerships/",
+   1
+  ],
+  [
+   "/tags/marketing/",
+   8
+  ],
+  [
+   "/tags/career-focused-learning/",
+   1
+  ],
+  [
+   "/tags/labor-market-needs/",
+   2
+  ],
+  [
+   "/tags/financial-stability/",
+   4
+  ],
+  [
+   "/tags/strategic-planning/",
+   4
+  ],
+  [
+   "/tags/artificial-intelligence/",
+   1
+  ],
+  [
+   "/tags/career-and-technical-education/",
+   1
+  ],
+  [
+   "/tags/data-literacy/",
+   2
+  ],
+  [
+   "/tags/identify-student-participation-in-remote-learning/",
+   2
+  ],
+  [
+   "/tags/assess-your-professional-learning-investments/",
+   1
+  ],
+  [
+   "/author/awagner/",
+   1
+  ],
+  [
+   "/tags/covid/",
+   2
+  ],
+  [
+   "/tags/recruitment/",
+   1
+  ],
+  [
+   "/tags/learn-innovative-ways-to-meet-needs-with-fewer-resources/",
+   4
+  ],
+  [
+   "/tags/trends/",
+   4
+  ],
+  [
+   "/tags/student-belonging/",
+   1
+  ],
+  [
+   "/tags/k-12-improvement/",
+   1
+  ],
+  [
+   "/tags/k-12-marketing/",
+   1
+  ],
+  [
+   "/author/lbaker/",
+   1
+  ],
+  [
+   "/author/jwokas/",
+   1
+  ],
+  [
+   "/tags/technology-and-software/",
+   9
+  ],
+  [
+   "/tags/community-engagement/",
+   1
+  ],
+  [
+   "/tags/positive-school-climate/",
+   1
+  ],
+  [
+   "/tags/promote-a-healthy-k-12-school-climate/",
+   1
+  ],
+  [
+   "/tags/promote-teacher-agency/",
+   1
+  ],
+  [
+   "/tags/student-supports/",
+   1
+  ],
+  [
+   "/author/mewaida/",
+   1
+  ],
+  [
+   "/tags/continuous-improvement/",
+   1
+  ],
+  [
+   "/tags/brand-strategy/",
+   11
+  ],
+  [
+   "/tags/corporate/",
+   61
+  ],
+  [
+   "/tags/market-analysis/",
+   12
+  ],
+  [
+   "/tags/market-research/",
+   4
+  ],
+  [
+   "/tags/segmentation/",
+   2
+  ],
+  [
+   "/tags/product-development/",
+   8
+  ],
+  [
+   "/tags/product-lifecycle-solutions/",
+   4
+  ],
+  [
+   "/author/sknoesen/",
+   1
+  ],
+  [
+   "/tags/customer-experience/",
+   12
+  ],
+  [
+   "/tags/customer-journey/",
+   9
+  ],
+  [
+   "/tags/customer-needs/",
+   8
+  ],
+  [
+   "/tags/customer-satisfaction/",
+   8
+  ],
+  [
+   "/tags/channel/",
+   1
+  ],
+  [
+   "/tags/path-to-purchase/",
+   1
+  ],
+  [
+   "/tags/retail/",
+   7
+  ],
+  [
+   "/tags/market-entry-strategy/",
+   5
+  ],
+  [
+   "/tags/market-penetration-strategy/",
+   6
+  ],
+  [
+   "/tags/brand-tracking/",
+   3
+  ],
+  [
+   "/tags/brand-launch/",
+   1
+  ],
+  [
+   "/tags/grants/",
+   14
+  ],
+  [
+   "/tags/pharma-and-health-services/",
+   12
+  ],
+  [
+   "/tags/manufacturing/",
+   9
+  ],
+  [
+   "/tags/best-practices/",
+   4
+  ],
+  [
+   "/tags/telecommunications/",
+   6
+  ],
+  [
+   "/tags/automotive/",
+   5
+  ],
+  [
+   "/tags/financial-services-and-insurance/",
+   6
+  ],
+  [
+   "/tags/food-and-beverage/",
+   6
+  ],
+  [
+   "/tags/higher-education/",
+   104
+  ],
+  [
+   "/tags/hospitality-and-leisure/",
+   4
+  ],
+  [
+   "/tags/qualitative-research/",
+   2
+  ],
+  [
+   "/tags/quantitative-analysis/",
+   1
+  ],
+  [
+   "/tags/surveys/",
+   1
+  ],
+  [
+   "/tags/voice-of-customer/",
+   2
+  ],
+  [
+   "/tags/rebrand/",
+   2
+  ],
+  [
+   "/tags/energy-and-natural-resources/",
+   4
+  ],
+  [
+   "/author/kprudence/",
+   2
+  ],
+  [
+   "/tags/b2b/",
+   2
+  ],
+  [
+   "/tags/new-product-development/",
+   7
+  ],
+  [
+   "/tags/product-launch/",
+   4
+  ],
+  [
+   "/author/ablake/",
+   1
+  ],
+  [
+   "/tags/b2c/",
+   1
+  ],
+  [
+   "/tags/competitive-insight/",
+   1
+  ],
+  [
+   "/author/kturcotte/",
+   1
+  ],
+  [
+   "/tags/brand-health/",
+   2
+  ],
+  [
+   "/tags/brand-health-measurement/",
+   1
+  ],
+  [
+   "/tags/brand-perception/",
+   4
+  ],
+  [
+   "/tags/customer-segmentation/",
+   1
+  ],
+  [
+   "/author/khalabi/",
+   1
+  ],
+  [
+   "/author/kpate/",
+   1
+  ],
+  [
+   "/author/agrennille/",
+   1
+  ],
+  [
+   "/tags/finance/",
+   5
+  ],
+  [
+   "/tags/grants-for-higher-ed/",
+   2
+  ],
+  [
+   "/author/ftroilo/",
+   1
+  ],
+  [
+   "/tags/academic-portfolio/",
+   2
+  ],
+  [
+   "/tags/academic-development/",
+   8
+  ],
+  [
+   "/tags/education/",
+   3
+  ],
+  [
+   "/tags/enrollment-management/",
+   10
+  ],
+  [
+   "/tags/academic-programming-solutions/",
+   3
+  ],
+  [
+   "/author/pgibson/",
+   1
+  ],
+  [
+   "/author/mrodgers/",
+   2
+  ],
+  [
+   "/tags/program-demand/",
+   2
+  ],
+  [
+   "/tags/alumni/",
+   1
+  ],
+  [
+   "/tags/fundraising/",
+   2
+  ],
+  [
+   "/tags/advancement/",
+   5
+  ],
+  [
+   "/tags/net-promoter-score/",
+   1
+  ],
+  [
+   "/tags/nps/",
+   1
+  ],
+  [
+   "/tags/grant/",
+   2
+  ],
+  [
+   "/tags/grants-for-he/",
+   4
+  ],
+  [
+   "/tags/grants-for-k-12/",
+   1
+  ],
+  [
+   "/tags/academic-portfolio-review/",
+   2
+  ],
+  [
+   "/tags/career-outlook/",
+   1
+  ],
+  [
+   "/tags/employment-outlook/",
+   1
+  ],
+  [
+   "/tags/job-training/",
+   1
+  ],
+  [
+   "/tags/roi/",
+   2
+  ],
+  [
+   "/tags/workforce-development/",
+   1
+  ],
+  [
+   "/tags/alumni-giving/",
+   1
+  ],
+  [
+   "/tags/prospective-student-needs/",
+   4
+  ],
+  [
+   "/tags/strategic-enrollment-management/",
+   5
+  ],
+  [
+   "/tags/student-recruitment/",
+   2
+  ],
+  [
+   "/tags/campus-climate-culture/",
+   1
+  ],
+  [
+   "/tags/student-persistence/",
+   1
+  ],
+  [
+   "/tags/student-retention/",
+   1
+  ],
+  [
+   "/tags/academic-roi/",
+   1
+  ],
+  [
+   "/tags/admitted-students/",
+   1
+  ],
+  [
+   "/tags/graduate-programs/",
+   1
+  ],
+  [
+   "/tags/higher-education-enrollment/",
+   2
+  ],
+  [
+   "/tags/student-outreach/",
+   1
+  ],
+  [
+   "/tags/assess-existing-degree-programs/",
+   1
+  ],
+  [
+   "/tags/program-review/",
+   1
+  ],
+  [
+   "/tags/grantseeking/",
+   1
+  ],
+  [
+   "/tags/he-grants/",
+   2
+  ],
+  [
+   "/tags/hanover-research/",
+   1
+  ],
+  [
+   "/tags/institutional-success/",
+   1
+  ],
+  [
+   "/tags/resource-allocation/",
+   1
+  ],
+  [
+   "/tags/enrollment-solutions/",
+   1
+  ],
+  [
+   "/tags/literature-review/",
+   1
+  ],
+  [
+   "/author/ekelleher/",
+   1
+  ],
+  [
+   "/tags/microcredentials/",
+   1
+  ],
+  [
+   "/terms-of-use/",
+   1
+  ],
+  [
+   "/higher-education/hanover-digital/",
+   1
+  ]
+ ],
+ "ORIGIN_404": [
+  [
+   "/webinar/webinar-recording-evaluating-and-advancing-equity-within-your-district/",
+   2,
+   404
+  ],
+  [
+   "/webinar/webinar-recording-customer-journey-mapping-during-uncertainty/",
+   1,
+   404
+  ],
+  [
+   "/webinar/webinar-recording-leading-through-a-dual-pandemic-reforming-education-through-strategic-planning/",
+   1,
+   404
+  ],
+  [
+   "/k-12-covid-19-resource-center/",
+   4,
+   404
+  ],
+  [
+   "/insights/2014-k-12-education-market-leadership-report/",
+   2,
+   404
+  ],
+  [
+   "/impact/allworx-corp-releases-hanover-survey-results-to-validate-new-product-line/",
+   1,
+   404
+  ],
+  [
+   "/newsroom/edweek-interviews-hanover-to-report-skyrocketing-use-of-digital-studying/",
+   1,
+   404
+  ],
+  [
+   "/newsroom/hanover-research-is-among-the-fastest-growing-companies-in-the-washington-d-c-region/",
+   2,
+   404
+  ],
+  [
+   "/2013/09/technology-in-the-classroom/",
+   1,
+   404
+  ],
+  [
+   "/2013/08/student-network-access-policies/",
+   1,
+   404
+  ],
+  [
+   "/2013/07/school-board-reporting-structures/",
+   1,
+   404
+  ],
+  [
+   "/education-market/",
+   1,
+   404
+  ],
+  [
+   "/insights/hanover-partners-with-gazelle-to-uncover-how-consumers-treat-old-smartphones/",
+   1,
+   404
+  ],
+  [
+   "/insights-blog/higher-education/6th-nordp-annual-research-development-conference/www.nordp.org",
+   1,
+   404
+  ],
+  [
+   "/wp-content/uploads/2016/05/Higher-Ed_IndustryReport1.pdf",
+   2,
+   404
+  ],
+  [
+   "/insights/analysis-of-tuition-pricing-strategies/",
+   2,
+   404
+  ],
+  [
+   "/webinar/webinar-recording-2021-trends-in-higher-education/",
+   1,
+   404
+  ],
+  [
+   "/webinars/upcoming-webinar/unlocking-equity-a-guide-for-inclusive-teaching-and-learning/",
+   1,
+   404
+  ]
+ ],
+ "OTHER": []
+}

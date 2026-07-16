@@ -95,6 +95,22 @@ pages; `pages.json` records every URL with its status/classification (`ok`, or n
   `data-thumbnail` (not `src`), which the asset scanner didn't read. 3 such images on
   `/careers/` + `/careers/social-impact/` (200 on the origin) were missing; downloaded. Scanner
   (`batch_assets.js`, `asset_integrity.py`) now includes `data-thumbnail`/gallery attrs.
+- **Site-wide broken internal-link fix (see `BROKEN_LINKS_FIX.md`):** many internal `<a href>`s
+  pointed to old paths the **origin only serves via a 301 redirect** to a page that IS in this mirror
+  — so they 404'd on the static clone (no redirect layer). The reported case: the individual
+  testimonial template linked "Back to All Testimonials" to `/about-us/client-testimonials/` (origin
+  301 → `/testimonial/`); wrong on all 289 testimonial posts + 2 Careers links (291 total).
+  **Fixed:** `linksweep.py` enumerated every unresolved internal link, `probe_all.js`/`probe_chains.js`
+  classified each against the origin, and `fix_links.py` rewrote **8,504 `href` occurrences across
+  1,430 files** for **326 distinct wrong paths** to their canonical in-clone targets (e.g.
+  `/b2b-manufacturing/`→`/industry/b2b-manufacturing/`, `/research-insights/reports-briefs/`→
+  `/reports-and-briefs/`, `/about-us/news/`→`/news/`). Also added **318 Vercel 301 redirects**
+  (`site/vercel.json`) matching the origin's own redirects for direct/bookmarked hits. Re-sweep: 0 of
+  the 326 fixed paths still broken, 0 new breakage. Left unchanged: 218 paths/2,423 links that are
+  *correct* hrefs to real origin pages this mirror never cloned (`/privacy-policy/` footer link on
+  1,436 pages; the separate `/tags/` taxonomy, 911 links; `/author/`, `/resources/`, `/terms-of-use/`)
+  — a pre-existing coverage gap, NOT wrong links; and 27 paths/34 links broken on the origin too
+  (404 or origin-redirect-to-`/404/`), reproduced faithfully.
 
 ## Infrastructure note
 - GitHub push now works; the full repository (pipeline scripts, raw HTML, built site, tooling,
