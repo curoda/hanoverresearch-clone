@@ -26,3 +26,6 @@ DONE batch assets. downloaded=423 skipped=247 failed=12 newCss=1
 built 230 new pages; rewrote 0 new css; batch ok=230 fail=0; pages.json total=1406
 urls.txt += 230
 =================== BATCH 05: COMMIT ===================
+To https://github.com/curoda/hanoverresearch-clone.git
+   ea02d78..1193c2d  HEAD -> master
+=================== BATCH 05 DONE ===================
