@@ -1,0 +1,124 @@
+=================== BATCH 04: FETCH (230 urls) ===================
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-2025-survey-of-college-and-university-student-success-administrators/ status=301 note=EXTERNAL
+[0/230] ok=0 fail=1 last=news__higher-education__inside-higher-ed-2025-survey-of-college-and-university-student-success-administrators
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-academic-leaders-under-pressure-what-provosts-are-saying-in-2025/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-building-transfer-student-belonging-through-orientation/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-college-business-officers-surprisingly-upbeat-about-their-finances/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-federal-policy-uncertainty-impacting-college-budgeting/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-many-faculty-say-academic-freedom-is-deteriorating-theyre-self-censoring/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-presidents-pressured-in-trumps-second-term/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-presidents-puzzled-on-rebuilding-public-trust-in-higher-ed/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-research-can-vr-teach-students-ethics/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-risk-and-resilience/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-student-success-leaders-worry-about-affordability-ai-and-diversity/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-supporting-transfer-student-success-through-data/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-survey-provosts-focused-on-funding-cuts-academic-freedom-and-ai/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-tenure-cant-stay-the-same/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-the-death-spiral-of-deferred-maintenance/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/inside-higher-ed-whats-keeping-presidents-up-at-night-in-2026/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/nasfaa-student-success-leaders-worry-about-affordability-ai-and-diversity/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/odessa-american-online-sul-ross-acquires-43-acres-for-new-campus-in-eagle-pass/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/repair-driven-news-ccc-cref-survey-finds-young-students-and-professionals-view-collision-industry-positively/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/sfa-relaunches-lumberjacks-make-great-campaign-and-introduces-modern-lumberjack-to-celebrate-homecoming/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/siu-carbondale-new-agreement-provides-assistance-with-external-funding-proposals/ status=301 note=EXTERNAL
+[25/230] ok=5 fail=21 last=news__higher-education__siu-carbondale-new-agreement-provides-assistance-with-external-funding-proposals
+SKIP https://www.hanoverresearch.com/news/higher-education/the-livingston-post-lesa-launches-survey-about-career-prep-college-pathways/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/higher-education/whmi-lesa-launches-countywide-survey-to-strengthen-career-college-pathways/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/citizen-portal-hanover-research-presents-jedi-findings-to-tolleson-board-recommends-more-teacher-retention-student-voice-and-curricular-relatability/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/edsource-erratic-results-high-costs-doomed-this-districts-once-heralded-student-improvement-program/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/eschool-news-new-research-highlights-the-importance-and-challenges-of-k-12-student-engagement/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/grosse-point-news-gppss-survey-now-live/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-alextimes-com-2022-09-school-board-talks-safety-slep-update/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-buckscountyherald-com-stories-council-rock-eyeing-2025-26-for-full-day-kindergarten51526/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-buckscountyherald-com-stories-council-rock-eyes-2-point-6-percent-tax-increase-budget-has-money-for-full-day-k-2024-2025-school-year49316/ status=301 note=EXTERNAL
+[50/230] ok=21 fail=30 last=news__k-12-education__https-buckscountyherald-com-stories-council-rock-eyes-2-point-6-percent-tax-increase-budget-has-money-for-full-day-k-2024-2025-school-year49316
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-communityimpact-com-houston-cy-fair-education-2024-08-05-data-see-how-cy-fair-isd-teachers-spend-their-time-outside-of-teaching/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-ctexaminer-com-2023-09-13-middletown-parents-double-down-on-opposition-to-math-curriculum-changes/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-dailyiowan-com-2023-02-01-iowa-city-community-school-district-considers-changing-active-intruder-procedures/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-dbknews-com-2023-03-13-equity-dashboard-public-school/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-douglascountynewspress-net-stories-douglas-county-school-district-equity-survey-stirs-questions421554/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-education-nsw-gov-au-about-us-educational-data-cese-publications-research-reports-understanding-attendance-2/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-education-nsw-gov-au-about-us-educational-data-cese-publications-research-reports-understanding-attendance/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-journaltimes-com-news-local-racine-county-higher-expectations-launch-early-literacy-work-article_3b27af16-d491-11ed-bf57-dbc3d3576fcc-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-kgab-com-ixp-245-p-open-house-for-albany-county-school-board-and-community-members/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-newtownpanow-com-2024-05-20-council-rock-explores-full-day-kindergarten/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-outlooknewspapers-com-burbankleader-news-report-finds-gaps-in-access-process-at-busd-care-centers-article_98512742-8753-4150-b5b7-ed9de09abec8-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-theberkshireedge-com-board-researching-school-merger-still-looking-for-answers/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-thejournal-com-articles-2024-08-12-survey-top-teacher-uses-of-ai-in-the-classroom-aspx/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-ttaconline-org-resource-jwhaea5bs75yekf8osgtpa-resource-solving-k-12-professional-learning-challenges-in-2023-hanover-research/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-w3-lisd-org-district-news-05242024-survey/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-westportjournal-com-education-changes-ahead-for-westport-schools-post-grad-climate-surveys/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-westportjournal-com-education-school-officials-review-literacy-efforts/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-westportjournal-com-education-school-roundup-coaches-boostered-new-climate-survey-and-calendars-evolve/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-alxnow-com-2022-12-19-acps-considers-making-school-resource-officers-into-teachers-and-informal-counselors/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-asdk12-org-page-18943/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-brunswicksd-org-o-brunswick-school-department-page-strategic-planning/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-businesswire-com-news-home-20240806020729-en-cambium-learning-survey-uncovers-how-k-12-teachers-and-administrators-are-using-ai-right-now-and-how-it-is-shaping-the-future-of-education/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-dailyherald-com-submitted-20231208-district-300-holds-survey-on-effective-communication/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-dailyrecordnews-com-townnews-revenue-esd-school-board-approves-committee-recommendations-for-budget-reductions-reallocations-article_fe23b0d4-b87e-11ed-94b1-a3ad7dc57b6e-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-eastvalleytribune-com-survey-finds-low-student-satisfaction-with-susd-article_c9437958-614a-5f65-9f02-c45829aa4106-html/ status=301 note=EXTERNAL
+[75/230] ok=21 fail=55 last=news__k-12-education__https-www-eastvalleytribune-com-survey-finds-low-student-satisfaction-with-susd-article_c9437958-614a-5f65-9f02-c45829aa4106-html
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-eschoolnews-com-innovative-teaching-2023-08-25-whats-the-state-of-k-12-assessment/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-facultyfocus-com-articles-equality-inclusion-and-diversity-three-strategies-that-support-student-well-being-and-mental-health/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-forbes-com-sites-mikemcshane-2022-07-06-new-report-how-do-teachers-spend-their-time-sh75bc777c1c22/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-govtech-com-education-k-12-instructure-survey-finds-discomfort-with-assessments-but-need-for-data/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-griceconnect-com-local-news-take-bulloch-county-schools-ctae-survey-by-july-9-9170058/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-herald-dispatch-com-news-cabell-boe-hears-recommendations-on-cte-focuses-expansion-article_e845a27f-6a30-5253-ba20-07ff56519575-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-hometownlife-com-story-news-2022-03-14-race-gender-impact-academic-behavioral-outcomes-plymouth-canton-6938074001/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-hometownlife-com-story-news-politics-elections-2022-09-30-election-2022-six-candidates-want-seat-on-birmingham-school-board-69521146007/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-k12dive-com-press-release-20230809-instructures-annual-state-of-assessment-survey-reveals-the-importance-of-d/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-leadertelegram-com-news-front-page-community-rallies-around-saving-japanese-hmong-language-programs-article_538ccf99-9990-52f4-bb0a-f6d6680d0a49-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-liherald-com-bellmore-stories-east-meadow-schools-partner-with-hanover-research-to-develop-strategic-5-year-plan205735/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-montereyherald-com-2022-10-21-carmel-unified-school-district-considers-late-starts-impacts-to-sports-teams/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-msn-com-en-us-money-careersandeducation-75-of-multilingual-learners-on-track-to-english-fluency-in-greeley-evans-district-6-ar-aa1nmnom/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-newswire-com-news-education-leaders-cite-student-engagement-among-their-top-concerns-for-22127442/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-oaoa-com-local-news-education-ecisd-education-foundation-presents-plans/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-peninsulaclarion-com-news-school-board-turns-its-eyes-to-small-schools/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-pressherald-com-2022-04-04-brunswick-superintendents-notebook-time-for-brunswick-schools-to-plan-ahead/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-prnewswire-com-news-releases-instructure-releases-annual-state-of-teaching-and-learning-in-k-12-research-that-explores-new-normal-in-education-in-us-schools-301575296-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-psychologytoday-com-gb-blog-much-more-common-core-202210-how-covid-increased-teacher-burnout/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-pwcs-edu-news-2025-01-pwcs_to_review_grading_policies_and_regulations_in_2025/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-ridgecrestca-com-news-pierce-vieweg-to-become-magnet-schools-article_61253dd0-01a6-11ef-8d87-8796fa9c9ca4-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-ridgecrestca-com-news-ssusd-board-to-hold-first-hearing-article_321301ca-83f8-11ee-88be-0799fe376b2a-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-sandiegouniontribune-com-ramona-sentinel-news-story-2024-04-16-ramona-unified-trustees-move-ahead-with-proposed-career-technical-education-expansion/ status=301 note=EXTERNAL
+[100/230] ok=23 fail=78 last=news__k-12-education__https-www-sandiegouniontribune-com-ramona-sentinel-news-story-2024-04-16-ramona-unified-trustees-move-ahead-with-proposed-career-technical-education-expansion
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-spotlightnews-com-news-2022-07-16-an-augmented-reality-in-classrooms/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-statesboroherald-com-local-bulloch-county-schools-survey-seeks-input-about-the-systems-career-pathway-programs/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-millburn-slash-short-hills-sections-education-articles-departing-millburn-board-of-education-president-sonali-ganti-reflects-on-her-tenure/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-millburn-slash-short-hills-sections-education-articles-millburn-school-district-plans-to-improve-advanced-placement-program/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-phillipsburg-sections-education-articles-phillipsburg-board-of-education-adopts-22-23-budget-with-no-tax-increase/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-soma-sections-education-articles-somsd-boe-approves-teacher-raises-after-long-wait-5ead8e54-96a1-4d76-8060-d51419be85ba/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-summit-articles-summit-board-of-education-quickly-conducts-november-business-in-brisk-meeting/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-summit-sections-education-articles-summit-board-of-education-receives-update-on-hilltopper-class-of-22-outcomes/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-tapinto-net-towns-summit-sections-education-articles-summit-board-of-education-swears-in-new-member-recognizes-national-merit-scholars/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-thechannels-org-features-2022-10-21-esl-program-provides-support-for-all-non-english-speaking-students/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-thegazette-com-local-government-government-notes-new-aldi-location-in-north-liberty-slated-for-2024-opening/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-thehour-com-news-education-article-norwalk-public-schools-portrait-of-a-graduate-19420798-php/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-veronapress-com-news-vasd-presents-second-year-of-climate-survey-results-with-hanover-research-article_31cb985a-25a5-11ee-9820-3b99b64ad23a-html/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/https-www-wtvq-com-fayette-county-boe-to-take-advantage-of-new-state-law-in-webb-property-usage/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/k-12-dive-broward-county-public-schools-faces-enrollment-drops-possible-closures/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/m-a-chronicle-board-postpones-ethnic-studies-requirement-vote-discusses-life-skills-and-dual-enrollment/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/prince-william-living-5-to-thrive-things-to-know-this-week-in-pwcs/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/the-columbus-dispatch-year-round-school-in-ohio-vivek-ramaswamy-floats-idea-in-video/ status=301 note=EXTERNAL
+[125/230] ok=30 fail=96 last=news__k-12-education__the-council-of-chief-school-state-officers-to-collaborate-with-hanover-on-new-initiatives
+SKIP https://www.hanoverresearch.com/news/k-12-education/the-gazette-iowa-city-schools-launching-community-survey-to-optimize-budget/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/the-highlands-current-garrison-students-teachers-approve-of-spo/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/the-times-of-india-40-of-american-students-use-ai-on-assignments-without-permission-whats-really-happening-in-us-classrooms/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/the-times-of-india-american-middle-schoolers-are-the-most-disengaged-how-91-feel-too-nervous-to-ask-questions-and-what-teachers-miss/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/westport-journal-devices-in-schools-how-much-is-too-much/ status=301 note=EXTERNAL
+SKIP https://www.hanoverresearch.com/news/k-12-education/westport-journal-do-our-elementary-kids-like-school-depends-on-who-you-ask/ status=301 note=EXTERNAL
+[150/230] ok=49 fail=102 last=podcasts__the-grant-rant__higher-education__lets-talk-trio
+[175/230] ok=74 fail=102 last=podcasts__the-grant-rant__higher-education__tomtalk-preliminary-data
+[200/230] ok=99 fail=102 last=reports-and-briefs__corporate__customer-needs-toolkit
+[225/230] ok=124 fail=102 last=reports-and-briefs__corporate__the-go-no-go-guide-to-market-expansion
+DONE batch fetch: ok=128 fail=102 total=230 -> batches/manifest_04.json
+=================== BATCH 04: ASSETS ===================
+batch HTML candidate assets: 274
+  downloaded 50 (skipped 88) ...
+  downloaded 100 (skipped 122) ...
+CSS round 1 new refs 0
+DONE batch assets. downloaded=130 skipped=142 failed=2 newCss=1
+=================== BATCH 04: BUILD ===================
+built 128 new pages; rewrote 0 new css; batch ok=128 fail=102; pages.json total=1176
+urls.txt += 128
+=================== BATCH 04: COMMIT ===================
