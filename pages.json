@@ -1109,7 +1109,8 @@
   "sitepath": "news/corporate/ai-magazine-why-workdays-study-warns-of-talent-loss-in-ai-era/index.html",
   "status": 403,
   "ok": false,
-  "len": 5935
+  "len": 5935,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-how-satisfied-are-physicians-with-their-current-job/",
@@ -1117,7 +1118,8 @@
   "sitepath": "news/corporate/beckers-asc-review-how-satisfied-are-physicians-with-their-current-job/index.html",
   "status": 403,
   "ok": false,
-  "len": 774
+  "len": 774,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-physician-work-demands-broken-down/",
@@ -1125,7 +1127,8 @@
   "sitepath": "news/corporate/beckers-asc-review-physician-work-demands-broken-down/index.html",
   "status": 403,
   "ok": false,
-  "len": 774
+  "len": 774,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/beckers-asc-review-whats-driving-physician-workplace-frustrations-survey/",
@@ -1133,7 +1136,8 @@
   "sitepath": "news/corporate/beckers-asc-review-whats-driving-physician-workplace-frustrations-survey/index.html",
   "status": 403,
   "ok": false,
-  "len": 774
+  "len": 774,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/business-insider-16th-annual-dayforce-pulse-of-talent-71-of-workers-untrained-in-ai-as-adoption-and-expectations-surge/",
@@ -1141,7 +1145,8 @@
   "sitepath": "news/corporate/business-insider-16th-annual-dayforce-pulse-of-talent-71-of-workers-untrained-in-ai-as-adoption-and-expectations-surge/index.html",
   "status": 403,
   "ok": false,
-  "len": 24
+  "len": 24,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/podcasts/",
@@ -5312,7 +5317,7 @@
   "status": 200,
   "ok": false,
   "len": 170431,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/computerweekly-com-workday-research-75-of-employees-will-work-with-artificial-intelligence-but-not-for-it/",
@@ -5384,7 +5389,7 @@
   "status": 200,
   "ok": false,
   "len": 60545,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/hanover-loyalty-program-insights-featured-on-cmo-com-and-huffington-post/",
@@ -5474,7 +5479,7 @@
   "status": 200,
   "ok": false,
   "len": 73809,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/http-businessghana-com-site-news-business-328776-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment/",
@@ -5483,7 +5488,7 @@
   "status": 200,
   "ok": false,
   "len": 50426,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-bankingjournal-aba-com-2025-05-survey-majority-of-financial-institutions-deploying-generative-ai/",
@@ -5507,10 +5512,10 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-channellife-com-au-story-australian-firms-shift-to-skills-based-workforce-strategy/",
   "slug": "news__corporate__https-channellife-com-au-story-australian-firms-shift-to-skills-based-workforce-strategy",
   "sitepath": "news/corporate/https-channellife-com-au-story-australian-firms-shift-to-skills-based-workforce-strategy/index.html",
-  "status": 406,
+  "status": 301,
   "ok": false,
   "len": 558,
-  "note": "http406"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-customers-microsoft-com-en-us-story-1688315521934714038-hanoverresearch-professional-services-azure-en-united-states/",
@@ -5525,19 +5530,19 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-drivesncontrols-com-news-fullstory-php-aid-6984-take-up_of_smart_manufacturing_soared_by_50_25_during_2021-html/",
   "slug": "news__corporate__https-drivesncontrols-com-news-fullstory-php-aid-6984-take-up_of_smart_manufacturing_soared_by_50_25_during_2021-html",
   "sitepath": "news/corporate/https-drivesncontrols-com-news-fullstory-php-aid-6984-take-up_of_smart_manufacturing_soared_by_50_25_during_2021-html/index.html",
-  "status": 202,
+  "status": 301,
   "ok": false,
   "len": 267,
-  "note": "CHALLENGE"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-erp-today-optimizing-oracle-toolboxes-with-extended-functionality/",
   "slug": "news__corporate__https-erp-today-optimizing-oracle-toolboxes-with-extended-functionality",
   "sitepath": "news/corporate/https-erp-today-optimizing-oracle-toolboxes-with-extended-functionality/index.html",
-  "status": 503,
+  "status": 301,
   "ok": false,
   "len": 48,
-  "note": "http503"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-facilityexecutive-com-how-workplace-management-impacts-critical-business-decisions/",
@@ -5570,10 +5575,10 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-finance-yahoo-com-news-temenos-survey-reveals-banks-doubling-045500055-htmlguccounter1guce_referrerahr0chm6ly93d3cuz29vz2xllmnvbs8guce_referrer_sigaqaaamenawz81-dj27ku-ipci7b3xc8vdvxuqu1/",
   "slug": "news__corporate__https-finance-yahoo-com-news-temenos-survey-reveals-banks-doubling-045500055-htmlguccounter1guce_referrerahr0chm6ly93d3cuz29vz2xllmnvbs8guce_referrer_sigaqaaamenawz81-dj27ku-ipci7b3xc8vdvxuqu1",
   "sitepath": "news/corporate/https-finance-yahoo-com-news-temenos-survey-reveals-banks-doubling-045500055-htmlguccounter1guce_referrerahr0chm6ly93d3cuz29vz2xllmnvbs8guce_referrer_sigaqaaamenawz81-dj27ku-ipci7b3xc8vdvxuqu1/index.html",
-  "status": 0,
+  "status": 301,
   "ok": false,
   "len": 4025,
-  "note": "http0"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-finance-yahoo-com-news-time-engagement-rank-among-most-110000664-htmlguccounter1guce_referrerahr0chm6ly93d3cuz29vz2xllmnvbs8guce_referrer_sigaqaaanwrtrur89wmyhcsjplip95otvko2hnxml6bh3v4s/",
@@ -5642,19 +5647,19 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-insidebigdata-com-2024-01-20-new-onestream-research-finds-80-of-financial-decision-makers-believe-ai-will-increase-productivity/",
   "slug": "news__corporate__https-insidebigdata-com-2024-01-20-new-onestream-research-finds-80-of-financial-decision-makers-believe-ai-will-increase-productivity",
   "sitepath": "news/corporate/https-insidebigdata-com-2024-01-20-new-onestream-research-finds-80-of-financial-decision-makers-believe-ai-will-increase-productivity/index.html",
-  "status": 503,
+  "status": 301,
   "ok": false,
   "len": 317,
-  "note": "http503"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-insidebigdata-com-2024-03-27-new-research-highlights-genai-as-an-increasing-priority-for-analytics-community/",
   "slug": "news__corporate__https-insidebigdata-com-2024-03-27-new-research-highlights-genai-as-an-increasing-priority-for-analytics-community",
   "sitepath": "news/corporate/https-insidebigdata-com-2024-03-27-new-research-highlights-genai-as-an-increasing-priority-for-analytics-community/index.html",
-  "status": 503,
+  "status": 301,
   "ok": false,
   "len": 317,
-  "note": "http503"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-insurancenewsnet-com-innarticle-planning-for-ltc-the-4-words-that-drive-the-conversation/",
@@ -5705,28 +5710,28 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-itbrief-asia-story-rising-deepfake-threats-prompt-surge-in-biometric-defences/",
   "slug": "news__corporate__https-itbrief-asia-story-rising-deepfake-threats-prompt-surge-in-biometric-defences",
   "sitepath": "news/corporate/https-itbrief-asia-story-rising-deepfake-threats-prompt-surge-in-biometric-defences/index.html",
-  "status": 406,
+  "status": 301,
   "ok": false,
   "len": 558,
-  "note": "http406"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-itbrief-co-nz-story-dayforce-report-reveals-disconnect-between-executives-workers/",
   "slug": "news__corporate__https-itbrief-co-nz-story-dayforce-report-reveals-disconnect-between-executives-workers",
   "sitepath": "news/corporate/https-itbrief-co-nz-story-dayforce-report-reveals-disconnect-between-executives-workers/index.html",
-  "status": 406,
+  "status": 301,
   "ok": false,
   "len": 558,
-  "note": "http406"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-itbrief-com-au-story-australian-firms-face-data-hurdles-in-ai-deployment-study-finds/",
   "slug": "news__corporate__https-itbrief-com-au-story-australian-firms-face-data-hurdles-in-ai-deployment-study-finds",
   "sitepath": "news/corporate/https-itbrief-com-au-story-australian-firms-face-data-hurdles-in-ai-deployment-study-finds/index.html",
-  "status": 406,
+  "status": 301,
   "ok": false,
   "len": 558,
-  "note": "http406"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-nationalmortgageprofessional-com-news-doubling-down-03022025/",
@@ -5744,7 +5749,7 @@
   "status": 200,
   "ok": false,
   "len": 499522,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-recurly-com-resources-guide-going-global-essential-guide-for-expanding-your-subscription-business-sourceid1hp_promo/",
@@ -5753,7 +5758,7 @@
   "status": 200,
   "ok": false,
   "len": 123251,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-tech-einnews-com-pr_news-713518174-contract-services-group-partners-with-dailypay-to-help-boost-hiring-efforts-as-the-busy-summer-travel-season-approaches/",
@@ -5780,7 +5785,7 @@
   "status": 200,
   "ok": false,
   "len": 21217,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-venturebeat-com-enterprise-analytics-report-85-of-financial-leaders-are-preparing-for-possible-recession-and-economic-disruption-in-2023/",
@@ -5789,7 +5794,7 @@
   "status": 200,
   "ok": false,
   "len": 113469,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-venturebeat-com-security-how-ai-and-data-enrichment-can-protect-the-vulnerable-during-a-recession/",
@@ -5798,7 +5803,7 @@
   "status": 200,
   "ok": false,
   "len": 135522,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-accountingtoday-com-news-finance-leaders-preparing-for-tax-changes/",
@@ -5807,7 +5812,7 @@
   "status": 200,
   "ok": false,
   "len": 252721,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-aftermarketnews-com-mema-auto-care-repair-act-2025/",
@@ -5834,7 +5839,7 @@
   "status": 200,
   "ok": false,
   "len": 102085,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
@@ -5867,10 +5872,10 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-bakersfield-com-ap-news-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment-article_5f38cc72-ff0e-565d-bb19-f5e3b1c7ab54-html/",
   "slug": "news__corporate__https-www-bakersfield-com-ap-news-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment-article_5f38cc72-ff0e-565d-bb19-f5e3b1c7ab54-html",
   "sitepath": "news/corporate/https-www-bakersfield-com-ap-news-temenos-survey-finds-three-quarters-of-banks-are-exploring-genai-deployment-article_5f38cc72-ff0e-565d-bb19-f5e3b1c7ab54-html/index.html",
-  "status": 429,
+  "status": 301,
   "ok": false,
   "len": 66,
-  "note": "http429"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-bankingexchange-com-news-feed-item-10323-most-financial-institutions-using-generative-ai/",
@@ -5879,7 +5884,7 @@
   "status": 200,
   "ok": false,
   "len": 78046,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-beautypackaging-com-contents-view_breaking-news-2022-04-26-rohrer-debuts-new-eco-friendly-packaging-solutions/",
@@ -5897,7 +5902,7 @@
   "status": 200,
   "ok": false,
   "len": 134312,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-bodyshopbusiness-com-survey-independent-repair-shops-view-vehicle-data-access-as-top-issue/",
@@ -6086,7 +6091,7 @@
   "status": 200,
   "ok": false,
   "len": 279201,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfo-com-news-symplr-cfo-inflation-jobs-data-return-to-office-691999/",
@@ -6095,7 +6100,7 @@
   "status": 200,
   "ok": false,
   "len": 280995,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-ais-quest-transform-corporate-finance-hurdles-702904/",
@@ -6104,7 +6109,7 @@
   "status": 200,
   "ok": false,
   "len": 276710,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-cfos-plan-to-boost-esg-spending-despite-recession-risk-survey-635744/",
@@ -6113,7 +6118,7 @@
   "status": 200,
   "ok": false,
   "len": 272997,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-costs-top-finance-automation-hurdle-ai-machine-learning-650352/",
@@ -6122,7 +6127,7 @@
   "status": 200,
   "ok": false,
   "len": 272354,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfodive-com-news-inflation-talent-shortages-undercut-finance-team-efficiency-report-653937/",
@@ -6131,7 +6136,7 @@
   "status": 200,
   "ok": false,
   "len": 275691,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-ciodive-com-news-enterprise-it-budgets-ai-finops-apptio-ibm-738414/",
@@ -6140,7 +6145,7 @@
   "status": 200,
   "ok": false,
   "len": 269719,
-  "note": "EXTERNAL_REDIRECT"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cpapracticeadvisor-com-2024-02-06-how-to-manage-tax-exempt-sales-more-effectively-101511/",
@@ -6155,10 +6160,10 @@
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-csrwire-com-press_releases-754841-new-global-study-explores-how-manufacturers-are-addressing-esg-initiatives/",
   "slug": "news__corporate__https-www-csrwire-com-press_releases-754841-new-global-study-explores-how-manufacturers-are-addressing-esg-initiatives",
   "sitepath": "news/corporate/https-www-csrwire-com-press_releases-754841-new-global-study-explores-how-manufacturers-are-addressing-esg-initiatives/index.html",
-  "status": 202,
+  "status": 301,
   "ok": false,
   "len": 759,
-  "note": "CHALLENGE"
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cybersecurity-insiders-com-top-5-signs-hackers-are-in-your-network-and-what-to-do-about-it/",
