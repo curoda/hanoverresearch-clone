@@ -119,6 +119,11 @@ async function dismissBanners(page) {
       });
       document.querySelectorAll('#termly-code-snippet-support, [id^="termly"]').forEach(e => e.remove());
       document.querySelectorAll('.elementor-popup-modal, [id^="elementor-popup-modal"], .dialog-widget.elementor-popup-modal, [class*="elementor-location-popup"]').forEach(e => e.remove());
+      // Settle Elementor entrance animations: widgets start at opacity:0 with class
+      // `elementor-invisible` and fade/slide in on scroll-into-view. In a headless capture the
+      // IntersectionObserver may not have fired yet, leaving above-the-fold content blank. Force the
+      // final (visible) state that a human sees. Applied to BOTH origin and clone -> symmetric/faithful.
+      document.querySelectorAll('.elementor-invisible').forEach(e => { e.classList.remove('elementor-invisible'); e.style.opacity = '1'; e.style.transform = 'none'; });
     });
   } catch (e) {}
   await page.waitForTimeout(300);
@@ -129,9 +134,26 @@ function downscaleAndReport(file) {
   catch (e) { return '?'; }
 }
 // Segmented scroll capture: step by viewport HEIGHT, one viewport per segment.
+async function settleAnimations(page) {
+  // Persistent override so Elementor entrance animations (opacity:0 until scroll-into-view) don't
+  // leave a headless segment blank. Kills animation/transition timing and forces the final visible
+  // state a human sees. Symmetric across origin & clone. Idempotent id so it isn't duplicated.
+  try {
+    await page.evaluate(() => {
+      if (!document.getElementById('__cap_settle')) {
+        const s = document.createElement('style');
+        s.id = '__cap_settle';
+        s.textContent = '.elementor-invisible{opacity:1!important;visibility:visible!important}*{animation-duration:0.001s!important;animation-delay:0s!important;transition:none!important}';
+        (document.head || document.documentElement).appendChild(s);
+      }
+      document.querySelectorAll('.elementor-invisible').forEach(e => { e.classList.remove('elementor-invisible'); e.style.opacity = '1'; e.style.transform = 'none'; });
+    });
+  } catch (e) {}
+}
 async function segmentCapture(page, vp, outdir, tag) {
   await page.setViewportSize(vp);
   await page.waitForTimeout(500);
+  await settleAnimations(page);
   let total = 900;
   try { total = await page.evaluate(() => { const de = document.documentElement; const b = document.body; return Math.max(b ? b.scrollHeight : 0, de ? de.scrollHeight : 0) || 900; }); } catch (e) { total = 900; }
   const step = vp.height; // step by HEIGHT (never width)
@@ -139,6 +161,7 @@ async function segmentCapture(page, vp, outdir, tag) {
   for (let y = 0; y < total; y += step) {
     await page.evaluate(sy => window.scrollTo(0, sy), y);
     await page.waitForTimeout(350);
+    await settleAnimations(page);
     n++;
     const f = path.join(outdir, `screenshot-${tag}-${String(n).padStart(2, '0')}.png`);
     await page.screenshot({ path: f }); // viewport shot, no clip -> exactly vp px
