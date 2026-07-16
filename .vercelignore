@@ -1,0 +1,7 @@
+raw/
+node_modules/
+batches/
+captures/
+clone_shots/
+.git/
+*.log

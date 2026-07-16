@@ -47,7 +47,7 @@ function extractFromHtml(html) {
   const out = new Set();
   const push = r => { const u = toAbs(r); if (u) out.add(u.href); };
   let m;
-  const attrRe = /(?:src|href|data-src|data-lazy-src|data-large_image|poster|content|data-bg|data-background)\s*=\s*["']([^"']+)["']/gi;
+  const attrRe = /(?:src|href|data-src|data-lazy-src|data-large_image|poster|content|data-bg|data-background|data-thumbnail|data-thumb|data-bg-url)\s*=\s*["']([^"']+)["']/gi;
   while ((m = attrRe.exec(html))) push(m[1]);
   const srcsetRe = /(?:srcset|data-srcset|imagesrcset)\s*=\s*["']([^"']+)["']/gi;
   while ((m = srcsetRe.exec(html))) m[1].split(',').forEach(s => push(s.trim().split(/\s+/)[0]));
