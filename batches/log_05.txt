@@ -1,0 +1,28 @@
+=================== BATCH 05: FETCH (230 urls) ===================
+[0/230] ok=1 fail=0 last=reports-and-briefs__corporate__the-state-of-market-research-2025
+[25/230] ok=26 fail=0 last=reports-and-briefs__higher-education__2023-national-admitted-student-survey
+[50/230] ok=51 fail=0 last=reports-and-briefs__higher-education__9-key-findings-in-hiring-trends-for-h2-2022
+[75/230] ok=76 fail=0 last=reports-and-briefs__higher-education__four-critical-steps-to-optimize-degree-program-portfolios
+[100/230] ok=101 fail=0 last=reports-and-briefs__higher-education__the-2022-state-of-alumni-giving-report
+[125/230] ok=126 fail=0 last=reports-and-briefs__k-12-education__2017-k-12-education-trend-report
+[150/230] ok=151 fail=0 last=reports-and-briefs__k-12-education__best-practices-in-teacher-engagement
+[175/230] ok=176 fail=0 last=reports-and-briefs__k-12-education__infobrief-on-self-regulation-for-online-learning
+[200/230] ok=201 fail=0 last=reports-and-briefs__k-12-education__research-brief-grant-funding-every-student-succeeds-act
+[225/230] ok=226 fail=0 last=testimonial__corporate__bluescape
+DONE batch fetch: ok=230 fail=0 total=230 -> batches/manifest_05.json
+=================== BATCH 05: ASSETS ===================
+batch HTML candidate assets: 682
+  downloaded 50 (skipped 81) ...
+  downloaded 100 (skipped 121) ...
+  downloaded 150 (skipped 126) ...
+  downloaded 200 (skipped 136) ...
+  downloaded 250 (skipped 173) ...
+  downloaded 300 (skipped 195) ...
+  downloaded 350 (skipped 216) ...
+  downloaded 400 (skipped 237) ...
+CSS round 1 new refs 0
+DONE batch assets. downloaded=423 skipped=247 failed=12 newCss=1
+=================== BATCH 05: BUILD ===================
+built 230 new pages; rewrote 0 new css; batch ok=230 fail=0; pages.json total=1406
+urls.txt += 230
+=================== BATCH 05: COMMIT ===================
