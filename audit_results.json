@@ -1,74 +1,44 @@
 {
- "base": "http://localhost:8099",
- "pagesAudited": 150,
+ "base": "https://hanoverresearch-clone.vercel.app",
+ "pagesAudited": 40,
  "vercelCheckpointPages": 0,
  "cloneDefects": [
   {
-   "page": "http://localhost:8099/careers/",
-   "url": "http://localhost:8099/wp-content/uploads/2022/02/community-park-clean-up.jpg",
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
+   "url": "https://hanoverresearch-clone.vercel.app/autoremarketingmetrics/",
    "status": 404,
    "kind": "CLONE"
   },
   {
-   "page": "http://localhost:8099/careers/",
-   "url": "http://localhost:8099/wp-content/uploads/2022/02/community-barrett-768x432.jpg",
-   "status": 404,
-   "kind": "CLONE"
-  },
-  {
-   "page": "http://localhost:8099/careers/",
-   "url": "http://localhost:8099/wp-content/uploads/2022/02/community-3.jpeg",
-   "status": 404,
-   "kind": "CLONE"
-  },
-  {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "https://cdn.vuukle.com/domain-configs/localhost:8099.js",
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
+   "url": "https://servedby.cherokeemediagroup2.com/zdisplay/188702.js?b=c992780,a1441996,c984415,a1430348,c969267,a1405938,c987316,a1428547&skw=true&ts=1784225753203&domain=hanoverresearch-clone.vercel.app&path=%2Fnews%2Fcorporate%2Fhttps-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&url=https%3A%2F%2Fhanoverresearch-clone.vercel.app%2Fnews%2Fcorporate%2Fhttps-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&os=Linux&browser=chrome&is_mobile=&target=street-wMcimu3AOKyHWIXG",
    "status": "FAILED:net::ERR_BLOCKED_BY_ORB",
    "kind": "CLONE"
   },
   {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "http://localhost:8099/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
+   "url": "https://hanoverresearch-clone.vercel.app/cdn-cgi/rum/",
    "status": 404,
    "kind": "CLONE"
   }
  ],
  "thirdParty": [
   {
-   "page": "http://localhost:8099/resources/k-12-education/policies-and-practices-effective-integration-of-technology/",
+   "page": "https://hanoverresearch-clone.vercel.app/insights-blog/corporate/hanover-in-fundraising-success-5-ways-data-can-enhance-your-donor-focused-fundraising/",
    "url": "https://app.qualified.com/w/1/JkmcYGLEZdzQCG5E/sentry/proxy",
    "status": 403,
    "kind": "THIRD-PARTY"
   },
   {
-   "page": "http://localhost:8099/solution/food-and-beverage/",
+   "page": "https://hanoverresearch-clone.vercel.app/insights-blog/corporate/hanover-in-fundraising-success-5-ways-data-can-enhance-your-donor-focused-fundraising/",
    "url": "https://epsilon.6sense.com/v3/company/details",
    "status": 403,
    "kind": "THIRD-PARTY"
   },
   {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "https://bworldonline.com/wp-content/themes/Newsmag/images/icons/newsmag.woff?17",
+   "page": "https://hanoverresearch-clone.vercel.app/news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/",
+   "url": "https://www.autoremarketing.com/wp-admin/admin-ajax.php?action=alm_get_posts&query_type=standard&id=&post_id=68416&slug=repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools&canonical_url=https%3A%2F%2Fwww.autoremarketing.com%2Far%2Fretail%2Frepairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools%2F&posts_per_page=3&page=0&offset=0&original_offset=0&post_type=ar&repeater=default&seo_start_page=1&order=DESC&orderby=date&post__not_in=68416&currentPage=1",
    "status": "FAILED:net::ERR_FAILED",
-   "kind": "THIRD-PARTY"
-  },
-  {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "https://bworldonline.com/wp-content/themes/Newsmag/images/icons/newsmag.ttf?17",
-   "status": "FAILED:net::ERR_FAILED",
-   "kind": "THIRD-PARTY"
-  },
-  {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6366573812307498&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1784218777&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=http%3A%2F%2Flocalhost%3A8099%2Fnews%2Fcorporate%2Fhttps-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai%2F&pra=5&asro=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OS4wLjc4MjcuNTUiLG51bGwsMCxudWxsLCI2NCIsW1siSGVhZGxlc3NDaHJvbWUiLCIxNDkuMC43ODI3LjU1Il0sWyJDaHJvbWl1bSIsIjE0OS4wLjc4MjcuNTUiXSxbIk5vdClBO0JyYW5kIiwiMjQuMC4wLjAiXV0sMF0.&dt=1784225010346&bpp=4&bdt=1422&idt=61&shv=r20260715&mjsv=m202607100101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=6349135984793&frm=20&pv=2&u_tz=0&u_his=50&u_h=900&u_w=1440&u_ah=900&u_aw=1440&u_cd=24&u_sd=1&dmc=16&adx=-12245933&ady=-12245933&biw=1440&bih=900&scr_x=0&scr_y=0&eid=95396567&oid=2&pvsid=6556531756092377&tmod=1913295758&uas=0&nvt=1&fsapi=1&fc=1920&brdim=0%2C0%2C0%2C0%2C1440%2C0%2C1440%2C900%2C1440%2C900&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&plas=150x808_l%7C150x808_r&bz=1&pgls=CAEaBTcuMC4x&ifi=1&uci=a!1&fsb=1&dtd=89",
-   "status": 403,
-   "kind": "THIRD-PARTY"
-  },
-  {
-   "page": "http://localhost:8099/news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/",
-   "url": "https://api.vuukle.com/api/v1/Comments/loadVuukle?apiKey=f985df63-157a-4bf3-b09d-13eec2eda561&articleId=http%3A%2F%2Flocalhost%3A8099%2Fnews%2Fcorporate%2Fhttps-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai%2F&globalRecommendation=false&host=localhost%3A8099&start=0&uri=http%3A%2F%2Flocalhost%3A8099%2Fnews%2Fcorporate%2Fhttps-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai%2F&quizEnabled=false",
-   "status": 401,
    "kind": "THIRD-PARTY"
   }
  ]

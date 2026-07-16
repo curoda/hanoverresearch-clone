@@ -26,11 +26,13 @@ async function rateGate() {
 
 async function safeContent(page) { for (let i = 0; i < 6; i++) { try { return await page.content(); } catch (e) { await page.waitForTimeout(500); } } return ''; }
 function isChallenge(h) { return !h || h.includes('sgchallenge') || h.includes('Robot Challenge') || h.includes('sgcaptcha'); }
-// A genuine Hanover WordPress page always carries the site GTM id + wp-content/Elementor markers.
-// Some /news/ items are external-publisher REDIRECTS (e.g. globenewswire.com); context.request.get
-// silently follows the redirect and returns the third-party page. Detect & refuse to save those
-// (same-domain-only rule): treat as an external redirect, not clonable content.
-function isHanover(h) { return h.includes('GTM-5BPF5XC') || h.includes('/wp-content/plugins/elementor') || h.includes('/wp-content/themes/') || h.includes('hanoverresearch.com/wp-content'); }
+// A genuine Hanover WordPress page always carries the site's unique GTM id (present in the
+// shared header of every page) or an absolute hanoverresearch.com/wp-content reference.
+// Some /news/ items are external press-coverage: either HTTP REDIRECTS to a third-party publisher
+// OR pages the origin proxy-serves with the external article's raw HTML (no Hanover chrome).
+// External WordPress publishers ALSO ship /wp-content/themes|plugins, so those are NOT reliable
+// markers — we key strictly on the Hanover GTM id. Refuse to save anything that isn't genuinely Hanover.
+function isHanover(h) { return h.includes('GTM-5BPF5XC') || h.includes('hanoverresearch.com/wp-content'); }
 async function solve(page) { for (let i = 0; i < 45; i++) { await page.waitForTimeout(1000); const c = await safeContent(page); if (!isChallenge(c)) return true; } return false; }
 
 function urlToSlug(u) { const p = new URL(u).pathname.replace(/\/+$/, ''); if (p === '') return 'home'; return p.replace(/^\//, '').replace(/\//g, '__'); }

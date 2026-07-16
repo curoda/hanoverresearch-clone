@@ -1100,8 +1100,9 @@
   "slug": "news__corporate__advanced-television-data-value-above-all-dictates-subscriber-intent",
   "sitepath": "news/corporate/advanced-television-data-value-above-all-dictates-subscriber-intent/index.html",
   "status": 200,
-  "ok": true,
-  "len": 90196
+  "ok": false,
+  "len": 90196,
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/ai-magazine-why-workdays-study-warns-of-talent-loss-in-ai-era/",
@@ -5342,9 +5343,9 @@
   "slug": "news__corporate__erp-today-workday-research-finds-ai-productivity-gains-are-lost-to-rework",
   "sitepath": "news/corporate/erp-today-workday-research-finds-ai-productivity-gains-are-lost-to-rework/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 112222,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/food-business-news-nutrition-bars-not-all-proteins-are-created-equal/",
@@ -5378,9 +5379,9 @@
   "slug": "news__corporate__frontier-enterprise-singapore-workers-keen-on-having-an-ai-co-pilot-but-not-an-ai-boss",
   "sitepath": "news/corporate/frontier-enterprise-singapore-workers-keen-on-having-an-ai-co-pilot-but-not-an-ai-boss/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 211749,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/globe-newswire-temenos-sets-new-benchmark-for-scalability-of-ai-powered-banking-with-microsoft/",
@@ -5495,9 +5496,9 @@
   "slug": "news__corporate__https-bankingjournal-aba-com-2025-05-survey-majority-of-financial-institutions-deploying-generative-ai",
   "sitepath": "news/corporate/https-bankingjournal-aba-com-2025-05-survey-majority-of-financial-institutions-deploying-generative-ai/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 155984,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-bnnbreaking-com-finance-nav-business-bridging-the-skills-gap-lebanon-countys-advanced-training-center/",
@@ -5549,9 +5550,9 @@
   "slug": "news__corporate__https-facilityexecutive-com-how-workplace-management-impacts-critical-business-decisions",
   "sitepath": "news/corporate/https-facilityexecutive-com-how-workplace-management-impacts-critical-business-decisions/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 267391,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-finance-yahoo-com-news-gtt-study-reveals-sase-sse-130000901-htmlguccounter1guce_referrerahr0chm6ly93d3cuz29vz2xllmnvbs8guce_referrer_sigaqaaamenawz81-dj27ku-ipci7b3xc8vdvxuqu12tgldkeudi4/",
@@ -5612,9 +5613,9 @@
   "slug": "news__corporate__https-hardwareretailing-com-3-products-made-for-automotive-diy-customers",
   "sitepath": "news/corporate/https-hardwareretailing-com-3-products-made-for-automotive-diy-customers/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 87591,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-hrsea-economictimes-indiatimes-com-news-industry-81-of-hr-leaders-say-theyre-improving-culture-but-workers-disagree-survey-115227678/",
@@ -5702,9 +5703,9 @@
   "slug": "news__corporate__https-it-online-co-za-2023-11-02-retaining-growing-customers-in-a-tough-economy-needs-great-customer-experience",
   "sitepath": "news/corporate/https-it-online-co-za-2023-11-02-retaining-growing-customers-in-a-tough-economy-needs-great-customer-experience/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 152429,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-itbrief-asia-story-rising-deepfake-threats-prompt-surge-in-biometric-defences/",
@@ -5774,9 +5775,9 @@
   "slug": "news__corporate__https-techinformed-com-how-banks-can-reclaim-their-innovation-budgets",
   "sitepath": "news/corporate/https-techinformed-com-how-banks-can-reclaim-their-innovation-budgets/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 171022,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-thewire-in-ptiprnews-turtle-wax-launches-you-are-how-you-car-in-india/",
@@ -5819,18 +5820,18 @@
   "slug": "news__corporate__https-www-aftermarketnews-com-mema-auto-care-repair-act-2025",
   "sitepath": "news/corporate/https-www-aftermarketnews-com-mema-auto-care-repair-act-2025/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 244101,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-aftermarketnews-com-repairify-napa-astech-mechanical/",
   "slug": "news__corporate__https-www-aftermarketnews-com-repairify-napa-astech-mechanical",
   "sitepath": "news/corporate/https-www-aftermarketnews-com-repairify-napa-astech-mechanical/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 247860,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-autobodynews-com-news-federal-repair-act-reintroduced-in-congress/",
@@ -5846,9 +5847,9 @@
   "slug": "news__corporate__https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools",
   "sitepath": "news/corporate/https-www-autoremarketing-com-ar-retail-repairify-napa-partner-to-give-repair-shops-remote-access-to-oe-tools/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 175396,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-axios-com-2025-01-25-tinder-dating-influencers-tiktok-2/",
@@ -5909,9 +5910,9 @@
   "slug": "news__corporate__https-www-bodyshopbusiness-com-survey-independent-repair-shops-view-vehicle-data-access-as-top-issue",
   "sitepath": "news/corporate/https-www-bodyshopbusiness-com-survey-independent-repair-shops-view-vehicle-data-access-as-top-issue/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 225791,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-burlingtontoday-com-jobs-of-the-future-robo-chefs-the-way-of-the-future-for-commercial-kitchens-7858845/",
@@ -6080,9 +6081,9 @@
   "slug": "news__corporate__https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai",
   "sitepath": "news/corporate/https-www-bworldonline-com-sparkup-2024-02-12-574461-instructure-report-reveals-phl-vocational-institutions-current-engagement-with-edtech-generative-ai/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 163859,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-cfo-com-budgeting-planning-strategy-budgeting-planning-2022-11-economic-disruption-supply-chain-esg-forecasting/",
@@ -6152,9 +6153,9 @@
   "slug": "news__corporate__https-www-cpapracticeadvisor-com-2024-02-06-how-to-manage-tax-exempt-sales-more-effectively-101511",
   "sitepath": "news/corporate/https-www-cpapracticeadvisor-com-2024-02-06-how-to-manage-tax-exempt-sales-more-effectively-101511/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 131212,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-csrwire-com-press_releases-754841-new-global-study-explores-how-manufacturers-are-addressing-esg-initiatives/",
@@ -6170,9 +6171,9 @@
   "slug": "news__corporate__https-www-cybersecurity-insiders-com-top-5-signs-hackers-are-in-your-network-and-what-to-do-about-it",
   "sitepath": "news/corporate/https-www-cybersecurity-insiders-com-top-5-signs-hackers-are-in-your-network-and-what-to-do-about-it/index.html",
   "status": 200,
-  "ok": true,
+  "ok": false,
   "len": 224353,
-  "note": ""
+  "note": "EXTERNAL"
  },
  {
   "url": "https://www.hanoverresearch.com/news/corporate/https-www-darkreading-com-vulnerabilities-threats-ransomware-crisis-recession-fears-leave-cisos-in-tough-spot/",

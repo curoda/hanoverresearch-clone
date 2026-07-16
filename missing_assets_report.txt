@@ -1,12 +1,7 @@
 == POTENTIAL CLONE DEFECTS (missing on disk, not a known source-side 404) ==
 
 == KNOWN SOURCE-SIDE 404 (faithful) ==
-4	/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
 2	/wp-content/uploads/2016/05/Higher-Ed_IndustryReport1.pdf
-1	/wp-content/uploads/fbrfg/favicon.ico
-1	/wp-content/uploads/fbrfg/apple-touch-icon.png
-1	/wp-content/uploads/fbrfg/favicon-96x96.png
-1	/wp-content/uploads/fbrfg/favicon.svg
 1	/wp-content/uploads/2017/06/bibbcounty_schooldistrict_logo-300x180.png
 1	/wp-content/uploads/2017/10/Survey_Blogpost_720x390-300x163.png
 1	/wp-content/uploads/2018/03/Survey_Blog_Post_720x390-300x163.png
@@ -22,12 +17,12 @@
 1	/media/cybersecurity.png
 1	/wp-content/uploads/2017/08/Social-Media-Tactics-for-Alumni-Fundraising_720x390-002-300x163.jpg
 1	/wp-content/uploads/2017/09/K-12_-Cover-Mock-up-002-crop-249x300.png
-1	/wp-content/uploads/2017/11/K_12_Digital-Assessment-Diagnostic_Mockup-768x1024.jpg
 1	/wp-content/uploads/2017/11/K_12_Digital-Assessment-Diagnostic_Mockup-225x300.jpg
+1	/wp-content/uploads/2017/11/K_12_Digital-Assessment-Diagnostic_Mockup-768x1024.jpg
 1	/wp-content/uploads/2018/01/K12-Industry-Trends-Report_2016_Hanover-Research-pdf-768x994.jpg
 1	/wp-content/uploads/2017/11/K-12-digital-divideBrief_Mockup-212x300.jpg
-1	/wp-content/uploads/2017/11/K-12-digital-divideBrief_Mockup-725x1024.jpg
 1	/wp-content/uploads/2017/11/K-12-digital-divideBrief_Mockup-768x1085.jpg
+1	/wp-content/uploads/2017/11/K-12-digital-divideBrief_Mockup-725x1024.jpg
 1	/wp-content/uploads/2017/12/infographic-digital-marketing-211x300.png
 1	/wp-content/uploads/2017/09/ENT_Harnesssing-the-power-of-data_cover-300x225.jpg
 1	/wp-content/uploads/2017/10/H-ED-Pricing-Brief_Cover_Mockup600x450-002-258x300.png
